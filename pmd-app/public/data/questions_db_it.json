@@ -1768,10 +1768,10 @@
             "Naive": 4,
             "Bold": 2
           },
-          "text_it": "Wow! Sono in TV!"
+          "text_it": "Mitico! Sono in TV!"
         }
       ],
-      "text_it": "Mentre stai facendo una passeggiata, un reporter ti ferma ad intervistarti. Cosa fai?"
+      "text_it": "Mentre stai facendo una passeggiata, un reporter ti ferma per intervistarti. Cosa fai?"
     },
     {
       "id": "13",
@@ -2477,7 +2477,7 @@
             "Hasty": 4,
             "Rash": 2
           },
-          "text_it": "Lo mangio anche se sono pieno."
+          "text_it": "Lo mangio comunque."
         },
         {
           "text": "Turn it down. It's too fattening!",
@@ -3295,7 +3295,7 @@
           "text_it": "No."
         }
       ],
-      "text_it": "Hai mai detto \"Piacere\" a qualcuno che avevi già conosciuto?"
+      "text_it": "Hai mai detto: \"Piacere\" a qualcuno che avevi già conosciuto?"
     },
     {
       "id": "11",
@@ -3324,7 +3324,7 @@
           "text_it": "Un film romantico."
         }
       ],
-      "text_it": "Sei al cinema. Cosa guardi?"
+      "text_it": "Sei al cinema. Cosa stai guardando?"
     },
     {
       "id": "12",
@@ -3404,17 +3404,17 @@
             "Hasty": 4,
             "Rash": 2
           },
-          "text_it": "Lo apro!"
+          "text_it": "Lo apro io!"
         },
         {
           "text": "Get help opening it.",
           "points": {
             "Timid": 2
           },
-          "text_it": "Chiedo aiuto per aprirlo."
+          "text_it": "Mi faccio aiutare."
         }
       ],
-      "text_it": "Trovi un vecchio forziere tra le rovine. Cosa fai?"
+      "text_it": "Nascosto in alcune rovine, trovi lo scrigno di un tesoro che ha tutta l'aria di essere antico. Cosa fai?"
     },
     {
       "id": "16",
@@ -3437,7 +3437,7 @@
           "text_it": "No."
         }
       ],
-      "text_it": "Ti è mai capitato di accorgerti di aver monopolizzato la conversazione?"
+      "text_it": "Ti è mai capitato di monopolizzare la conversazione?"
     },
     {
       "id": "17",
@@ -3458,7 +3458,7 @@
           "text_it": "No."
         }
       ],
-      "text_it": "Quando vedi un interruttore, hai l'irrefrenabile tentazione di premerlo?"
+      "text_it": "Quando vedi un interruttore, senti un impellente bisogno di premerlo?"
     },
     {
       "id": "18",
@@ -3493,7 +3493,7 @@
             "Sassy": 4,
             "Lonely": 2
           },
-          "text_it": "Certamente!"
+          "text_it": "Certo!"
         },
         {
           "text": "No.",
@@ -3504,7 +3504,7 @@
           "text_it": "No."
         }
       ],
-      "text_it": "Pensi che sia importante cercare di essere sempre i migliori?"
+      "text_it": "Pensi che sia importante puntare sempre al meglio?"
     },
     {
       "id": "20",
@@ -3970,10 +3970,10 @@
             "Rash": 2,
             "Timid": 2
           },
-          "text_it": "\"Ehm... è buono...\""
+          "text_it": "\"Uhm, sì... è buono.\""
         }
       ],
-      "text_it": "Un amico ti ha preparato un piatto terribile e ti chiede com'è. Tu dici..."
+      "text_it": "Un tuo amico ha cucinato un pasto immangiabile. Ti chiede: \"Com'è?\". Cosa rispondi?"
     },
     {
       "id": "38",
@@ -4014,7 +4014,7 @@
             "Bold": 4,
             "Timid": 2
           },
-          "text_it": "Non lo dico a nessuno."
+          "text_it": "Non dico nulla."
         },
         {
           "text": "Let everyone know.",
@@ -4022,17 +4022,17 @@
             "Rash": 4,
             "Docile": 4
           },
-          "text_it": "Lo dico a tutti."
+          "text_it": "Lo dico agli altri."
         },
         {
           "text": "First come, first served!",
           "points": {
             "Impish": 4
           },
-          "text_it": "Chi prima arriva meglio alloggia!"
+          "text_it": "Chi primo arriva..."
         }
       ],
-      "text_it": "State dividendo un dolce e ne avanza una fetta. Cosa fai?"
+      "text_it": "Tu e i tuoi amici vi dividete una torta, ma ti accorgi che c'è una fetta in più! Cosa fai?"
     },
     {
       "id": "40",
@@ -4043,7 +4043,7 @@
           "points": {
             "Bold": 4
           },
-          "text_it": "Ci sono!"
+          "text_it": "Benone!"
         },
         {
           "text": "Allow me.",
@@ -4060,7 +4060,7 @@
           "text_it": "Grazie..."
         }
       ],
-      "text_it": "Un amico vuole offrirti la cena. Cosa fai?"
+      "text_it": "Una persona cara ti vuole offrire la cena. Cosa dici?"
     },
     {
       "id": "41",
@@ -4103,24 +4103,24 @@
             "Lonely": 4,
             "Sassy": 2
           },
-          "text_it": "Avere molto da fare."
+          "text_it": "Gli impegni."
         },
         {
           "text": "Free time!",
           "points": {
             "Calm": 4
           },
-          "text_it": "Avere molto tempo libero!"
+          "text_it": "Tempo libero!"
         },
         {
           "text": "In between.",
           "points": {
             "Quirky": 4
           },
-          "text_it": "Una via di mezzo."
+          "text_it": "Metà e metà."
         }
       ],
-      "text_it": "Preferisci avere molto da fare o avere molto tempo libero?"
+      "text_it": "Preferisci avere la giornata piena di impegni o avere tanto tempo libero?"
     },
     {
       "id": "43",
@@ -4206,7 +4206,7 @@
           "text_it": "Nessuna delle due."
         }
       ],
-      "text_it": "Ho una notizia buona e una cattiva... quale vuoi sentire prima?"
+      "text_it": "Una buona notizia e una cattiva... Quale vuoi sentire prima?"
     },
     {
       "id": "46",
@@ -4284,7 +4284,7 @@
             "Lonely": 4,
             "Docile": 4
           },
-          "text_it": "È successo qualcosa?"
+          "text_it": "Sarà successo qualcosa?"
         },
         {
           "text": "Maybe I have the day wrong?",
@@ -4299,10 +4299,10 @@
           "points": {
             "Bold": 4
           },
-          "text_it": "Che la festa cominci!"
+          "text_it": "Ad ogni modo... FESTA!"
         }
       ],
-      "text_it": "Sei stato invitato a una festa grandiosa. È ora di iniziare, ma non c'è nessuno! Cosa pensi?"
+      "text_it": "Hai ricevuto l'invito per una festa magnifica. Dovrebbe essere già iniziata, ma non c'è ancora nessuno! Cosa pensi?"
     },
     {
       "id": "49",
@@ -4320,7 +4320,7 @@
           "points": {
             "Rash": 4
           },
-          "text_it": "Di nuovo?!"
+          "text_it": "Ma come, di nuovo?!"
         },
         {
           "text": "I meant to do that!",
@@ -4330,7 +4330,7 @@
           "text_it": "L'ho fatto apposta!"
         }
       ],
-      "text_it": "Ti togli le scarpe e noti che hai i calzini spaiati! Cosa fai?"
+      "text_it": "Togliendoti le scarpe ti accorgi che hai due calze di colori diversi! Cosa pensi?"
     },
     {
       "id": "50",
@@ -4389,7 +4389,7 @@
           "text_it": "Chi è stato?!"
         }
       ],
-      "text_it": "C'è silenzio assoluto in assemblea, quando senti improvvisamente qualcuno fare una puzza! Come reagisci?"
+      "text_it": "Ti trovi a una riunione dove non vola una mosca, quando improvvisamente senti una puzzetta! Come reagisci?"
     },
     {
       "id": "52",
@@ -4563,7 +4563,7 @@
             "Hasty": 4,
             "Lonely": 4
           },
-          "text_it": "Rispondo subito."
+          "text_it": "Rispondo subito!"
         },
         {
           "text": "Wait a bit before answering.",
@@ -4637,7 +4637,7 @@
           "text_it": "Non lo so."
         }
       ],
-      "text_it": "Pensi che sia importante farsi aspettare un po'?"
+      "text_it": "Pensi che sia importante farsi attendere?"
     },
     {
       "id": "61",
@@ -4649,24 +4649,24 @@
             "Naive": 4,
             "Jolly": 2
           },
-          "text_it": "Evviva!"
+          "text_it": "Urrà!"
         },
         {
           "text": "I can't believe it...",
           "points": {
             "Timid": 2
           },
-          "text_it": "Non ci posso credere..."
+          "text_it": "Non ci credo..."
         },
         {
           "text": "This is my little secret.",
           "points": {
             "Quiet": 4
           },
-          "text_it": "È il mio piccolo segreto."
+          "text_it": "È un segreto."
         }
       ],
-      "text_it": "Hai vinto alla lotteria! Cosa dici?"
+      "text_it": "Hai un biglietto vincente della lotteria! Cosa dici?"
     },
     {
       "id": "62",
@@ -4814,7 +4814,7 @@
           "text_it": "Me ne vado via."
         }
       ],
-      "text_it": "Al tavolo vicino stanno cantando \"Tanti auguri\". Cosa fai?"
+      "text_it": "Al tavolo accanto stanno cantando gli auguri a qualcuno. Cosa fai?"
     },
     {
       "id": "67",

@@ -1,5 +1,9 @@
 # PMD Reverse Quiz
 
+![PMD Reverse Quiz Hero](pmd-app/public/hero-preview.webp)
+
+> **Optimize your adventure.** Ensure you get the starter Pokémon you want with our precision Reverse Quiz tool.
+
 PMD Reverse Quiz is a web application designed to help players of **Pokémon Mystery Dungeon** games determine the necessary answers to the nature quiz to obtain their desired starter Pokémon.
 
 ## Features
