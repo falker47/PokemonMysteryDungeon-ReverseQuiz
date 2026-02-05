@@ -1,10 +1,7 @@
 import React from 'react';
 
 export default function QuestionCard({ question, targetNature }) {
-    // Check if this question is relevant (has any positive impact)
-    const isRelevant = question.answers.some(a => a.isBest);
 
-    if (!isRelevant) return null; // Optional: hide irrelevant questions
 
     return (
         <div className="bg-dungeon-panel border border-white/10 rounded-lg p-3 mb-2 shadow-sm break-inside-avoid">
@@ -22,14 +19,29 @@ export default function QuestionCard({ question, targetNature }) {
             `}
                     >
                         <span>{answer.text}</span>
-                        {answer.isBest && (
-                            <span className="font-bold bg-green-500 text-black px-1.5 py-0.5 rounded text-[10px]">
-                                +{answer.score} {targetNature}
-                            </span>
-                        )}
-                        {!answer.isBest && answer.score > 0 && (
-                            <span className="text-[10px] text-gray-500">+{answer.score} {targetNature}</span>
-                        )}
+                        <div className="flex gap-1 flex-wrap justify-end max-w-[70%]">
+                            {Object.entries(answer.points || {})
+                                .filter(([, score]) => score > 0)
+                                .sort(([natureA], [natureB]) => {
+                                    if (natureA === targetNature) return -1;
+                                    if (natureB === targetNature) return 1;
+                                    return 0;
+                                })
+                                .map(([nature, score]) => {
+                                    const isTarget = nature === targetNature;
+                                    return (
+                                        <span
+                                            key={nature}
+                                            className={`font-bold px-1.5 py-0.5 rounded text-[10px] whitespace-nowrap ${isTarget
+                                                ? 'bg-green-500 text-black'
+                                                : 'bg-gray-700 text-gray-400'
+                                                }`}
+                                        >
+                                            +{score} {nature}
+                                        </span>
+                                    );
+                                })}
+                        </div>
                     </div>
                 ))}
             </div>
