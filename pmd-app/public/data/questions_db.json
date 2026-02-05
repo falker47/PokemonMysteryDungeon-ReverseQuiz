@@ -1,12 +1,6 @@
 {
   "Red/Blue Rescue Team": [
     {
-      "id": "1",
-      "text": "Questions",
-      "category": null,
-      "answers": []
-    },
-    {
       "id": "2",
       "text": "A test is coming up. How do you study for it?",
       "category": "Hardy",
@@ -1291,16 +1285,6 @@
     }
   ],
   "Explorers of Time/Darkness": [
-    {
-      "id": "1",
-      "text": "Questions",
-      "answers": []
-    },
-    {
-      "id": "2",
-      "text": "8 of the following questions are chosen at random. After these questions, the player will be asked for their gender.",
-      "answers": []
-    },
     {
       "id": "3",
       "text": "Have you ever accidentally revealed a personal secret that someone shared with you?",
@@ -2797,36 +2781,6 @@
     }
   ],
   "Explorers of Sky": [
-    {
-      "id": "1",
-      "text": "Questions",
-      "answers": []
-    },
-    {
-      "id": "2",
-      "text": "The game always starts off with:",
-      "answers": []
-    },
-    {
-      "id": "3",
-      "text": "\"Did you play Explorers of Time or Explorers of Darkness?\"",
-      "answers": []
-    },
-    {
-      "id": "4",
-      "text": "This does not give any personality points by itself, but if \"Yes\" is answered, certain Natures will have points added to them after the player has chosen their gender. These correspond to the new choices of Pok\u00e9mon available in Explorers of Sky - Phanpy, Shinx, and Riolu if male; Vulpix and Eevee if female.",
-      "answers": []
-    },
-    {
-      "id": "5",
-      "text": "Additionally, the following Pok\u00e9mon's base recruit rate will be doubled as long as the player has not recruited them already. Most of these can be found in dungeons found at various points of the main story; Pok\u00e9mon marked with a dagger (\u2020) can be recruited only after the credits roll, while Feraligatr (\u00a7) has special conditions. Furthermore, Porygon2, Rampardos, Bastiodon and Bronzong internally use these doubled rates, but cannot be found in any dungeons that allow for recruitment.",
-      "answers": []
-    },
-    {
-      "id": "6",
-      "text": "Afterwards, 8 of the following questions will be asked at random. After these questions, the player will be asked for their gender.",
-      "answers": []
-    },
     {
       "id": "7",
       "text": "Have you ever blurted something out without thinking about the consequences first?",

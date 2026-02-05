@@ -18,11 +18,16 @@ export default function PokemonSelector({ pokemonList, selected, onSelect }) {
             relative group p-1.5 rounded-lg transition-all duration-200
             flex flex-col items-center gap-1
             ${selected === pokemon
-                            ? 'bg-dungeon-accent/20 border-2 border-dungeon-accent shadow-[0_0_10px_rgba(252,163,17,0.3)]'
+                            ? 'bg-dungeon-accent/20 shadow-[0_0_10px_rgba(252,163,17,0.3)]'
                             : 'bg-dungeon-panel border border-white/10 hover:bg-white/5 hover:border-white/30 hover:-translate-y-0.5'
                         }
           `}
                 >
+                    {/* Selected Overlay Border - Ensures border is ON TOP of image */}
+                    {selected === pokemon && (
+                        <div className="absolute inset-0 border-2 border-dungeon-accent rounded-lg z-20 pointer-events-none"></div>
+                    )}
+
                     <div className="w-10 h-10 sm:w-12 sm:h-12 relative">
                         <img
                             src={`/pokemon-pics/${pokemon.toLowerCase()}.png`}

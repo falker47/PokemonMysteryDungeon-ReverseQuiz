@@ -155,7 +155,7 @@ function App() {
 
               {/* Target Nature Display (Replaces "Interview Strategy") */}
               <div className="flex items-center gap-4">
-                <span className="w-2 h-12 bg-dungeon-accent rounded-full shadow-[0_0_10px_rgba(252,163,17,0.5)]"></span>
+
                 <div>
                   <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Target Nature</h2>
                   {targetNature ? (
