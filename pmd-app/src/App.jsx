@@ -79,7 +79,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-4">
           {/* Step 1: Game Version & Gender Selection */}
           <section className="w-full md:w-[33%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl backdrop-blur-sm flex flex-col justify-center">
-            <div className="grid grid-cols-2 md:grid-cols-1 gap-4">
+            <div className="grid grid-cols-[70fr_30fr] md:grid-cols-1 gap-4">
 
               {/* Game Version */}
               <div className="w-full">
@@ -88,7 +88,7 @@ function App() {
                   <select
                     value={game}
                     onChange={(e) => setGame(e.target.value)}
-                    className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
+                    className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
                   >
                     {GAME_VERSIONS.map(v => (
                       <option key={v.id} value={v.id}>{v.label}</option>
@@ -120,7 +120,7 @@ function App() {
                         key={g}
                         onClick={() => setGender(g)}
                         className={`
-                          flex-1 h-11 rounded-md flex items-center justify-center text-xl font-bold transition-all
+                          flex-1 h-9 md:h-11 rounded-md flex items-center justify-center text-lg md:text-xl font-bold transition-all
                           ${isSelected ? activeStyle : inactiveStyle}
                         `}
                         title={g}
