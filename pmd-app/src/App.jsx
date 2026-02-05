@@ -64,106 +64,111 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-dungeon-dark text-dungeon-text p-4 pb-20">
+    <div className="min-h-screen bg-dungeon-dark text-dungeon-text p-2 pb-10">
 
       {/* Header */}
-      <header className="max-w-4xl mx-auto mb-8 text-center pt-8">
-        <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-dungeon-accent to-yellow-200 bg-clip-text text-transparent mb-2">
+      <header className="max-w-4xl mx-auto mb-8 text-center pt-2">
+        <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-dungeon-accent to-yellow-200 bg-clip-text text-transparent mb-1">
           PMD REVERSE QUIZ
         </h1>
-        <p className="text-gray-400">Choose your path. Control your fate.</p>
+        <p className="text-gray-400 text-sm">Get your favorite Pokémon in Mystery Dungeon!</p>
       </header>
 
-      <main className="max-w-4xl mx-auto space-y-6">
+      <main className="max-w-4xl mx-auto space-y-4">
 
-        {/* Step 1: Game Version & Gender Selection (One Row) */}
-        <section className="bg-dungeon-panel border border-white/10 rounded-2xl p-6 shadow-xl backdrop-blur-sm">
-          <div className="flex flex-col md:flex-row gap-6 items-end md:items-center justify-between">
+        <div className="flex flex-col md:flex-row gap-4">
+          {/* Step 1: Game Version & Gender Selection */}
+          <section className="w-full md:w-[33%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl backdrop-blur-sm flex flex-col justify-center">
+            <div className="flex flex-col gap-4">
 
-            {/* Game Version */}
-            <div className="w-full md:w-auto flex-1">
-              <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Game Version</label>
-              <div className="relative">
-                <select
-                  value={game}
-                  onChange={(e) => setGame(e.target.value)}
-                  className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
-                >
-                  {GAME_VERSIONS.map(v => (
-                    <option key={v.id} value={v.id}>{v.label}</option>
-                  ))}
-                </select>
-                <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-dungeon-accent">
-                  ▼
+              {/* Game Version */}
+              <div className="w-full">
+                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Game Version</label>
+                <div className="relative">
+                  <select
+                    value={game}
+                    onChange={(e) => setGame(e.target.value)}
+                    className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
+                  >
+                    {GAME_VERSIONS.map(v => (
+                      <option key={v.id} value={v.id}>{v.label}</option>
+                    ))}
+                  </select>
+                  <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-dungeon-accent">
+                    ▼
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Gender Selection */}
-            <div className="w-full md:w-auto">
-              <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Gender</label>
-              <div className="flex bg-black/30 p-1 rounded-lg">
-                {['Male', 'Female'].map(g => {
-                  const isSelected = gender === g;
-                  const isMale = g === 'Male';
-                  const activeStyle = isMale
-                    ? 'bg-blue-600 text-white shadow-[0_0_10px_rgba(37,99,235,0.5)]'
-                    : 'bg-pink-600 text-white shadow-[0_0_10px_rgba(219,39,119,0.5)]';
+              {/* Gender Selection */}
+              <div className="w-full">
+                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Gender</label>
+                <div className="flex bg-black/30 p-1 rounded-lg w-full">
+                  {['Male', 'Female'].map(g => {
+                    const isSelected = gender === g;
+                    const isMale = g === 'Male';
+                    const activeStyle = isMale
+                      ? 'bg-blue-600 text-white shadow-[0_0_10px_rgba(37,99,235,0.5)]'
+                      : 'bg-pink-600 text-white shadow-[0_0_10px_rgba(219,39,119,0.5)]';
 
-                  const inactiveStyle = isMale
-                    ? 'text-gray-500 hover:text-blue-400 hover:bg-white/5'
-                    : 'text-gray-500 hover:text-pink-400 hover:bg-white/5';
+                    const inactiveStyle = isMale
+                      ? 'text-gray-500 hover:text-blue-400 hover:bg-white/5'
+                      : 'text-gray-500 hover:text-pink-400 hover:bg-white/5';
 
-                  return (
-                    <button
-                      key={g}
-                      onClick={() => setGender(g)}
-                      className={`
-                        w-12 h-11 rounded-md flex items-center justify-center text-xl font-bold transition-all
-                        ${isSelected ? activeStyle : inactiveStyle}
-                      `}
-                      title={g}
-                    >
-                      {isMale ? '♂' : '♀'}
-                    </button>
-                  );
-                })}
+                    return (
+                      <button
+                        key={g}
+                        onClick={() => setGender(g)}
+                        className={`
+                          flex-1 h-11 rounded-md flex items-center justify-center text-xl font-bold transition-all
+                          ${isSelected ? activeStyle : inactiveStyle}
+                        `}
+                        title={g}
+                      >
+                        {isMale ? '♂' : '♀'}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
 
-          </div>
-        </section>
-
-        {/* Step 2: Pokemon Selection */}
-        <section className="bg-dungeon-panel border border-white/10 rounded-2xl p-6 shadow-xl">
-          <label className="block text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">Choose Target Pokémon</label>
-          <PokemonSelector
-            pokemonList={availablePokemon}
-            selected={pokemon}
-            onSelect={setPokemon}
-          />
-        </section>
-
-        {/* Step 3: Result Display */}
-        {pokemon && targetNature && (
-          <section className="animate-fade-in-up">
-            <div className="bg-dungeon-panel border-2 border-dungeon-accent/30 rounded-xl p-4 shadow-[0_0_15px_rgba(252,163,17,0.15)] flex flex-row items-center justify-center gap-6 max-w-lg mx-auto">
-              <span className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Target Nature</span>
-              <div className="text-4xl font-black drop-shadow-[0_0_10px_rgba(255,203,5,0.5)] text-dungeon-accent">
-                {targetNature}
-              </div>
             </div>
           </section>
-        )}
 
-        {/* Step 4: Cheat Sheet & Search */}
-        {pokemon && targetNature && (
-          <section className="animate-fade-in-up delay-100 pt-4">
-            <div className="flex flex-col md:flex-row items-center justify-between mb-6 gap-4">
-              <h2 className="text-2xl font-bold text-white flex items-center gap-3">
-                <span className="w-2 h-8 bg-dungeon-accent rounded-full"></span>
-                Interview Strategy
-              </h2>
+          {/* Step 2: Pokemon Selection */}
+          <section className="w-full md:w-[65%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl flex flex-col">
+            <label className="block text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">Choose Target Pokémon</label>
+            <div className="flex-1 flex flex-col">
+              <PokemonSelector
+                pokemonList={availablePokemon}
+                selected={pokemon}
+                onSelect={setPokemon}
+              />
+            </div>
+          </section>
+        </div>
+
+        {/* Step 3: Result Display & Questions */}
+        {pokemon && (
+          <section className="animate-fade-in-up delay-100 pt-2">
+            <div className="flex flex-col md:flex-row items-center justify-between mb-4 gap-3">
+
+              {/* Target Nature Display (Replaces "Interview Strategy") */}
+              <div className="flex items-center gap-4">
+                <span className="w-2 h-12 bg-dungeon-accent rounded-full shadow-[0_0_10px_rgba(252,163,17,0.5)]"></span>
+                <div>
+                  <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Target Nature</h2>
+                  {targetNature ? (
+                    <div className="text-3xl font-black text-dungeon-accent drop-shadow-[0_0_8px_rgba(255,203,5,0.6)]">
+                      {targetNature}
+                    </div>
+                  ) : (
+                    <div className="text-xl font-bold text-red-400">
+                      Not Available
+                    </div>
+                  )}
+                </div>
+              </div>
 
               {/* Search Bar */}
               <div className="relative w-full md:w-64">
@@ -180,7 +185,7 @@ function App() {
               </div>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
               {filteredQuestions.length > 0 ? (
                 filteredQuestions.map(q => (
                   <QuestionCard key={q.id} question={q} targetNature={targetNature} />
@@ -193,7 +198,19 @@ function App() {
         )}
 
       </main>
-    </div >
+
+      <footer className="max-w-4xl mx-auto mt-12 text-center text-sm text-gray-500 pb-8">
+        <a
+          href="https://falker47.github.io/Nexus-portfolio/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-dungeon-accent transition-colors duration-300"
+        >
+          &copy; {new Date().getFullYear()} Maurizio Falconi - falker47
+        </a>
+      </footer>
+
+    </div>
   )
 }
 

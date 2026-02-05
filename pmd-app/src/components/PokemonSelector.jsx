@@ -9,7 +9,7 @@ import React from 'react';
  */
 export default function PokemonSelector({ pokemonList, selected, onSelect }) {
     return (
-        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 gap-2 px-1">
+        <div className="grid grid-cols-5 sm:grid-cols-6 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 gap-2 px-1">
             {pokemonList.map((pokemon) => (
                 <button
                     key={pokemon}
@@ -31,7 +31,7 @@ export default function PokemonSelector({ pokemonList, selected, onSelect }) {
                             onError={(e) => { e.target.src = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'; /* Fallback to Pikachu */ }}
                         />
                     </div>
-                    <span className={`text-[10px] sm:text-xs font-medium truncate w-full text-center ${selected === pokemon ? 'text-dungeon-accent' : 'text-gray-400 group-hover:text-white'}`}>
+                    <span className={`text-[9px] sm:text-[10px] font-medium truncate w-full text-center ${selected === pokemon ? 'text-dungeon-accent' : 'text-gray-400 group-hover:text-white'}`}>
                         {pokemon}
                     </span>
                 </button>
