@@ -1,0 +1,365 @@
+Attacchi bottone facilmente con le persone che non conosci?
+-Si! (Allegra +4, Sicura +4)
+-No. (Timda +2, Docile +2)
+
+
+Avvisti una nave abbandnata in mezzo all'oceano! Secondo te cosa trasporta?
+-Un bottino prezioso! (Ingenua+4, Allegra +2)
+-Fantasmi! (Timida +2)
+-Niente! E' solo un miraggio! (Quieta +4)
+
+
+Cambi spesso canale mentre guardi la TV?
+-Sì. (Lesta +4)
+-No. (Calma +2)
+
+
+Cosa fai con la tua paghetta?
+-La metto da parte! (Ardita +4)
+-La spendo! (Furba +4, Lesta +2)
+-Ne spendo la metà. (Calma +2)
+-Non mi danno la paghetta! (Schiva +4)
+
+
+Devi spostare una valigia pesante. Cosa fai?
+-La sposto io. (Ardita +4, Audace +2)
+-Chiedo aiuto a qualcuno. (Docile +2)
+-Lo faccio fare ad altri! (Sicura +4, Vivace +2)
+
+
+Domani hai una verifica molto importante! Cosa fa?
+-Passo la notte a studiare (Ardita +4)
+-E allora? Andrà benissimo! (Placida +4)
+-Verifica?! Non mi sento bene... (Ingenua +4)
+
+
+Ehi guarda! C'è qualcuno dietro di te! Dì un po'... hai guardato?
+-Smettila, Mi spavento! (Timida +4)
+-Ok, me l'hai fatta! (Docile +4)
+-No, non ci casco! (Vivace +4, Schiva +2)
+-Eh? Cosa? (Placida +4)
+
+
+Esprimi la tua opinione anche quando è diversa da quella degli altri?
+-Si! (Audace +4, Sicura +2)
+-No. (Schiva +4, Timida +2)
+-Dipende. (Calma +2, Furba +2)
+
+
+Hai appena divorato con gusto un buon pasto quando arriva un dolce delizioso. Che fai?
+-Lo mangio anche se sono pieno. (Lesta +4, Ardente +2)
+-Non lo mangio. Fa ingrassare! (Ardita +2)
+-Wow! Adoro i dolci! (Sicura +4, Allegra +4, Placida +4)
+
+
+Hai degli hobby che pratichi da tanto tempo?
+-Sì. (Ardita +4)
+-No. (Furba +4, Lesta +2)
+
+
+Hai mai rivelato per sbaglio u segreto che qualcuno ti ha confidato?
+-Sì. (Ardente +4, Schiva +4)
+-No. (Ardita +2)
+
+
+Hai passato mesi a disporre tessere nel domino... te ne manca una per finire... NO! Le hai fatte cadere tutte! Che fai?
+-Non voglio ricominciare. (Ardita +4)
+-Vado su tutte le furie! (Docile +4)
+-Ricomincio da capo. (Calma +4, Sicura +4)
+
+
+Hai un attacco irrefrenabile di felicità! Che ne dici di qualche passo di danza per esprimere la tua gioia?
+-Sì! (Allegra +4, Schiva +2)
+-No! (Calma +4)
+
+
+Hai un sacco di cose che hai comprato perchè ti sembravano belle, ma che adesso non usi più?
+-Sì! (Furba +4, Ardente +2, Lesta +2)
+-No. (Quieta +2)
+
+
+Hai uno spirito ribelle?
+-Sicuro! (Vivace +4)
+-No. (Calma +2)
+
+
+Il telefono sta suonando! Cosa fai?
+-Rispondo subito. (Lesta +4, Schiva +4)
+-Rispondo dopo un po'. (Quieta +2)
+-Lo ignoro. (Timida +2)
+
+
+Incontri una persona con cui non hai parlato molto. Cosa fai?
+-Parlo del più e del meno. (Calma +2)
+-Non dico una parola! (Furba +2)
+-Me ne vado con una scusa! (Timida +4)
+
+
+Mentre stai facendo una passegiata senti un profumino delizioso. Cosa fai?
+-Cerco di capire cosa sia. (Docile +4)
+-Scopro di cosa si tratta! (Ardente +2, Ingenua +4)
+-Penso a quanta fame ho... (Scaltra +4)
+
+
+Mentre stai facendo una passeggiata, un reporter ti ferma ad intervistarti. Cosa fai?
+-Scappo! Che imbarazzo! (Timida +4)
+-Rispondo alle domande. (Audace +4, Vivace +4)
+-Wow! Sono in TV! (Ingenua +4, Sicura +2)
+
+
+Partecipi a una recita con degli amici. Di solito quale ruolo preferisci?
+-Protagonista! (Sicura +4)
+-Spalla. (Allegra +4)
+-Comparsa. (Furba +4)
+
+
+Pensi che a volte sia necessario dire delle bugie?
+-Sì. (Quieta +4, Sicura +4)
+-No. (Audace +4)
+-Non lo so. (Docile +4)
+
+
+Pensi che il fine giustifichi i mezzi?
+-Certo! (Quieta +4, Vivace +4)
+-No! (Audace +2)
+
+
+Pensi che potresti essere un genio?
+-Certo! (Vivace +4, Ingenua +2, Allegra +2)
+-Non proprio. (Ardita +2)
+
+
+Preferisci la città o la campagna?
+-La città! (Schiva +4, Vivace +2)
+-La campagna! (Calma +4)
+-Mi piacciono entrambe! (Furba +4)
+
+
+Quando cammini con altre persone, tendi a stare davanti?
+-Certo! (Vivace +4, Schiva +2)
+-No. (Calma +4, Furba +2)
+
+
+Quato gonfi un palloncino?
+-Finchè non sta per scoppiare! (Audace +4, Scaltra +4)
+-Tanto... ma non troppo. (Quieta +2)
+-Non lo faccio mai! E se scoppiasse? (Timida +4, Docile +2)
+
+
+Riusciresti a rispettare il proposito di fare 10 addoinali al giorno?
+-Si! Niente di più facile! (Scaltra +4, Vivace +2)
+-Si, ma che fatica... (Ardita +4)
+-Mai e poi mai! (Furba +4)
+
+
+Saresti a tuo agio nell'esprimere la tua opinione a una persona molto importante?
+-Certo! (Audace+4, Vivace +4, Sicura +2)
+-Non proprio. (Timida +2)
+
+
+Scopri un passaggio segreto in un seminterrato. cosa fai?
+-Ci entro dentro! (Scaltra +4, Audace +4, Ardente +2, Lesta +4)
+-Sto alla larga! (Timida +2)
+
+
+Se non sai una cosa, lo ammetti senza problemi?
+-Certo. (Docile +4, Sicura +2)
+-Non è facile farlo! (Timida +4, Schiva +2)
+
+
+Sei all'ultimo chilometro di una maratona. Ma è dura e non ce la fai quasi più! Cosa fai?
+-Tengo duro fino alla fine! (Ardita +4, Audace +2)
+-Mi fermo. (Furba +4)
+-Trovo una scorciatoia. (Sicura +4, Ardente +2)
+
+
+Sei in classe, quando ti rendi improvvisamente conto di andare in bagno. Cosa fai?
+-Chiedo il permesso di andare. (Audace +4, Sicura +4)
+-Ci vado di nascosto. (Lesta +2)
+-Aspetto la fine dell'ora! (Timida +2)
+
+
+Senti un'indiscezione che potrebbe fruttarti un bel gruzzoletto. Cosa fai?
+-Me la tengo per me. (Sicura +4, Timida +2)
+-La racconto agli amici. (Docile +4, Ardente +4)
+-Metto in giro un'altra stroria. (Scaltra +4)
+
+
+Stai mangiando al ristorante quando ti rendi improvvisamente conto che tutti gli altri se ne sono andati. Cosa fai?
+-Andati?! Cerco un cameriere! (Schiva +4, Docile +4)
+-E allora? Continuo a mangiare. (Allegra +4, Placida +4)
+-Prendo il cibo dagli altri tavoli! (Sicura+4)
+
+
+Stai mettendo in una borsa gli spuntini per un picnic con i tuoi compagni, quanto, all'improvviso, ti viene fame. Cosa fai?
+-Ne mangio un pochino. (Lesta +4)
+-Resisto senza toccarli. (Ardita +4)
+-Me li sbaffo tutti! (Ardente +4)
+
+
+Stai per prende l'ultimo biscotto quando un tuo amico se lo divora con gusto! Cosa fai?
+-Beh, è solo un biscotto. (Calma +4)
+- Mi infurio! (Placida +4, Allegra +4)
+-Piagnucolo. (Schiva +4)
+
+
+Stai sognando ad occhi aperti... quando un tuo amico ti spruzza addosso dell'acqua! Cosa fai?
+-Mi arrabbio! (Lesta +4)
+-Divento triste. (Schiva +4)
+-Evvai! Gavettoni! (Allegra +4, Ingenua +4, Scaltra +4)
+
+
+Ti capita spesso di annullare appuntamenti all'ultimo minuto?
+-Sì. (Furba +4, Ardente +4)
+-No. (Calma +2)
+
+
+Ti capita spesso di arrivare alla conclucione sbagliata?
+-Sì. (Lesta +4, Ardente +4)
+-No. (Docile +2, Quieta +2)
+
+
+Ti capita spesso di farti male?
+-Sì! (Scaltra +4, Ardente +4)
+-No. (Calma +2)
+
+
+Ti capita spesso di fischiettare o canticchiare?
+-Sempre! (Placida +4, Allegra +2)
+-Mai. (Quieta +2)
+
+
+Ti danno fastidio i rumori e la confusione vicino a te?
+-Sì! (Sicura+4, Placida +2)
+-Per niente. (Schiva +4, Lesta +2)
+
+
+Ti dicono di aspettare in una grande stanza vuota. Che fai?
+-Aspetto in silezio. (Docile +4)
+-Cerco qualcosa da fare. (Ingenua +4)
+-Faccio un giro fuori. (Ardente +4)
+-Mi siedo per terra in un angolo! (Schiva +4)
+
+
+Ti dimentichi spesso di chiudere la porta quando esci di casa?
+-Sì. (Ardente +4, Sicura +2)
+-No. (Quieta +4)
+
+
+Ti è mai capitato di offendere un amico quando volevi solo scherzare?
+-Sì. (Ingenua +4, Scaltra +2)
+-No. (Calma +4)
+
+
+Ti è mai venuta voglia di comunicare con gli abitanti di un altro pianeta?
+-Sì! (Ingenua +4)
+-No. (Quieta +2)
+
+
+Ti fai coraggio ed entri in un cimitero di notte... all'improvviso appare una donna sconosciuta dal'aspetto misterioso! Cosa fai?
+-Scappo a gambe levate! (Timida +2)
+-E allora? E' una signora. (Ingenua +4, Vivace +2)
+-Mi nascondo! (Ardente +4)
+
+
+Ti piace essere al centro dell'attenzione?
+-Sì! (Schiva +4, Vivace +4)
+-No. (Placida +2)
+
+
+Ti piace seguire i piani?
+-Certamente! (Ardita +4)
+-Non mi piace pianificare. (Furba +4, Ardente +2)
+-Piani? Cosa sono? (Placida +4)
+
+
+Ti piacerebbe esplorare una giungla?
+-Sembra divertente! (Scaltra +4, Ingenua +2)
+-Non i interessa. (Furba +4, Timida +2)
+
+
+i sembra che i tuoi amici stiano avendo una conversazione spassosa, ma non riesci a sentirli. Cosa fai?
+-Mi unisco a loro! (Ingenua +4)
+-Niente... non mi interessa. (Schiva ++4)
+-Ascolto da lontano! (Timida +2)
+
+
+Ti sembra di setire qualcuno pronunciare il tuo nome. Ma non c'è nessuno in giro... Cosa è stato?
+-L'ho immaginato. (Placida +4)
+-Sarà uno scherzo. (Ingenua +4, Sicura +2)
+- Un fantasma! (Timida +4)
+
+
+Trovi qualcosa in vendita ad un prezzo eccezzionale. Cosa fai?
+-Lo compro subito! (Lesta +4)
+-Penso se mi serve davvero. (Quieta +2)
+-Chiedo uno sconto maggiore! (Sicura +4)
+
+
+Trovi una merendina che è scaduta il giorno prima. Cosa fai?
+-Me la mangio! (Audace +4, Placida +2)
+-Ci penso e poi decido. (Timida +2)
+-Prima la offro ad un altro. (Sicura +4)
+
+
+Un amico ti invita a casa sua per cena. Come ti comporti?
+-Mangio di gusto! (Scaltra +4, Ingenua +4)
+-Mangio con moderazione. (Ardita +2)
+-M porto a casa pure gli avanzi! (Sicura +4)
+
+
+Un commesso in un negozio ti consiglia un oggetto che non fa per te. Però ti sta simpatico. Cosa fai?
+-Dico che non lo voglio. (Audace +2, Quieta +2)
+-Ringrazio... ma rifiuto. (Calma +4, Schiva +2)
+-Cedo e lo compro. (Ardente +2, Timida +2)
+
+
+Un tuo amico cade in modo spettacolare! Cosa fai?
+-Lo aiuto ad alzarsi! (Audace +4, Schiva +2)
+-Rido! Che spasso! (Ingenua +4, Scaltra +4, Ardente +2)
+
+
+Un tuo amico racconta una barzelletta terribilmente vecchia. Come reagisci?
+-Mi spancio dalle risate! (Allegra +4, Ingenua +2)
+-Faccio finta di niente... (Scaltra +2, Docile +2)
+-Faccio un sospiro. (Audace +2)
+
+
+Un tuo amico sta piangendo di fronte a te! Come mai?
+-E' stata colpa di un bulletto! (Lesta +4)
+-Sarà senz'altro caduto! (Quieta +4)
+-Non sarà per caso... colpa mia? (Timida +2)
+
+
+Un tuo amico ti dice che hai messo la maglietta al contrario. Cosa fai?
+-Mi imbarazzo! (Docile +4)
+-Rido di gusto! (Ardente +4)
+-Spiego che va alla moda! (Allegra +4)
+
+
+Una cartomante ti dive che ti aspetta un futuro poco roseo. Come reagisci?
+-Mi preoccupo. (Docile +4, Timida +2)
+-Non ci penso. (Allegra +4, Placida +2, Sicura +2)
+
+
+Vedi un pallone per terra. Cosa fai?
+-Lo calcio! (Lesta +2, Vivace +2)
+-Lo lancio! (Scaltra +4)
+-Lo pulisco! (Schiva +4)
+
+
+Vedi una parata che si svolge per strada. Cosa fai?
+-Sto in disparte. (Calma +2)
+-MI unisco alla parata! (Allegra +4, Ingenua +4)
+-Me ne vado via. (Vivace +4, Schiva +2)
+
+
+Vuoi far sapere a qualcuno che ti piace un sacco! Cosa fai?
+-Lo dimostro giocandoci insieme. (Allegra +4, Calma +2)
+-Lo esprimo... con un bello scherzo! (Schiva +4, Ingenua +2)
+-Lo urlo a tutto il mondo! (Audace +4, Sclatra +4, Sicura +2)
+-Non dico niente! E' troppo rischioso! (Timida +2)
+
+Sei un maschio o una femmina?
+-Maschio (personaggio maschile della natura prevalente)
+-Femmina (personaggio femminile della natura prevalente)

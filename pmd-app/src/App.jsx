@@ -79,7 +79,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-4">
           {/* Step 1: Game Version & Gender Selection */}
           <section className="w-full md:w-[33%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl backdrop-blur-sm flex flex-col justify-center">
-            <div className="flex flex-col gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-1 gap-4">
 
               {/* Game Version */}
               <div className="w-full">

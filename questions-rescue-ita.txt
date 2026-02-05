@@ -1,0 +1,306 @@
+CATEGORIA #01 - ARDITA
+
+Domanda 1 Stai per affrontare un esame come ti prepari? -
+Risposte Con impegno +2 ARDITA
+In fretta +2 PLACIDA
+Lo ignoro e gioco +2 SCALTRA
+
+Domanda 2 Riesci a concentrarti su qualcosa che ti piace? -
+Risposte Sì +2 ARDITA +1 DOCILE
+No +2 FURBA
+
+Domanda 3 Quando il gioco si fa duro, ce la metti tutta? -
+Risposte Sì +2 ARDITA +2 AUDACE
+No +2 VIVACE +2 FURBA
+
+Domanda 4 Devi mettere dell'acqua in un secchio. Quanto lo riempi? -
+Risposte Completamente +2 ARDITA
+A metà +2 CALMA
+Un po' +2 FURBA
+
+
+CATEGORIA #02 - DOCILE
+
+Domanda 1 Devi scegliere tra due pacchetti regalo. Quale scegli? -
+Risposte Quello grande +2 DOCILE +1 INGENUA
+Quello picccolo +2 TIMIDA +1 CALMA
+
+Domanda 2 Hai rotto un uovo marcio nella tua stanza! Cosa fai? -
+Risposte Apro subito la finestra +2 DOCILE +1 LESTA
+Lo annuso un po' +2 INGENUA +1 PLACIDA
+
+Domanda 3 Un amico ti riporta qualcosa che avevi dimenticato. Come lo ringrazi? -
+Risposte Ringrazio come sempre +2 DOCILE
+Ringrazio scherzando +1 INGENUA +1 SCHIVA
+Ringrazio senza emozione +2 VIVACE
+
+Domanda 4 Trovi un portafoglio sul bordo della strada. -
+Risposte Lo consegno alla polizia +2 DOCILE
+Evviva! +1 INGENUA
+Qualcuno mi ha visto? +2 SCALTRA
+
+
+CATEGORIA #03 - AUDACE
+
+Domanda 1 Devi fare bungee jumping per la prima volta.
+Siccome hai paura, decidi di provare prima con una bambola
+E la corda si rompe! Ti lanci lo stesso? -
+Risposte Sì +3 AUDACE +1 SCALTRA
+No +2 DOCILE +1 TIMIDA
+
+Domanda 2 C'è un'invasione di alieni! Cosa fai? -
+Risposte Combatto passa alla Domanda 2b
+Scappo +2 TIMIDA
+Li ignoro +2 PLACIDA
+
+Domanda 2b Combatti AUDACEsamente contro gli alieni, ma ti sconfiggono...
+Un alieno ti dice:
+"SIAMO IMPRESSIONATI. È STATO UN PIACERE VEDERTI COMBATTERE. UNISCITI A NOI E DOMINEREMO IL MONDO". Cosa fai? -
+Risposte Mi alleo con loro +1 CALMA +1 PLACIDA
+Rifiuto +4 AUDACE
+
+Domanda 3 Senti delle urla provenire da dietro una porta! Come reagisci? -
+Risposte Spalanco la porta +1 ARDITA +2 AUDACE
+Urlo anch'io +2 INGENUA
+
+Domanda 4 Qualcuno sta infastidendo una ragazza per la strada! Cosa fai? -
+Risposte L'aiuto senza esitare +3 AUDACE
+Ho paura, ma l'aiuto +2 ARDITA +2 AUDACE
+Chiamo la polizia +1 DOCILE +1 TIMIDA +1 PLACIDA
+Mi blocco per la paura +2 TIMIDA
+
+CATEGORIA #04 - AUDACE
+
+Domanda 1 Sei una persona allegra? -
+Risposte Sì +2 AUDACE +1 INGENUA
+No +1 VIVACE +1 FURBA
+
+Domanda 2 Ti piace divertirti rumorosamente con gli amici? -
+Risposte Sì +2 AUDACE +1 SCHIVA
+No +1 TIMIDA
+
+Domanda 3 Dove ti piacerebbe andare durante le vacanze estive? -
+Risposte In spiaggia +2 AUDACE
+Alle terme +2 CALMA
+Da qualsiasi parte +2 FURBA
+
+Domanda 4 Uno straniero ha cominciato una conversazione con te.
+Non hai la benché minima idea di cosa stia dicendo.
+Come rispondi? -
+Risposte Ahaha! Sì! Molto divertente! +3 AUDACE
+Scusi, può ripetere? +2 ARDITA
+Vabbé, ora devo andare +2 TIMIDA
+
+
+CATEGORIA #05 - SCALTRA
+
+Domanda 1 Conosci la Precipitotrappola? -
+Risposte Sì +2 SCALTRA +1 SCHIVA
+No +2 CALMA
+
+Domanda 2 Ti piace scherzare? -
+Risposte Sì +2 SCALTRA
+No +1 DOCILE +1 PLACIDA
+
+Domanda 3 Ci sono molte cose che ti piacerebbe fare? -
+Risposte Sì +1 ARDITA +2 SCALTRA
+No +1 VIVACE +2 FURBA
+
+Domanda 4 Qualcuno sta facendo il prepotente con un tuo amico. Come ti comporti? -
+Risposte Affronto l'aggressore +3 AUDACE
+Sfido l'aggressore da lontano +2 TIMIDA
+Prendo l'aggressore alle spalle +2 SCALTRA
+
+
+CATEGORIA #06 - INGENUA
+
+Domanda 1 Ti piacciono gli scherzi di cattivo gusto? -
+Risposte Li adoro +1 SCALTRA +3 INGENUA
+Così così +2 AUDACE
+Non li sopporto +2 VIVACE
+
+Domanda 2 Ridi molto? -
+Risposte Sì +1 DOCILE +2 INGENUA
+No +2 FURBA
+
+Domanda 3 Gli altri ti considerano infantile? -
+Risposte Sì +1 AUDACE +2 INGENUA
+No +2 CALMA
+
+Domanda 4 Ti piace immaginarti cose tanto per divertirti? -
+Risposte Sì +2 INGENUA
+No +2 LESTA
+
+
+CATEGORIA #07 - TIMIDA
+
+Domanda 1 Vedi una mano che fuoriesce dal WC. Cosa fai? -
+Risposte Urlo e scappo via +2 TIMIDA
+Chiudo senza dir niente +1 ARDITA +2 CALMA
+Porgo la mia mano +2 AUDACE +1 SCALTRA +1 INGENUA
+
+Domanda 2 Affera un dito qualunque della tua mano sinistra con la mano destra. Quale dito hai afferrato? -
+Risposte Pollice +2 TIMIDA
+Indice +2 LESTA
+Medio +2 AUDACE
+Anulare +2 VIVACE
+Mignolo +2 SCHIVA
+
+Domanda 3 Ti chiudono a chiave in una stanza buia! Cosa fai? -
+Risposte Butto giù la porta +2 TIMIDA
+Urlo +2 SCHIVA
+Faccio pulizia +2 SCALTRA +1 FURBA
+
+Domanda 4 Avresti il AUDACE di entrare in una casa infestata dagli spettri? -
+Risposte Certo +3 AUDACE
+Ehm... N-no... +2 TIMIDA
+Con qualcuno +2 VIVACE
+
+
+CATEGORIA #08 - LESTA
+
+Domanda 1 Ricevi un pacchetto regalo e non sai cosa c'è dentro.
+La curiosità ti divora. Cosa fai? -
+Risposte Lo apro subito +2 LESTA
+Lo apro più tardi +2 CALMA
+Lo faccio aprire a qualcuno +2 TIMIDA
+
+Domanda 2 Hai vinto alla lotteria! Cosa fai con i soldi? -
+Risposte Li spendo tutti +2 AUDACE +1 LESTA
+Li risparmio +1 ARDITA +1 CALMA
+Li regalo +2 AUDACE +2 FURBA
+
+Domanda 3 Trovi un forziere che potrebbe contenere un tesoro. Cosa fai? -
+Risposte Lo apro subito! +2 LESTA
+Sarà una trappola? +2 TIMIDA
+Sarà di sicuro vuoto... +2 VIVACE
+
+Domanda 4 Un amico non arriva ad un appuntamento all'ora prestabilita. Cosa fai? -
+Risposte Mi arrabbio +1 DOCILE +2 LESTA
+Aspetto con pazienza +2 PLACIDA
+Mi arrabbio e vado +3 LESTA
+
+
+CATEGORIA #09 - VIVACE
+
+Domanda 1 Ti ritrovi davanti al Presidente del tuo Paese. Come gli parli? -
+Risposte Con calma +2 ARDITA
+Con nervosismo +2 DOCILE
+Come capita +2 VIVACE
+
+Domanda 2 Gli altri ti dicono di fare attenzione a ciò che dici? -
+Risposte Sì +1 SCALTRA +2 VIVACE
+No +2 CALMA
+
+Domanda 3 Pensi di essere un tipo OK?
+Rispondi onestamente! -
+Risposte Sì +2 VIVACE
+No +2 PLACIDA
+
+Domanda 4 Riesci a ringraziare di tutto cuore qualcuno quando gli sei riconoscente? -
+Risposte Sì +2 DOCILE +1 CALMA
+No +2 VIVACE +1 FURBA
+
+
+CATEGORIA #10 - CALMA
+
+Domanda 1 A volte pensi di essere un tipo noioso o troppo prudente? -
+Risposte Sì +2 CALMA +1 SCHIVA
+No +2 ARDITA
+
+Domanda 2 A volte sogni passare il tempo oziando senza far nulla di particolare? -
+Risposte Sì +2 CALMA
+No +2 SCALTRA
+
+Domanda 3 Ti piace lottare? -
+Risposte Sì +1 SCALTRA +2 TIMIDA
+No +2 CALMA +1 SCHIVA
+
+Domanda 4 Sbadigli spesso? -
+Risposte Sì +2 CALMA +1 PLACIDA
+No +1 ARDITA +2 LESTA
+
+
+CATEGORIA #11 - PLACIDA
+
+Domanda 1 Arrivi spesso tardi a scuola o agli appuntamenti? -
+Risposte Sì +1 VIVACE +2 PLACIDA
+No +2 ARDITA +1 LESTA
+
+Domanda 2 Ti sembra di fare le cose più lentamente negli ultimi tempi? -
+Risposte Sì +2 PLACIDA
+No +1 SCALTRA +2 LESTA
+
+Domanda 3 È una bellissima giornata e sei in spiaggia. Come ti senti? -
+Risposte Benissimo +2 AUDACE
+Che sonno... +2 PLACIDA
+Voglio andare a casa! +2 LESTA
+
+Domanda 4 Ti succede di addormentarti senza neppure accorgertene? -
+Risposte Sì +1 CALMA +2 PLACIDA
+No +2 ARDITA
+
+
+CATEGORIA #12 - SCHIVA
+
+Domanda 1 Ti senti triste quando non hai compagnia? -
+Risposte Sì +1 TIMIDA +2 SCHIVA
+No +2 VIVACE
+
+Domanda 2 Ti dà fastidio essere l'ultima persona a uscire dalla classe quando suona la campanella? -
+Risposte Sì +1 TIMIDA +2 SCHIVA
+No +3 AUDACE +1 PLACIDA
+
+Domanda 3 Quando vai a letto di sera, come lasci la luce della tua stanza? -
+Risposte Accesa +1 TIMIDA +2 SCHIVA
+Spenta +2 CALMA
+
+Domanda 4 È il fine settimana, ma non c'è nessuno che giochi con te. Cosa fai? -
+Risposte Vado a fare una gita +1 AUDACE +1 SCHIVA
+Mi aggiro qua e là +1 CALMA +2 PLACIDA
+Mi metto in un angolino +1 TIMIDA +3 SCHIVA
+
+
+CATEGORIA #13 - FURBA
+
+Domanda 1 Ti capita di non avere più nulla da fare all'improvviso? -
+Risposte Sì +2 FURBA
+No +2 ARDITA
+
+Domanda 2 Quanto impieghi per rispondere a un'e-mail? -
+Risposte Rispondo subito +1 ARDITA +1 LESTA
+Forse rispondo, forse no... +2 FURBA
+Troppa fatica +2 VIVACE
+
+Domanda 3 C'è una persona che ti piace, ma non hai la possibilità di avvicinarti. Cosa fai? -
+Risposte Dichiaro il mio amore +1 ARDITA +3 AUDACE
+Forse dico ciao... +2 FURBA
+Attiro l'attenzione con uno scherzo +2 SCALTRA
+Osservo da lontano +2 TIMIDA
+
+Domanda 4 Ti trovi a un bivio. Ti dicono che prendendo la via di destra troverai un tesoro. Dove vai? -
+Risposte Subito a destra +2 DOCILE
+A sinistra, è una trappola! +2 VIVACE
+Una strada vale l'altra +2 FURBA
+
+
+CATEGORIA #14 - MISTA
+
+Domanda 1 In vacanza ti piace andare... -
+Risposte In beata solitudine +1 LESTA +1 FURBA
+Con gli altri +1 AUDACE +1 SCHIVA
+
+Domanda 2 Ti piace andare al Luna Park d'estate? -
+Risposte Sìììì!!! +2 AUDACE
+No... +1 VIVACE +1 FURBA
+
+Domanda 3 Se qualcuno ti dice che sei un tipo "strano ma divertente", come ti senti? -
+Risposte Felice +1 INGENUA +1 SCHIVA
+Triste +1 LESTA +1 VIVACE
+
+
+DOMANDA FINALE - GENERE
+
+Domanda Sei maschio o femmina? -
+Risposte Maschio Pokémon maschio
+Femmina Pokémon femmina
