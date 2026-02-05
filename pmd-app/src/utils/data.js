@@ -5,7 +5,7 @@
 export async function loadData() {
     const [startersRes, questionsRes] = await Promise.all([
         fetch('/data/starters_map.json'),
-        fetch('/data/questions_db.json')
+        fetch('/data/questions_db_it.json')
     ]);
 
     const starters = await startersRes.json();

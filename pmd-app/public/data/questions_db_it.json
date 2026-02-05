@@ -1,12 +1,6 @@
 {
   "Red/Blue Rescue Team": [
     {
-      "id": "1",
-      "text": "Questions",
-      "category": null,
-      "answers": []
-    },
-    {
       "id": "2",
       "text": "A test is coming up. How do you study for it?",
       "category": "Hardy",
@@ -15,21 +9,25 @@
           "text": "Study hard.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Con impegno"
         },
         {
           "text": "At the last second.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "In fretta"
         },
         {
           "text": "Ignore it and play.",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "Lo ignoro e gioco"
         }
-      ]
+      ],
+      "text_it": "Stai per affrontare un esame come ti prepari?"
     },
     {
       "id": "3",
@@ -41,15 +39,18 @@
           "points": {
             "Hardy": 2,
             "Docile": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Riesci a concentrarti su qualcosa che ti piace?"
     },
     {
       "id": "4",
@@ -61,16 +62,19 @@
           "points": {
             "Hardy": 2,
             "Brave": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Sassy": 2,
             "Quirky": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Quando il gioco si fa duro, ce la metti tutta?"
     },
     {
       "id": "5",
@@ -81,21 +85,25 @@
           "text": "Full.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Completamente"
         },
         {
           "text": "Half.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "A metà"
         },
         {
           "text": "A little.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Un po'"
         }
-      ]
+      ],
+      "text_it": "Devi mettere dell'acqua in un secchio. Quanto lo riempi?"
     },
     {
       "id": "6",
@@ -107,16 +115,19 @@
           "points": {
             "Docile": 2,
             "Naive": 1
-          }
+          },
+          "text_it": "Quello grande"
         },
         {
           "text": "Small box.",
           "points": {
             "Timid": 2,
             "Calm": 1
-          }
+          },
+          "text_it": "Quello picccolo"
         }
-      ]
+      ],
+      "text_it": "Devi scegliere tra due pacchetti regalo. Quale scegli?"
     },
     {
       "id": "7",
@@ -128,16 +139,19 @@
           "points": {
             "Docile": 2,
             "Hasty": 1
-          }
+          },
+          "text_it": "Apro subito la finestra"
         },
         {
           "text": "Take a sniff first.",
           "points": {
             "Naive": 2,
             "Relaxed": 1
-          }
+          },
+          "text_it": "Lo annuso un po'"
         }
-      ]
+      ],
+      "text_it": "Hai rotto un uovo marcio nella tua stanza! Cosa fai?"
     },
     {
       "id": "8",
@@ -148,22 +162,26 @@
           "text": "Say thank you regularly.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Ringrazio come sempre"
         },
         {
           "text": "Say thanks with a joke.",
           "points": {
             "Naive": 1,
             "Lonely": 1
-          }
+          },
+          "text_it": "Ringrazio scherzando"
         },
         {
           "text": "Say thanks, but be cool.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Ringrazio senza emozione"
         }
-      ]
+      ],
+      "text_it": "Un amico ti riporta qualcosa che avevi dimenticato. Come lo ringrazi?"
     },
     {
       "id": "9",
@@ -174,21 +192,25 @@
           "text": "Turn it in to the police!",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Lo porto alla polizia!"
         },
         {
           "text": "Yay! Yay!",
           "points": {
             "Naive": 2
-          }
+          },
+          "text_it": "Evviva! Evviva!"
         },
         {
           "text": "Is anyone watching...?",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "Qualcuno sta guardando...?"
         }
-      ]
+      ],
+      "text_it": "C'è un portafoglio sul ciglio della strada."
     },
     {
       "id": "10",
@@ -200,16 +222,19 @@
           "points": {
             "Brave": 3,
             "Impish": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Docile": 2,
             "Timid": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Devi fare bungee jumping per la prima volta."
     },
     {
       "id": "11",
@@ -219,21 +244,24 @@
         {
           "text": "Fight.",
           "points": {},
-          "next_question": "Do Question #2b"
+          "text_it": "Combatto!"
         },
         {
           "text": "Run.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Scappo!"
         },
         {
           "text": "Ignore it.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "Li ignoro"
         }
-      ]
+      ],
+      "text_it": "C'è un'invasione di alieni! Cosa fai?"
     },
     {
       "id": "12",
@@ -245,15 +273,18 @@
           "points": {
             "Sassy": 1,
             "Relaxed": 1
-          }
+          },
+          "text_it": "Mi alleo con loro."
         },
         {
           "text": "Refuse.",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "Rifiuto"
         }
-      ]
+      ],
+      "text_it": "Combatti coraggiosamente contro gli alieni, ma ti sconfiggono...."
     },
     {
       "id": "13",
@@ -265,15 +296,18 @@
           "points": {
             "Hardy": 1,
             "Brave": 2
-          }
+          },
+          "text_it": "Spalanco la porta"
         },
         {
           "text": "Scream in unison.",
           "points": {
             "Naive": 2
-          }
+          },
+          "text_it": "Urlo anch'io"
         }
-      ]
+      ],
+      "text_it": "Senti delle urla provenire da dietro una porta! Come reagisci?"
     },
     {
       "id": "14",
@@ -284,14 +318,16 @@
           "text": "Help without hesitation.",
           "points": {
             "Brave": 3
-          }
+          },
+          "text_it": "L'aiuto senza esitare"
         },
         {
           "text": "Help, even if scared.",
           "points": {
             "Hardy": 2,
             "Brave": 2
-          }
+          },
+          "text_it": "Ho paura, ma l'aiuto"
         },
         {
           "text": "Call the police.",
@@ -299,15 +335,18 @@
             "Docile": 1,
             "Timid": 1,
             "Relaxed": 1
-          }
+          },
+          "text_it": "Chiamo la polizia"
         },
         {
           "text": "Do nothing out of fear.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Mi blocco per la paura"
         }
-      ]
+      ],
+      "text_it": "Qualcuno sta infastidendo una ragazza per la strada! Cosa fai?"
     },
     {
       "id": "15",
@@ -319,16 +358,19 @@
           "points": {
             "Jolly": 2,
             "Naive": 1
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Sassy": 1,
             "Quirky": 1
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Sei una persona allegra?"
     },
     {
       "id": "16",
@@ -340,15 +382,18 @@
           "points": {
             "Jolly": 2,
             "Lonely": 1
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Timid": 1
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti piace divertirti rumorosamente con gli amici?"
     },
     {
       "id": "17",
@@ -359,21 +404,25 @@
           "text": "The beach!",
           "points": {
             "Jolly": 2
-          }
+          },
+          "text_it": "In spiaggia!"
         },
         {
           "text": "Spas.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Alle terme."
         },
         {
           "text": "Anywhere.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Da qualsiasi parte."
         }
-      ]
+      ],
+      "text_it": "Sono iniziate le vacanze estive! Dove vorresti andare?"
     },
     {
       "id": "18",
@@ -384,21 +433,25 @@
           "text": "Haha! Yes. Very funny!",
           "points": {
             "Jolly": 3
-          }
+          },
+          "text_it": "Ahaha! Sì! Molto divertente!"
         },
         {
           "text": "Um... Could you say that again?",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Scusi, può ripetere?"
         },
         {
           "text": "Right... Well, I gotta go.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Vabbé, ora devo andare."
         }
-      ]
+      ],
+      "text_it": "Uno straniero ha cominciato una conversazione con te. Non hai la benché minima idea di cosa stia dicendo. Come rispondi?"
     },
     {
       "id": "19",
@@ -410,15 +463,18 @@
           "points": {
             "Impish": 2,
             "Lonely": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Conosci la Precipitotrappola?"
     },
     {
       "id": "20",
@@ -429,16 +485,19 @@
           "text": "Yes.",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Docile": 1,
             "Relaxed": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti piace scherzare?"
     },
     {
       "id": "21",
@@ -450,16 +509,19 @@
           "points": {
             "Hardy": 1,
             "Impish": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Sassy": 1,
             "Quirky": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ci sono molte cose che ti piacerebbe fare?"
     },
     {
       "id": "22",
@@ -470,21 +532,25 @@
           "text": "Face up to the bully.",
           "points": {
             "Brave": 3
-          }
+          },
+          "text_it": "Affronto l'aggressore"
         },
         {
           "text": "Caution the bully from afar.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Sfido l'aggressore da lontano"
         },
         {
           "text": "Heckle the bully from behind.",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "Prendo l'aggressore alle spalle"
         }
-      ]
+      ],
+      "text_it": "Qualcuno sta facendo il prepotente con un tuo amico. Come ti comporti?"
     },
     {
       "id": "23",
@@ -496,21 +562,25 @@
           "points": {
             "Impish": 1,
             "Naive": 3
-          }
+          },
+          "text_it": "Li adoro!"
         },
         {
           "text": "A little.",
           "points": {
             "Jolly": 2
-          }
+          },
+          "text_it": "Un po'"
         },
         {
           "text": "Spare me.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Non li sopporto."
         }
-      ]
+      ],
+      "text_it": "Ti piacciono gli scherzi di cattivo gusto?"
     },
     {
       "id": "24",
@@ -522,15 +592,18 @@
           "points": {
             "Docile": 1,
             "Naive": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ridi molto?"
     },
     {
       "id": "25",
@@ -542,15 +615,18 @@
           "points": {
             "Jolly": 1,
             "Naive": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Gli altri ti considerano infantile?"
     },
     {
       "id": "26",
@@ -561,15 +637,18 @@
           "text": "Yes.",
           "points": {
             "Naive": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti piace immaginarti cose tanto per divertirti?"
     },
     {
       "id": "27",
@@ -580,14 +659,16 @@
           "text": "Scream and run.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Urlo e scappo via"
         },
         {
           "text": "Close the lid without a word.",
           "points": {
             "Hardy": 1,
             "Calm": 2
-          }
+          },
+          "text_it": "Chiudo senza dir niente"
         },
         {
           "text": "Shake hands with it.",
@@ -595,9 +676,11 @@
             "Brave": 2,
             "Impish": 1,
             "Naive": 1
-          }
+          },
+          "text_it": "Porgo la mia mano"
         }
-      ]
+      ],
+      "text_it": "Vedi una mano che fuoriesce dal WC. Cosa fai?"
     },
     {
       "id": "28",
@@ -608,33 +691,39 @@
           "text": "Thumb.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Pollice."
         },
         {
           "text": "Index finger.",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Indice."
         },
         {
           "text": "Middle finger.",
           "points": {
             "Jolly": 2
-          }
+          },
+          "text_it": "Medio."
         },
         {
           "text": "Ring finger.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Anulare."
         },
         {
           "text": "Little finger.",
           "points": {
             "Lonely": 2
-          }
+          },
+          "text_it": "Mignolo."
         }
-      ]
+      ],
+      "text_it": "Affera un dito qualunque della tua mano sinistra con la mano destra. Quale dito hai afferrato?"
     },
     {
       "id": "29",
@@ -645,22 +734,26 @@
           "text": "Kick the door.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Butto giù la porta"
         },
         {
           "text": "Cry.",
           "points": {
             "Lonely": 2
-          }
+          },
+          "text_it": "Urlo"
         },
         {
           "text": "Clean it.",
           "points": {
             "Impish": 2,
             "Quirky": 1
-          }
+          },
+          "text_it": "Faccio pulizia"
         }
-      ]
+      ],
+      "text_it": "Ti chiudono a chiave in una stanza buia! Cosa fai?"
     },
     {
       "id": "30",
@@ -671,21 +764,25 @@
           "text": "No problem!",
           "points": {
             "Brave": 3
-          }
+          },
+          "text_it": "Certo"
         },
         {
           "text": "Uh... N-no...",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Ehm... N-no..."
         },
         {
           "text": "With someone I like.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Con qualcuno"
         }
-      ]
+      ],
+      "text_it": "Avresti il coraggio di entrare in una casa infestata dagli spettri?"
     },
     {
       "id": "31",
@@ -696,21 +793,25 @@
           "text": "Open it now.",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Lo apro subito"
         },
         {
           "text": "Open it later.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Lo apro più tardi"
         },
         {
           "text": "Get someone to open it.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Lo faccio aprire a qualcuno"
         }
-      ]
+      ],
+      "text_it": "Ricevi un pacchetto regalo e non sai cosa c'è dentro."
     },
     {
       "id": "32",
@@ -722,23 +823,27 @@
           "points": {
             "Jolly": 2,
             "Hasty": 1
-          }
+          },
+          "text_it": "Li spendo tutti."
         },
         {
           "text": "Save it.",
           "points": {
             "Hardy": 1,
             "Calm": 1
-          }
+          },
+          "text_it": "Li risparmio."
         },
         {
           "text": "Give it away.",
           "points": {
             "Brave": 2,
             "Quirky": 2
-          }
+          },
+          "text_it": "Li regalo."
         }
-      ]
+      ],
+      "text_it": "Hai vinto alla lotteria! Cosa fai con i soldi?"
     },
     {
       "id": "33",
@@ -749,21 +854,25 @@
           "text": "Open it right away!",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Lo apro subito!"
         },
         {
           "text": "No... Could be a trap...",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Sarà una trappola?"
         },
         {
           "text": "It's going to be empty...",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Sarà di sicuro vuoto..."
         }
-      ]
+      ],
+      "text_it": "Trovi un forziere che potrebbe contenere un tesoro. Cosa fai?"
     },
     {
       "id": "34",
@@ -775,21 +884,25 @@
           "points": {
             "Docile": 1,
             "Hasty": 2
-          }
+          },
+          "text_it": "Mi arrabbio"
         },
         {
           "text": "Wait patiently.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "Aspetto con pazienza"
         },
         {
           "text": "Get angry and bail.",
           "points": {
             "Hasty": 3
-          }
+          },
+          "text_it": "Mi arrabbio e vado"
         }
-      ]
+      ],
+      "text_it": "Un amico non arriva ad un appuntamento all'ora prestabilita. Cosa fai?"
     },
     {
       "id": "35",
@@ -800,21 +913,25 @@
           "text": "Speak calmly.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Con calma"
         },
         {
           "text": "Speak nervously.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Con nervosismo"
         },
         {
           "text": "WHATEVER!!",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Come capita"
         }
-      ]
+      ],
+      "text_it": "Ti ritrovi davanti al Presidente del tuo Paese. Come gli parli?"
     },
     {
       "id": "36",
@@ -826,15 +943,18 @@
           "points": {
             "Impish": 1,
             "Sassy": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Gli altri ti dicono di fare attenzione a ciò che dici?"
     },
     {
       "id": "37",
@@ -846,16 +966,19 @@
           "points": {
             "Docile": 2,
             "Calm": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Sassy": 2,
             "Quirky": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Riesci a ringraziare di tutto cuore qualcuno quando gli sei riconoscente?"
     },
     {
       "id": "38",
@@ -867,15 +990,18 @@
           "points": {
             "Calm": 2,
             "Lonely": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "A volte pensi di essere un tipo noioso o troppo prudente?"
     },
     {
       "id": "39",
@@ -886,15 +1012,18 @@
           "text": "Yes.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "A volte sogni passare il tempo oziando senza far nulla di particolare?"
     },
     {
       "id": "40",
@@ -906,16 +1035,19 @@
           "points": {
             "Impish": 1,
             "Timid": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2,
             "Lonely": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti piace lottare?"
     },
     {
       "id": "41",
@@ -927,16 +1059,19 @@
           "points": {
             "Calm": 2,
             "Relaxed": 1
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 1,
             "Hasty": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Sbadigli spesso?"
     },
     {
       "id": "42",
@@ -948,16 +1083,19 @@
           "points": {
             "Sassy": 1,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2,
             "Hasty": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Arrivi spesso tardi a scuola o agli appuntamenti?"
     },
     {
       "id": "43",
@@ -968,16 +1106,19 @@
           "text": "Yes.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Impish": 1,
             "Hasty": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti sembra di fare le cose più lentamente negli ultimi tempi?"
     },
     {
       "id": "44",
@@ -988,21 +1129,25 @@
           "text": "This feels great!",
           "points": {
             "Jolly": 2
-          }
+          },
+          "text_it": "Benissimo!"
         },
         {
           "text": "Snore...",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "Che sonno..."
         },
         {
           "text": "I want to go home soon!",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Voglio andare a casa!"
         }
-      ]
+      ],
+      "text_it": "È una bellissima giornata e sei in spiaggia. Come ti senti?"
     },
     {
       "id": "45",
@@ -1014,15 +1159,18 @@
           "points": {
             "Calm": 1,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti succede di addormentarti senza neppure accorgertene?"
     },
     {
       "id": "46",
@@ -1034,15 +1182,18 @@
           "points": {
             "Timid": 1,
             "Lonely": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti senti triste quando non hai compagnia?"
     },
     {
       "id": "47",
@@ -1054,16 +1205,19 @@
           "points": {
             "Timid": 1,
             "Lonely": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Brave": 3,
             "Relaxed": 1
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti dà fastidio essere l'ultima persona a uscire dalla classe quando suona la campanella?"
     },
     {
       "id": "48",
@@ -1075,15 +1229,18 @@
           "points": {
             "Timid": 1,
             "Lonely": 2
-          }
+          },
+          "text_it": "Accesa"
         },
         {
           "text": "Turn it off.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Spenta"
         }
-      ]
+      ],
+      "text_it": "Quando vai a letto di sera, come lasci la luce della tua stanza?"
     },
     {
       "id": "49",
@@ -1095,23 +1252,27 @@
           "points": {
             "Jolly": 1,
             "Lonely": 1
-          }
+          },
+          "text_it": "Vado a fare una gita."
         },
         {
           "text": "Hang around vacantly.",
           "points": {
             "Calm": 1,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Mi aggiro qua e là."
         },
         {
           "text": "Huddle in a corner.",
           "points": {
             "Timid": 1,
             "Lonely": 3
-          }
+          },
+          "text_it": "Mi metto in un angolino."
         }
-      ]
+      ],
+      "text_it": "È il fine settimana, ma non c'è nessuno che giochi con te. Cosa fai?"
     },
     {
       "id": "50",
@@ -1122,15 +1283,18 @@
           "text": "Yes.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Sì"
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "No"
         }
-      ]
+      ],
+      "text_it": "Ti capita di non avere più nulla da fare all'improvviso?"
     },
     {
       "id": "51",
@@ -1142,21 +1306,25 @@
           "points": {
             "Hardy": 1,
             "Hasty": 1
-          }
+          },
+          "text_it": "Rispondo subito"
         },
         {
           "text": "May reply, may not.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Forse rispondo, forse no..."
         },
         {
           "text": "Too much trouble.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "Troppa fatica"
         }
-      ]
+      ],
+      "text_it": "Quanto impieghi per rispondere a un'e-mail?"
     },
     {
       "id": "52",
@@ -1168,27 +1336,32 @@
           "points": {
             "Hardy": 1,
             "Brave": 3
-          }
+          },
+          "text_it": "Dichiaro il mio amore"
         },
         {
           "text": "Might say hello...",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Forse dico ciao..."
         },
         {
           "text": "Pull a prank to get attention.",
           "points": {
             "Impish": 2
-          }
+          },
+          "text_it": "Attiro l'attenzione con uno scherzo"
         },
         {
           "text": "Look from afar.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Osservo da lontano"
         }
-      ]
+      ],
+      "text_it": "C'è una persona che ti piace, ma non hai la possibilità di avvicinarti. Cosa fai?"
     },
     {
       "id": "53",
@@ -1199,21 +1372,25 @@
           "text": "Instantly go right.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Subito a destra"
         },
         {
           "text": "It's a trap! Go left.",
           "points": {
             "Sassy": 2
-          }
+          },
+          "text_it": "A sinistra, è una trappola!"
         },
         {
           "text": "Choose either side.",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Una strada vale l'altra"
         }
-      ]
+      ],
+      "text_it": "Ti trovi a un bivio. Ti dicono che prendendo la via di destra troverai un tesoro. Dove vai?"
     },
     {
       "id": "54",
@@ -1225,16 +1402,19 @@
           "points": {
             "Hasty": 1,
             "Quirky": 1
-          }
+          },
+          "text_it": "In beata solitudine."
         },
         {
           "text": "Go with others.",
           "points": {
             "Jolly": 1,
             "Lonely": 1
-          }
+          },
+          "text_it": "Con gli altri."
         }
-      ]
+      ],
+      "text_it": "In vacanza ti piace andare..."
     },
     {
       "id": "55",
@@ -1245,16 +1425,19 @@
           "text": "Love them!",
           "points": {
             "Jolly": 2
-          }
+          },
+          "text_it": "Li adoro!"
         },
         {
           "text": "Don't care.",
           "points": {
             "Sassy": 1,
             "Quirky": 1
-          }
+          },
+          "text_it": "No..."
         }
-      ]
+      ],
+      "text_it": "Ti piace andare al Luna Park d'estate?"
     },
     {
       "id": "56",
@@ -1266,41 +1449,36 @@
           "points": {
             "Naive": 1,
             "Lonely": 1
-          }
+          },
+          "text_it": "Felice."
         },
         {
           "text": "Not happy.",
           "points": {
             "Hasty": 1,
             "Sassy": 1
-          }
+          },
+          "text_it": "Triste."
         },
         {
           "text": "Boy.",
           "points": {
             "gender": "Male"
-          }
+          },
+          "text_it": "Maschio."
         },
         {
           "text": "Girl.",
           "points": {
             "gender": "Female"
-          }
+          },
+          "text_it": "Femmina."
         }
-      ]
+      ],
+      "text_it": "Se qualcuno ti dice che sei un tipo \"strano ma divertente\", come ti senti?"
     }
   ],
   "Explorers of Time/Darkness": [
-    {
-      "id": "1",
-      "text": "Questions",
-      "answers": []
-    },
-    {
-      "id": "2",
-      "text": "8 of the following questions are chosen at random. After these questions, the player will be asked for their gender.",
-      "answers": []
-    },
     {
       "id": "3",
       "text": "Have you ever accidentally revealed a personal secret that someone shared with you?",
@@ -1310,15 +1488,18 @@
           "points": {
             "Rash": 4,
             "Lonely": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai mai rivelato per sbaglio un segreto che qualcuno ti ha confidato?"
     },
     {
       "id": "4",
@@ -1328,28 +1509,33 @@
           "text": "Save it!",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "La metto da parte!"
         },
         {
           "text": "Spend it!",
           "points": {
             "Quirky": 4,
             "Hasty": 2
-          }
+          },
+          "text_it": "La spendo!"
         },
         {
           "text": "Spend half, save half.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Ne spendo la metà."
         },
         {
           "text": "I don't get an allowance!",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Non mi danno la paghetta!"
         }
-      ]
+      ],
+      "text_it": "Cosa fai con la tua paghetta?"
     },
     {
       "id": "5",
@@ -1360,21 +1546,25 @@
           "points": {
             "Impish": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Si! Niente di più facile!"
         },
         {
           "text": "Yes. Hard work, though.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Si, ma che fatica..."
         },
         {
           "text": "No! Who'd want to do that?!",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Mai e poi mai!"
         }
-      ]
+      ],
+      "text_it": "Riusciresti a rispettare il proposito di fare 10 addominali al giorno?"
     },
     {
       "id": "6",
@@ -1385,16 +1575,19 @@
           "points": {
             "Docile": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Certo."
         },
         {
           "text": "That's not easy to admit!",
           "points": {
             "Timid": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Non è facile farlo!"
         }
-      ]
+      ],
+      "text_it": "Se non sai una cosa, lo ammetti senza problemi?"
     },
     {
       "id": "7",
@@ -1405,7 +1598,8 @@
           "points": {
             "Docile": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Mi preoccupo."
         },
         {
           "text": "Forget about it.",
@@ -1413,9 +1607,11 @@
             "Jolly": 4,
             "Relaxed": 2,
             "Bold": 2
-          }
+          },
+          "text_it": "Non ci penso."
         }
-      ]
+      ],
+      "text_it": "Una cartomante ti dice che ti aspetta un futuro poco roseo. Come reagisci?"
     },
     {
       "id": "8",
@@ -1426,22 +1622,26 @@
           "points": {
             "Bold": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Me la tengo per me."
         },
         {
           "text": "Share it with friends.",
           "points": {
             "Docile": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "La racconto agli amici."
         },
         {
           "text": "Spread a different rumor!",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "Metto in giro un'altra stroria."
         }
-      ]
+      ],
+      "text_it": "Senti un'indiscrezione che potrebbe fruttarti un bel gruzzoletto. Cosa fai?"
     },
     {
       "id": "9",
@@ -1452,22 +1652,26 @@
           "points": {
             "Brave": 4,
             "Impish": 4
-          }
+          },
+          "text_it": "Finchè non sta per scoppiare!"
         },
         {
           "text": "Big...but not too big!",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Tanto... ma non troppo."
         },
         {
           "text": "I don't...it could pop!",
           "points": {
             "Timid": 4,
             "Docile": 2
-          }
+          },
+          "text_it": "Non lo faccio mai! E se scoppiasse?"
         }
-      ]
+      ],
+      "text_it": "Quanto gonfi un palloncino?"
     },
     {
       "id": "10",
@@ -1478,23 +1682,27 @@
           "points": {
             "Brave": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Si!"
         },
         {
           "text": "No.",
           "points": {
             "Lonely": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "No."
         },
         {
           "text": "It depends on the situation.",
           "points": {
             "Calm": 2,
             "Quirky": 2
-          }
+          },
+          "text_it": "Dipende."
         }
-      ]
+      ],
+      "text_it": "Esprimi la tua opinione anche quando è diversa da quella degli altri?"
     },
     {
       "id": "11",
@@ -1505,14 +1713,16 @@
           "points": {
             "Jolly": 4,
             "Calm": 2
-          }
+          },
+          "text_it": "Lo dimostro giocandoci insieme."
         },
         {
           "text": "Make it obvious...by playing a prank!",
           "points": {
             "Lonely": 4,
             "Naive": 2
-          }
+          },
+          "text_it": "Lo esprimo... con un bello scherzo!"
         },
         {
           "text": "State it clearly for all to hear!",
@@ -1520,15 +1730,18 @@
             "Brave": 4,
             "Impish": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Lo urlo a tutto il mondo!"
         },
         {
           "text": "Keep it to myself! It's too risky!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non dico niente! E' troppo rischioso!"
         }
-      ]
+      ],
+      "text_it": "Vuoi far sapere a qualcuno che ti piace un sacco! Cosa fai?"
     },
     {
       "id": "12",
@@ -1538,23 +1751,27 @@
           "text": "Run away! How embarrassing!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Scappo! Che imbarazzo!"
         },
         {
           "text": "Answer questions properly.",
           "points": {
             "Brave": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Rispondo alle domande."
         },
         {
           "text": "Yuck it up! Woo-hoo! I'm on TV!",
           "points": {
             "Naive": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Wow! Sono in TV!"
         }
-      ]
+      ],
+      "text_it": "Mentre stai facendo una passeggiata, un reporter ti ferma ad intervistarti. Cosa fai?"
     },
     {
       "id": "13",
@@ -1565,15 +1782,18 @@
           "points": {
             "Jolly": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai un attacco irrefrenabile di felicità! Che ne dici di qualche passo di danza per esprimere la tua gioia?"
     },
     {
       "id": "14",
@@ -1583,23 +1803,27 @@
           "text": "Stay on the sidelines.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Sto in disparte."
         },
         {
           "text": "Join the parade!",
           "points": {
             "Jolly": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "MI unisco alla parata!"
         },
         {
           "text": "Walk away.",
           "points": {
             "Sassy": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Me ne vado via."
         }
-      ]
+      ],
+      "text_it": "Vedi una parata che si svolge per strada. Cosa fai?"
     },
     {
       "id": "15",
@@ -1610,22 +1834,26 @@
           "points": {
             "Jolly": 4,
             "Naive": 2
-          }
+          },
+          "text_it": "Mi spancio dalle risate!"
         },
         {
           "text": "Just let it go by...",
           "points": {
             "Impish": 2,
             "Docile": 2
-          }
+          },
+          "text_it": "Faccio finta di niente..."
         },
         {
           "text": "Slap my forehead and groan.",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "Faccio un sospiro."
         }
-      ]
+      ],
+      "text_it": "Un tuo amico racconta una barzelletta terribilmente vecchia. Come reagisci?"
     },
     {
       "id": "16",
@@ -1635,7 +1863,8 @@
           "text": "Yes!",
           "points": {
             "Jolly": 4
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
@@ -1643,9 +1872,11 @@
             "Bold": 4,
             "Timid": 2,
             "Docile": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Attacchi bottone facilmente con le persone che non conosci?"
     },
     {
       "id": "17",
@@ -1656,15 +1887,18 @@
           "points": {
             "Impish": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti capita spesso di farti male?"
     },
     {
       "id": "18",
@@ -1675,21 +1909,25 @@
           "points": {
             "Hasty": 2,
             "Sassy": 2
-          }
+          },
+          "text_it": "Lo calcio!"
         },
         {
           "text": "Throw it!",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "Lo lancio!"
         },
         {
           "text": "Spiff it up, shiny and new!",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Lo pulisco!"
         }
-      ]
+      ],
+      "text_it": "Vedi un pallone per terra. Cosa fai?"
     },
     {
       "id": "19",
@@ -1700,16 +1938,19 @@
           "points": {
             "Impish": 4,
             "Naive": 2
-          }
+          },
+          "text_it": "Sembra divertente!"
         },
         {
           "text": "Not interested.",
           "points": {
             "Quirky": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Non i interessa."
         }
-      ]
+      ],
+      "text_it": "Ti piacerebbe esplorare una giungla?"
     },
     {
       "id": "20",
@@ -1722,15 +1963,18 @@
             "Brave": 4,
             "Rash": 2,
             "Hasty": 2
-          }
+          },
+          "text_it": "Ci entro dentro!"
         },
         {
           "text": "Stay away from it.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Sto alla larga!"
         }
-      ]
+      ],
+      "text_it": "Scopri un passaggio segreto in un seminterrato. Cosa fai?"
     },
     {
       "id": "21",
@@ -1741,7 +1985,8 @@
           "points": {
             "Brave": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Lo aiuto ad alzarsi!"
         },
         {
           "text": "Laugh! It's too funny!",
@@ -1749,9 +1994,11 @@
             "Naive": 4,
             "Impish": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Rido! Che spasso!"
         }
-      ]
+      ],
+      "text_it": "Un tuo amico cade in modo spettacolare! Cosa fai?"
     },
     {
       "id": "22",
@@ -1761,15 +2008,18 @@
           "text": "Yes!",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai venuta voglia di comunicare con gli abitanti di un altro pianeta?"
     },
     {
       "id": "23",
@@ -1780,15 +2030,18 @@
           "points": {
             "Naive": 4,
             "Impish": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai capitato di offendere un amico quando volevi solo scherzare?"
     },
     {
       "id": "24",
@@ -1798,28 +2051,33 @@
           "text": "Don't do that! It scared me!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Smettila! Mi spavento!"
         },
         {
           "text": "OK, I admit it. You tricked me.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Ok, me l'hai fatta!"
         },
         {
           "text": "No way, I didn't fall for it.",
           "points": {
             "Sassy": 4,
             "Lonely": 4
-          }
+          },
+          "text_it": "No, non ci casco!"
         },
         {
           "text": "Huh? What?",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Eh? Cosa?"
         }
-      ]
+      ],
+      "text_it": "Ehi guarda! C'è qualcuno dietro di te! Dì un po'... hai guardato?"
     },
     {
       "id": "25",
@@ -1830,23 +2088,27 @@
           "points": {
             "Brave": 2,
             "Quiet": 2
-          }
+          },
+          "text_it": "Dico che non lo voglio."
         },
         {
           "text": "Say thanks...but say no.",
           "points": {
             "Calm": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Ringrazio... ma rifiuto."
         },
         {
           "text": "Cave in and buy it.",
           "points": {
             "Rash": 2,
             "Timid": 2
-          }
+          },
+          "text_it": "Cedo e lo compro."
         }
-      ]
+      ],
+      "text_it": "Un commesso in un negozio ti consiglia un oggetto che non fa per te. Però ti sta simpatico. Cosa fai?"
     },
     {
       "id": "26",
@@ -1856,21 +2118,25 @@
           "text": "Make small talk.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Parlo del più e del meno."
         },
         {
           "text": "Say nothing!",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Non dico una parola!"
         },
         {
           "text": "Make an excuse to get away!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Me ne vado con una scusa!"
         }
-      ]
+      ],
+      "text_it": "Incontri una persona con cui non hai parlato molto. Cosa fai?"
     },
     {
       "id": "27",
@@ -1880,22 +2146,26 @@
           "text": "Just my imagination.",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "L'ho immaginato."
         },
         {
           "text": "Someone fooling around.",
           "points": {
             "Naive": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Sarà uno scherzo."
         },
         {
           "text": "A ghost!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Un fantasma!"
         }
-      ]
+      ],
+      "text_it": "Ti sembra di setire qualcuno pronunciare il tuo nome. Ma non c'è nessuno in giro... Cosa è stato?"
     },
     {
       "id": "28",
@@ -1906,16 +2176,19 @@
           "points": {
             "Hasty": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Docile": 2,
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti capita spesso di arrivare alla conclucione sbagliata?"
     },
     {
       "id": "29",
@@ -1925,15 +2198,18 @@
           "text": "Yes!",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Cambi spesso canale mentre guardi la TV?"
     },
     {
       "id": "30",
@@ -1943,21 +2219,25 @@
           "text": "Buy it right away!",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Lo compro subito!"
         },
         {
           "text": "Think about whether you need it.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Penso se mi serve davvero."
         },
         {
           "text": "Demand an even bigger discount!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Chiedo uno sconto maggiore!"
         }
-      ]
+      ],
+      "text_it": "Trovi qualcosa in vendita ad un prezzo eccezzionale. Cosa fai?"
     },
     {
       "id": "31",
@@ -1967,21 +2247,25 @@
           "text": "Eat just a tiny bit.",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Ne mangio un pochino."
         },
         {
           "text": "Hold myself back and pack it all up.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Resisto senza toccarli."
         },
         {
           "text": "What snacks? They're in my belly!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Me li sbafo tutti!"
         }
-      ]
+      ],
+      "text_it": "Stai mettendo in una borsa gli spuntini per un picnic con i tuoi compagni di classe, quando, all'improvviso, ti viene fame. Cosa fai?"
     },
     {
       "id": "32",
@@ -1991,15 +2275,18 @@
           "text": "Totally!",
           "points": {
             "Sassy": 4
-          }
+          },
+          "text_it": "Sicuro!"
         },
         {
           "text": "Of course not.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai uno spirito ribelle?"
     },
     {
       "id": "33",
@@ -2010,16 +2297,19 @@
           "points": {
             "Sassy": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Certo!"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 4,
             "Quirky": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Quando cammini con altre persone, tendi a stare davanti?"
     },
     {
       "id": "34",
@@ -2031,15 +2321,18 @@
             "Sassy": 4,
             "Naive": 2,
             "Jolly": 2
-          }
+          },
+          "text_it": "Certo!"
         },
         {
           "text": "Well, not really...",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Non proprio."
         }
-      ]
+      ],
+      "text_it": "Pensi che potresti essere un genio?"
     },
     {
       "id": "35",
@@ -2051,15 +2344,18 @@
             "Sassy": 4,
             "Brave": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Certo!"
         },
         {
           "text": "Not really.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non proprio."
         }
-      ]
+      ],
+      "text_it": "Saresti a tuo agio nell'esprimere la tua opinione a una persona molto importante?"
     },
     {
       "id": "36",
@@ -2070,21 +2366,25 @@
           "points": {
             "Lonely": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "La città!"
         },
         {
           "text": "I like the country!",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "La campagna!"
         },
         {
           "text": "I like them both!",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Mi piacciono entrambe!"
         }
-      ]
+      ],
+      "text_it": "Preferisci la città o la campagna?"
     },
     {
       "id": "37",
@@ -2094,22 +2394,26 @@
           "text": "Whatever. It's just a cookie.",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "Beh, è solo un biscotto."
         },
         {
           "text": "I unleash my cookie fury!",
           "points": {
             "Relaxed": 4,
             "Jolly": 4
-          }
+          },
+          "text_it": "Mi infurio!"
         },
         {
           "text": "I weep for my lost cookie.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Piagnucolo."
         }
-      ]
+      ],
+      "text_it": "Stai per prende l'ultimo biscotto quando un tuo amico se lo divora con gusto! Cosa fai?"
     },
     {
       "id": "38",
@@ -2119,22 +2423,26 @@
           "text": "I'm too crushed to start again.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Non voglio ricominciare."
         },
         {
           "text": "I unleash my full fury!",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Vado su tutte le furie!"
         },
         {
           "text": "I set up the dominoes again...",
           "points": {
             "Calm": 4,
             "Bold": 4
-          }
+          },
+          "text_it": "Ricomincio da capo."
         }
-      ]
+      ],
+      "text_it": "Hai passato mesi a disporre tessere nel domino... te ne manca una per finire... NO! Le hai fatte cadere tutte! Cosa fai?"
     },
     {
       "id": "39",
@@ -2145,16 +2453,19 @@
           "points": {
             "Bold": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "Not at all.",
           "points": {
             "Lonely": 4,
             "Hasty": 2
-          }
+          },
+          "text_it": "Per niente."
         }
-      ]
+      ],
+      "text_it": "Ti danno fastidio i rumori e la confusione vicino a te?"
     },
     {
       "id": "40",
@@ -2165,13 +2476,15 @@
           "points": {
             "Hasty": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Lo mangio anche se sono pieno."
         },
         {
           "text": "Turn it down. It's too fattening!",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Non lo mangio. Fa ingrassare!"
         },
         {
           "text": "Yummy! I love dessert the most!",
@@ -2179,9 +2492,11 @@
             "Bold": 4,
             "Jolly": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Wow! Adoro i dolci!"
         }
-      ]
+      ],
+      "text_it": "Hai appena divorato con gusto un buon pasto quando arriva un dolce delizioso. Cosa fai?"
     },
     {
       "id": "41",
@@ -2191,21 +2506,25 @@
           "text": "Study all night long.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Passo la notte a studiare"
         },
         {
           "text": "Wing it! I'm sure it will be fine!",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "E allora? Andrà benissimo!"
         },
         {
           "text": "Test?! I think I have a fever...",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Verifica?! Non mi sento bene..."
         }
-      ]
+      ],
+      "text_it": "Domani hai una verifica molto importante! Cosa fa?"
     },
     {
       "id": "42",
@@ -2216,22 +2535,26 @@
           "points": {
             "Lonely": 4,
             "Docile": 4
-          }
+          },
+          "text_it": "Andati?! Cerco un cameriere!"
         },
         {
           "text": "Who's worried? I keep eating.",
           "points": {
             "Jolly": 4,
             "Relaxed": 4
-          }
+          },
+          "text_it": "E allora? Continuo a mangiare."
         },
         {
           "text": "I swipe food from other tables!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Prendo il cibo dagli altri tavoli!"
         }
-      ]
+      ],
+      "text_it": "Stai mangiando al ristorante quando ti rendi improvvisamente conto che tutti gli altri se ne sono andati. Cosa fai?"
     },
     {
       "id": "43",
@@ -2241,15 +2564,18 @@
           "text": "All the time!",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Sempre!"
         },
         {
           "text": "Never.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Mai."
         }
-      ]
+      ],
+      "text_it": "Ti capita spesso di fischiettare o canticchiare?"
     },
     {
       "id": "44",
@@ -2260,21 +2586,25 @@
           "points": {
             "Hasty": 4,
             "Lonely": 4
-          }
+          },
+          "text_it": "Rispondo subito."
         },
         {
           "text": "Wait a bit before answering.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Rispondo dopo un po'."
         },
         {
           "text": "Ignore it and let it ring.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Lo ignoro."
         }
-      ]
+      ],
+      "text_it": "Il telefono sta suonando! Cosa fai?"
     },
     {
       "id": "45",
@@ -2284,21 +2614,25 @@
           "text": "Join them and chat along!",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Mi unisco a loro!"
         },
         {
           "text": "Nothing...I'm not interested.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Niente... non mi interessa."
         },
         {
           "text": "Eavesdrop from a distance!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Ascolto da lontano!"
         }
-      ]
+      ],
+      "text_it": "Ti sembra che i tuoi amici stiano avendo una conversazione spassosa, ma non riesci a sentirli. Cosa fai?"
     },
     {
       "id": "46",
@@ -2309,15 +2643,18 @@
           "points": {
             "Lonely": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti piace essere al centro dell'attenzione?"
     },
     {
       "id": "47",
@@ -2327,27 +2664,32 @@
           "text": "Wait quietly.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Aspetto in silezio."
         },
         {
           "text": "Search for something to do.",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Cerco qualcosa da fare."
         },
         {
           "text": "Wander outside.",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Faccio un giro fuori."
         },
         {
           "text": "Cradle my knees and sit in the corner!",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Mi siedo per terra in un angolo!"
         }
-      ]
+      ],
+      "text_it": "Ti dicono di aspettare in una grande stanza vuota. Cosa fai?"
     },
     {
       "id": "48",
@@ -2359,15 +2701,18 @@
             "Quirky": 4,
             "Rash": 2,
             "Hasty": 2
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai un sacco di cose che hai comprato perchè ti sembravano belle, ma che adesso non usi più?"
     },
     {
       "id": "49",
@@ -2377,16 +2722,19 @@
           "text": "Yes.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quirky": 4,
             "Hasty": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai degli hobby che pratichi da tanto tempo?"
     },
     {
       "id": "50",
@@ -2397,15 +2745,18 @@
           "points": {
             "Quirky": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti capita spesso di annullare appuntamenti all'ultimo minuto?"
     },
     {
       "id": "51",
@@ -2415,22 +2766,26 @@
           "text": "Of course!",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "I'm not good at planning.",
           "points": {
             "Quirky": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Non mi piace pianificare."
         },
         {
           "text": "Plans? Who needs plans?",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Piani? Cosa sono?"
         }
-      ]
+      ],
+      "text_it": "Ti piace seguire i piani?"
     },
     {
       "id": "52",
@@ -2441,21 +2796,25 @@
           "points": {
             "Quiet": 4,
             "Bold": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "No."
         },
         {
           "text": "I don't know.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Non lo so."
         }
-      ]
+      ],
+      "text_it": "Pensi che a volte sia necessario dire delle bugie?"
     },
     {
       "id": "53",
@@ -2466,21 +2825,25 @@
           "points": {
             "Naive": 4,
             "Jolly": 2
-          }
+          },
+          "text_it": "Un bottino prezioso!"
         },
         {
           "text": "Ghosts!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Fantasmi!"
         },
         {
           "text": "Nothing! The ship is merely a mirage!",
           "points": {
             "Quiet": 4
-          }
+          },
+          "text_it": "Niente! E' solo un miraggio!"
         }
-      ]
+      ],
+      "text_it": "Avvisti una nave abbandnata in mezzo all'oceano! Secondo te cosa trasporta?"
     },
     {
       "id": "54",
@@ -2491,15 +2854,18 @@
           "points": {
             "Quiet": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "No way!",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "No!"
         }
-      ]
+      ],
+      "text_it": "Pensi che il fine giustifichi i mezzi?"
     },
     {
       "id": "55",
@@ -2509,21 +2875,25 @@
           "text": "Someone bullied my friend!",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "E' stata colpa di un bulletto!"
         },
         {
           "text": "My friend fell down, no doubt!",
           "points": {
             "Quiet": 4
-          }
+          },
+          "text_it": "Sarà senz'altro caduto!"
         },
         {
           "text": "I wonder if it's my fault?",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non sarà per caso... colpa mia?"
         }
-      ]
+      ],
+      "text_it": "Un tuo amico sta piangendo di fronte a te! Come mai?"
     },
     {
       "id": "56",
@@ -2534,15 +2904,18 @@
           "points": {
             "Rash": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti dimentichi spesso di chiudere la porta quando esci di casa?"
     },
     {
       "id": "57",
@@ -2553,21 +2926,25 @@
           "points": {
             "Impish": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "Mangio di gusto!"
         },
         {
           "text": "Enjoy the meal in polite moderation.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Mangio con moderazione."
         },
         {
           "text": "Ask to take the leftovers home!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "M porto a casa pure gli avanzi!"
         }
-      ]
+      ],
+      "text_it": "Un amico ti invita a casa sua per cena. Come ti comporti?"
     },
     {
       "id": "58",
@@ -2578,22 +2955,26 @@
           "points": {
             "Hardy": 4,
             "Brave": 2
-          }
+          },
+          "text_it": "La sposto io."
         },
         {
           "text": "Ask someone to help.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Chiedo aiuto a qualcuno."
         },
         {
           "text": "Make someone else do it!",
           "points": {
             "Bold": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Lo faccio fare ad altri!"
         }
-      ]
+      ],
+      "text_it": "Devi spostare una valigia pesante. Cosa fai?"
     },
     {
       "id": "59",
@@ -2603,22 +2984,26 @@
           "text": "Run away at full speed!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Scappo a gambe levate!"
         },
         {
           "text": "So what? It's just a lady.",
           "points": {
             "Naive": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "E allora? E' una signora."
         },
         {
           "text": "Drop down and play dead!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Mi nascondo!"
         }
-      ]
+      ],
+      "text_it": "Ti fai coraggio ed entri in un cimitero di notte... all'improvviso appare una donna sconosciuta dal'aspetto misterioso! Cosa fai?"
     },
     {
       "id": "60",
@@ -2629,21 +3014,25 @@
           "points": {
             "Brave": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Me la mangio!"
         },
         {
           "text": "Think about it briefly, then decide.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Ci penso e poi decido."
         },
         {
           "text": "Get someone to try it first.",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Prima la offro ad un altro."
         }
-      ]
+      ],
+      "text_it": "Trovi una merendina che è scaduta il giorno prima. Cosa fai?"
     },
     {
       "id": "61",
@@ -2653,21 +3042,25 @@
           "text": "Get embarrassed!",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Mi imbarazzo!"
         },
         {
           "text": "Laugh out loud!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Rido di gusto!"
         },
         {
           "text": "Say that it's the latest fashion!",
           "points": {
             "Jolly": 4
-          }
+          },
+          "text_it": "Spiego che va alla moda!"
         }
-      ]
+      ],
+      "text_it": "Un tuo amico ti dice che hai messo la maglietta al contrario. Cosa fai?"
     },
     {
       "id": "62",
@@ -2677,13 +3070,15 @@
           "text": "Get mad!",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Mi arrabbio!"
         },
         {
           "text": "Get sad.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Divento triste."
         },
         {
           "text": "Woo-hoo! Water fight!",
@@ -2691,9 +3086,11 @@
             "Jolly": 4,
             "Naive": 4,
             "Impish": 4
-          }
+          },
+          "text_it": "Evvai! Gavettoni!"
         }
-      ]
+      ],
+      "text_it": "Stai sognando ad occhi aperti... quando un tuo amico ti spruzza addosso dell'acqua! Cosa fai?"
     },
     {
       "id": "63",
@@ -2703,21 +3100,25 @@
           "text": "Starring role!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Protagonista!"
         },
         {
           "text": "Supporting role.",
           "points": {
             "Jolly": 4
-          }
+          },
+          "text_it": "Spalla."
         },
         {
           "text": "Just a bit part.",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Comparsa."
         }
-      ]
+      ],
+      "text_it": "Partecipi a una recita con degli amici. Di solito quale ruolo preferisci?"
     },
     {
       "id": "64",
@@ -2728,21 +3129,25 @@
           "points": {
             "Brave": 4,
             "Bold": 4
-          }
+          },
+          "text_it": "Chiedo il permesso di andare."
         },
         {
           "text": "Sneak out.",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Ci vado di nascosto."
         },
         {
           "text": "Hold on until class ends!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Aspetto la fine dell'ora!"
         }
-      ]
+      ],
+      "text_it": "Sei in classe, quando ti rendi improvvisamente conto di andare in bagno. Cosa fai?"
     },
     {
       "id": "65",
@@ -2753,22 +3158,26 @@
           "points": {
             "Hardy": 4,
             "Brave": 2
-          }
+          },
+          "text_it": "Tengo duro fino alla fine!"
         },
         {
           "text": "Stop Running.",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Mi fermo."
         },
         {
           "text": "Find a shortcut.",
           "points": {
             "Bold": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Trovo una scorciatoia."
         }
-      ]
+      ],
+      "text_it": "Sei all'ultimo chilometro di una maratona. Ma è dura e non ce la fai quasi più! Cosa fai?"
     },
     {
       "id": "66",
@@ -2778,55 +3187,29 @@
           "text": "Try to imagine what it is.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Cerco di capire cosa sia."
         },
         {
           "text": "Find out what it is!",
           "points": {
             "Naive": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Scopro di cosa si tratta!"
         },
         {
           "text": "Think about how hungry I am...",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "Penso a quanta fame ho..."
         }
-      ]
+      ],
+      "text_it": "Mentre stai facendo una passegiata senti un profumino delizioso. Cosa fai?"
     }
   ],
   "Explorers of Sky": [
-    {
-      "id": "1",
-      "text": "Questions",
-      "answers": []
-    },
-    {
-      "id": "2",
-      "text": "The game always starts off with:",
-      "answers": []
-    },
-    {
-      "id": "3",
-      "text": "\"Did you play Explorers of Time or Explorers of Darkness?\"",
-      "answers": []
-    },
-    {
-      "id": "4",
-      "text": "This does not give any personality points by itself, but if \"Yes\" is answered, certain Natures will have points added to them after the player has chosen their gender. These correspond to the new choices of Pok\u00e9mon available in Explorers of Sky - Phanpy, Shinx, and Riolu if male; Vulpix and Eevee if female.",
-      "answers": []
-    },
-    {
-      "id": "5",
-      "text": "Additionally, the following Pok\u00e9mon's base recruit rate will be doubled as long as the player has not recruited them already. Most of these can be found in dungeons found at various points of the main story; Pok\u00e9mon marked with a dagger (\u2020) can be recruited only after the credits roll, while Feraligatr (\u00a7) has special conditions. Furthermore, Porygon2, Rampardos, Bastiodon and Bronzong internally use these doubled rates, but cannot be found in any dungeons that allow for recruitment.",
-      "answers": []
-    },
-    {
-      "id": "6",
-      "text": "Afterwards, 8 of the following questions will be asked at random. After these questions, the player will be asked for their gender.",
-      "answers": []
-    },
     {
       "id": "7",
       "text": "Have you ever blurted something out without thinking about the consequences first?",
@@ -2836,15 +3219,18 @@
           "points": {
             "Lonely": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai capitato di parlare senza pensare alle conseguenze?"
     },
     {
       "id": "8",
@@ -2854,15 +3240,18 @@
           "text": "Totally!",
           "points": {
             "Sassy": 4
-          }
+          },
+          "text_it": "Sicuro!"
         },
         {
           "text": "Of course not.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Vorresti diventare più alto, un giorno?"
     },
     {
       "id": "9",
@@ -2872,16 +3261,19 @@
           "text": "Yes.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Hasty": 2,
             "Quirky": 4
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Quando decidi di fare una cosa, la porti sempre a termine?"
     },
     {
       "id": "10",
@@ -2892,15 +3284,18 @@
           "points": {
             "Quirky": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai mai detto \"Piacere\" a qualcuno che avevi già conosciuto?"
     },
     {
       "id": "11",
@@ -2911,21 +3306,25 @@
           "points": {
             "Impish": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Un film d'azione."
         },
         {
           "text": "A drama.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Un film drammatico."
         },
         {
           "text": "A romantic movie.",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Un film romantico."
         }
-      ]
+      ],
+      "text_it": "Sei al cinema. Cosa guardi?"
     },
     {
       "id": "12",
@@ -2937,15 +3336,18 @@
             "Sassy": 4,
             "Jolly": 2,
             "Naive": 2
-          }
+          },
+          "text_it": "Certo!"
         },
         {
           "text": "Well, not really...",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Non proprio."
         }
-      ]
+      ],
+      "text_it": "Ti sei mai guardato allo specchio pensando: \"Che tipo tosto!\"?"
     },
     {
       "id": "13",
@@ -2955,15 +3357,18 @@
           "text": "Yes.",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai mai pensato che scavando in giardino troveresti un tesoro?"
     },
     {
       "id": "14",
@@ -2974,15 +3379,18 @@
           "points": {
             "Impish": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì!"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti piace di più giocare all'aperto che al chiuso?"
     },
     {
       "id": "15",
@@ -2995,15 +3403,18 @@
             "Impish": 4,
             "Hasty": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Lo apro!"
         },
         {
           "text": "Get help opening it.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Chiedo aiuto per aprirlo."
         }
-      ]
+      ],
+      "text_it": "Trovi un vecchio forziere tra le rovine. Cosa fai?"
     },
     {
       "id": "16",
@@ -3014,16 +3425,19 @@
           "points": {
             "Hasty": 4,
             "Rash": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Docile": 2,
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai capitato di accorgerti di aver monopolizzato la conversazione?"
     },
     {
       "id": "17",
@@ -3033,15 +3447,18 @@
           "text": "Yes.",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Quando vedi un interruttore, hai l'irrefrenabile tentazione di premerlo?"
     },
     {
       "id": "18",
@@ -3053,15 +3470,18 @@
             "Quirky": 4,
             "Hasty": 2,
             "Rash": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai capitato di comprare qualcosa dimenticandoti di averlo già?"
     },
     {
       "id": "19",
@@ -3072,16 +3492,19 @@
           "points": {
             "Sassy": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "No.",
           "points": {
             "Calm": 4,
             "Quirky": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Pensi che sia importante cercare di essere sempre i migliori?"
     },
     {
       "id": "20",
@@ -3092,15 +3515,18 @@
           "points": {
             "Lonely": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Relaxed": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Vorresti essere famoso?"
     },
     {
       "id": "21",
@@ -3112,15 +3538,18 @@
             "Brave": 4,
             "Sassy": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "Not really...",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non credo..."
         }
-      ]
+      ],
+      "text_it": "Se vedessi qualcuno fare qualcosa di sbagliato, lo rimprovereresti?"
     },
     {
       "id": "22",
@@ -3131,15 +3560,18 @@
           "points": {
             "Naive": 4,
             "Impish": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Hai mai raccontato una barzelletta che non ha fatto ridere nessuno?"
     },
     {
       "id": "23",
@@ -3150,15 +3582,18 @@
           "points": {
             "Jolly": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti piacciono le feste movimentate?"
     },
     {
       "id": "24",
@@ -3169,16 +3604,19 @@
           "points": {
             "Docile": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "That's not easy to admit!",
           "points": {
             "Timid": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Non è facile farlo!"
         }
-      ]
+      ],
+      "text_it": "Sei davvero sincero quando chiedi scusa?"
     },
     {
       "id": "25",
@@ -3189,16 +3627,19 @@
           "points": {
             "Jolly": 4,
             "Bold": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Docile": 2,
             "Timid": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti piace il karaoke?"
     },
     {
       "id": "26",
@@ -3209,16 +3650,19 @@
           "points": {
             "Impish": 4,
             "Naive": 2
-          }
+          },
+          "text_it": "Quello stretto."
         },
         {
           "text": "Wide.",
           "points": {
             "Quirky": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Quello largo."
         }
-      ]
+      ],
+      "text_it": "Stai scalando una montagna e il sentiero si divide. Quale prendi?"
     },
     {
       "id": "27",
@@ -3229,7 +3673,8 @@
           "points": {
             "Brave": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Lo aiuto ad alzarsi!"
         },
         {
           "text": "Laugh! It's too funny!",
@@ -3237,9 +3682,11 @@
             "Impish": 4,
             "Naive": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Rido! Che spasso!"
         }
-      ]
+      ],
+      "text_it": "Un tuo amico cade in modo spettacolare! Cosa fai?"
     },
     {
       "id": "28",
@@ -3249,21 +3696,25 @@
           "text": "Study all night long.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Passo la notte a studiare"
         },
         {
           "text": "Wing it! I'm sure I'll be fine!",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Improvviso! Andrà tutto bene!"
         },
         {
           "text": "Test?! I think I have a fever...",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Verifica?! Non mi sento bene..."
         }
-      ]
+      ],
+      "text_it": "Domani hai una verifica molto importante! Cosa fa?"
     },
     {
       "id": "29",
@@ -3274,15 +3725,18 @@
           "points": {
             "Rash": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "No."
         }
-      ]
+      ],
+      "text_it": "Ti è mai capitato di chiamare la maestra \"Mamma\" o \"Papà\"?"
     },
     {
       "id": "30",
@@ -3293,7 +3747,8 @@
           "points": {
             "Docile": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Aaargh! Cha paura!"
         },
         {
           "text": "Go in there anyway.",
@@ -3301,9 +3756,11 @@
             "Jolly": 4,
             "Relaxed": 2,
             "Bold": 2
-          }
+          },
+          "text_it": "Ci vado comunque."
         }
-      ]
+      ],
+      "text_it": "Dicono che nei bagni della scuola siano infestati da un fantasma! Cosa fai?"
     },
     {
       "id": "31",
@@ -3314,21 +3771,25 @@
           "points": {
             "Brave": 4,
             "Bold": 4
-          }
+          },
+          "text_it": "Chiedo il permesso."
         },
         {
           "text": "Sneak out.",
           "points": {
             "Hasty": 2
-          }
+          },
+          "text_it": "Ci vado di nascosto."
         },
         {
           "text": "Hold on until class ends!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Aspetto la fine dell'ora!"
         }
-      ]
+      ],
+      "text_it": "Sei in classe e ti scappa da matti! Cosa fai?"
     },
     {
       "id": "32",
@@ -3338,22 +3799,26 @@
           "text": "Yes.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Naive": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "No."
         },
         {
           "text": "Well, I never lose at sports!",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "In educazione fisica sono forte!"
         }
-      ]
+      ],
+      "text_it": "Pensi di dedicarti allo studio con dedizione?"
     },
     {
       "id": "33",
@@ -3363,28 +3828,33 @@
           "text": "Working hard, every day.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Lavoro sodo ogni giorno."
         },
         {
           "text": "If I remember to...",
           "points": {
             "Quirky": 4,
             "Hasty": 2
-          }
+          },
+          "text_it": "Se mi ricordo..."
         },
         {
           "text": "I just cover what I need to do.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Faccio solo lo stretto necessario."
         },
         {
           "text": "I can't really do it alone...",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Non riesco a studiare da solo..."
         }
-      ]
+      ],
+      "text_it": "Come studi di solito?"
     },
     {
       "id": "34",
@@ -3394,46 +3864,54 @@
           "text": "Eat just a tiny bit.",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Ne mangio un pochino."
         },
         {
           "text": "Hold myself back and pack it all up.",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Resisto senza toccarli."
         },
         {
           "text": "What snacks? They're in my belly!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Me li sbaffo tutti!"
         }
-      ]
+      ],
+      "text_it": "Stai mettendo via le merende della classe quando ti viene fame. Cosa fai?"
     },
     {
       "id": "35",
-      "text": "You see a cake that's past its expiration date, but only by 1 day. What do you do?",
+      "text": "You see a cake that's past its expiration date, but only by one day. What do you do?",
       "answers": [
         {
           "text": "Not a problem! Chow time!",
           "points": {
             "Brave": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Me la mangio!"
         },
         {
           "text": "Think about it briefly, then decide.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Ci penso e poi decido."
         },
         {
           "text": "Get someone to try it first.",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Prima la offro ad un altro."
         }
-      ]
+      ],
+      "text_it": "Vedi una torta scaduta da un giorno solo. Cosa fai?"
     },
     {
       "id": "36",
@@ -3444,13 +3922,15 @@
           "points": {
             "Hasty": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Lo mangio anche se sono pieno."
         },
         {
           "text": "Turn it down. It's too fattening!",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Non lo mangio. Fa ingrassare!"
         },
         {
           "text": "Yum! I love dessert the most!",
@@ -3458,9 +3938,11 @@
             "Bold": 4,
             "Jolly": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Wow! Adoro i dolci!"
         }
-      ]
+      ],
+      "text_it": "Ti sei appena abbuffato, ma arriva un dolce squisito. Cosa fai?"
     },
     {
       "id": "37",
@@ -3471,23 +3953,27 @@
           "points": {
             "Brave": 2,
             "Quiet": 2
-          }
+          },
+          "text_it": "\"Terribile!\""
         },
         {
           "text": "Just smile.",
           "points": {
             "Calm": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Sorrido."
         },
         {
           "text": "\"Um... it's good...\"",
           "points": {
             "Rash": 2,
             "Timid": 2
-          }
+          },
+          "text_it": "\"Ehm... è buono...\""
         }
-      ]
+      ],
+      "text_it": "Un amico ti ha preparato un piatto terribile e ti chiede com'è. Tu dici..."
     },
     {
       "id": "38",
@@ -3498,21 +3984,25 @@
           "points": {
             "Impish": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "Bistecca alla griglia."
         },
         {
           "text": "Healthy fish.",
           "points": {
             "Hardy": 2
-          }
+          },
+          "text_it": "Pesce fresco."
         },
         {
           "text": "Anything! It's all good!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Va bene tutto! È tutto buono!"
         }
-      ]
+      ],
+      "text_it": "Sei in un ristorante di lusso famoso per la sua cucina. Cosa ordini?"
     },
     {
       "id": "39",
@@ -3523,22 +4013,26 @@
           "points": {
             "Bold": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Non lo dico a nessuno."
         },
         {
           "text": "Let everyone know.",
           "points": {
             "Rash": 4,
             "Docile": 4
-          }
+          },
+          "text_it": "Lo dico a tutti."
         },
         {
           "text": "First come, first served!",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "Chi prima arriva meglio alloggia!"
         }
-      ]
+      ],
+      "text_it": "State dividendo un dolce e ne avanza una fetta. Cosa fai?"
     },
     {
       "id": "40",
@@ -3548,21 +4042,25 @@
           "text": "I'm there!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Ci sono!"
         },
         {
           "text": "Allow me.",
           "points": {
             "Jolly": 4
-          }
+          },
+          "text_it": "Offro io."
         },
         {
           "text": "Thanks...",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Grazie..."
         }
-      ]
+      ],
+      "text_it": "Un amico vuole offrirti la cena. Cosa fai?"
     },
     {
       "id": "41",
@@ -3573,23 +4071,27 @@
           "points": {
             "Brave": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Niente di niente."
         },
         {
           "text": "Laugh along.",
           "points": {
             "Lonely": 4,
             "Timid": 2
-          }
+          },
+          "text_it": "Rido con loro."
         },
         {
           "text": "It depends on the situation.",
           "points": {
             "Quiet": 2,
             "Quirky": 2
-          }
+          },
+          "text_it": "Dipende."
         }
-      ]
+      ],
+      "text_it": "Attorno a te si stanno sbellicando dalle risate per qualcosa che tu trovi piuttosto noioso. Cosa fai?"
     },
     {
       "id": "42",
@@ -3600,21 +4102,25 @@
           "points": {
             "Lonely": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Avere molto da fare."
         },
         {
           "text": "Free time!",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "Avere molto tempo libero!"
         },
         {
           "text": "In between.",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Una via di mezzo."
         }
-      ]
+      ],
+      "text_it": "Preferisci avere molto da fare o avere molto tempo libero?"
     },
     {
       "id": "43",
@@ -3624,22 +4130,26 @@
           "text": "Whatever.",
           "points": {
             "Calm": 4
-          }
+          },
+          "text_it": "Pazienza."
         },
         {
           "text": "Annoyed. I was here first!",
           "points": {
             "Jolly": 4,
             "Relaxed": 4
-          }
+          },
+          "text_it": "Che rabbia! C'ero prima io!"
         },
         {
           "text": "I shed a few tears.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Piagnucolo."
         }
-      ]
+      ],
+      "text_it": "Stai per comprare un gioco famoso quando qualcuno prende l'ultima copia! Come ti senti?"
     },
     {
       "id": "44",
@@ -3649,21 +4159,25 @@
           "text": "Make small talk.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Parlo del più e del meno."
         },
         {
           "text": "Say nothing!",
           "points": {
             "Quirky": 2
-          }
+          },
+          "text_it": "Non dico una parola!"
         },
         {
           "text": "Make an excuse to get away!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Me ne vado con una scusa!"
         }
-      ]
+      ],
+      "text_it": "Incontri una persona con cui non hai parlato molto. Cosa fai?"
     },
     {
       "id": "45",
@@ -3673,22 +4187,26 @@
           "text": "The good news.",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "La buona notizia."
         },
         {
           "text": "The bad news.",
           "points": {
             "Naive": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "La cattiva notizia."
         },
         {
           "text": "I don't want either.",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Nessuna delle due."
         }
-      ]
+      ],
+      "text_it": "Ho una notizia buona e una cattiva... quale vuoi sentire prima?"
     },
     {
       "id": "46",
@@ -3698,28 +4216,33 @@
           "text": "Don't do that! You scared me!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Smettila! Mi hai spaventato!"
         },
         {
           "text": "OK, I admit it. You tricked me.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Ok, me l'hai fatta!"
         },
         {
           "text": "No way. I didn't fall for it.",
           "points": {
             "Lonely": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "No, non ci casco."
         },
         {
           "text": "Huh?! What?",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Eh?! Cosa?"
         }
-      ]
+      ],
+      "text_it": "Ehi, guarda! C'è qualcuno dietro di te! Allora... hai guardato?"
     },
     {
       "id": "47",
@@ -3730,22 +4253,26 @@
           "points": {
             "Brave": 4,
             "Impish": 4
-          }
+          },
+          "text_it": "Sempre di fretta!"
         },
         {
           "text": "Always perfect.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Sempre perfetta."
         },
         {
           "text": "They are OK.",
           "points": {
             "Timid": 4,
             "Docile": 2
-          }
+          },
+          "text_it": "Tutto ok."
         }
-      ]
+      ],
+      "text_it": "Come va la mattina?"
     },
     {
       "id": "48",
@@ -3756,22 +4283,26 @@
           "points": {
             "Lonely": 4,
             "Docile": 4
-          }
+          },
+          "text_it": "È successo qualcosa?"
         },
         {
           "text": "Maybe I have the day wrong?",
           "points": {
             "Jolly": 4,
             "Relaxed": 4
-          }
+          },
+          "text_it": "Ho sbagliato giorno?"
         },
         {
           "text": "Let's get this party started!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Che la festa cominci!"
         }
-      ]
+      ],
+      "text_it": "Sei stato invitato a una festa grandiosa. È ora di iniziare, ma non c'è nessuno! Cosa pensi?"
     },
     {
       "id": "49",
@@ -3781,21 +4312,25 @@
           "text": "Get embarrassed!",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Mi imbarazzo!"
         },
         {
           "text": "Again?!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Di nuovo?!"
         },
         {
           "text": "I meant to do that!",
           "points": {
             "Jolly": 4
-          }
+          },
+          "text_it": "L'ho fatto apposta!"
         }
-      ]
+      ],
+      "text_it": "Ti togli le scarpe e noti che hai i calzini spaiati! Cosa fai?"
     },
     {
       "id": "50",
@@ -3805,22 +4340,26 @@
           "text": "Of course!",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "Nope.",
           "points": {
             "Quirky": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "No."
         },
         {
           "text": "What are those?",
           "points": {
             "Relaxed": 4
-          }
+          },
+          "text_it": "Cosa sono?"
         }
-      ]
+      ],
+      "text_it": "Hai fatto dei buoni propositi per l'anno nuovo?"
     },
     {
       "id": "51",
@@ -3831,22 +4370,26 @@
           "points": {
             "Jolly": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "Mi spancio dalle risate!"
         },
         {
           "text": "Just let it go by...",
           "points": {
             "Impish": 2,
             "Docile": 2
-          }
+          },
+          "text_it": "Faccio finta di niente..."
         },
         {
           "text": "Who was that?!",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "Chi è stato?!"
         }
-      ]
+      ],
+      "text_it": "C'è silenzio assoluto in assemblea, quando senti improvvisamente qualcuno fare una puzza! Come reagisci?"
     },
     {
       "id": "52",
@@ -3857,22 +4400,26 @@
           "points": {
             "Hardy": 4,
             "Brave": 2
-          }
+          },
+          "text_it": "Non mi arrendo!"
         },
         {
           "text": "Just give up.",
           "points": {
             "Quirky": 4
-          }
+          },
+          "text_it": "Rinuncio."
         },
         {
           "text": "Shout, \"START OVER!\"",
           "points": {
             "Bold": 4,
             "Rash": 2
-          }
+          },
+          "text_it": "Grido: \"RICOMINCIAMO!\""
         }
-      ]
+      ],
+      "text_it": "Stai per correre una maratona, ma alla partenza scivoli e sbatti la faccia per terra! Cosa fai?"
     },
     {
       "id": "53",
@@ -3882,21 +4429,25 @@
           "text": "Buy it right away!",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Lo compro subito!"
         },
         {
           "text": "Think about whether I need it.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Penso se mi serve davvero."
         },
         {
           "text": "Demand an even bigger discount!",
           "points": {
             "Bold": 4
-          }
+          },
+          "text_it": "Chiedo uno sconto maggiore!"
         }
-      ]
+      ],
+      "text_it": "Trovi qualcosa a un prezzo stracciato! Cosa fai?"
     },
     {
       "id": "54",
@@ -3907,22 +4458,26 @@
           "points": {
             "Hardy": 4,
             "Brave": 2
-          }
+          },
+          "text_it": "Ci penso io!"
         },
         {
           "text": "Ask someone to help.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Chiedo aiuto a qualcuno."
         },
         {
           "text": "Make someone else do it!",
           "points": {
             "Bold": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Lo faccio fare ad altri!"
         }
-      ]
+      ],
+      "text_it": "Ti è stato chiesto di occuparti di un incarico problematico. Cosa fai?"
     },
     {
       "id": "55",
@@ -3932,22 +4487,26 @@
           "text": "Heartbroken...",
           "points": {
             "Hardy": 4
-          }
+          },
+          "text_it": "Ho il cuore spezzato..."
         },
         {
           "text": "Aaargh!!",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Aaargh!!"
         },
         {
           "text": "Bad timing, I guess...",
           "points": {
             "Bold": 4,
             "Calm": 4
-          }
+          },
+          "text_it": "Che tempismo imperfetto..."
         }
-      ]
+      ],
+      "text_it": "Un giocattolo che hai pagato a prezzo pieno ieri, oggi costa la metà! Come ti senti?"
     },
     {
       "id": "56",
@@ -3958,16 +4517,19 @@
           "points": {
             "Bold": 4,
             "Relaxed": 2
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "Not at all!",
           "points": {
             "Lonely": 4,
             "Hasty": 2
-          }
+          },
+          "text_it": "Per niente!"
         }
-      ]
+      ],
+      "text_it": "Il tuo amico è un po' in ritardo. Va bene lo stesso?"
     },
     {
       "id": "57",
@@ -3978,15 +4540,18 @@
           "points": {
             "Relaxed": 4,
             "Jolly": 2
-          }
+          },
+          "text_it": "Sempre!"
         },
         {
           "text": "Never.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Mai."
         }
-      ]
+      ],
+      "text_it": "Pensi che, nonostante tutto, la vita continua?"
     },
     {
       "id": "58",
@@ -3997,21 +4562,25 @@
           "points": {
             "Hasty": 4,
             "Lonely": 4
-          }
+          },
+          "text_it": "Rispondo subito."
         },
         {
           "text": "Wait a bit before answering.",
           "points": {
             "Quiet": 2
-          }
+          },
+          "text_it": "Rispondo dopo un po'."
         },
         {
           "text": "Ignore it and let it ring.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Lo ignoro."
         }
-      ]
+      ],
+      "text_it": "Il telefono sta suonando! Cosa fai?"
     },
     {
       "id": "59",
@@ -4021,21 +4590,25 @@
           "text": "I want to go too!",
           "points": {
             "Naive": 4
-          }
+          },
+          "text_it": "Voglio esserci anch'io!"
         },
         {
           "text": "No big deal.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Niente di imperdibile."
         },
         {
           "text": "Will they invite me?",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Mi inviteranno?"
         }
-      ]
+      ],
+      "text_it": "Il tuo amico sta organizzando un'uscita, ma non riesci a sentire bene. Cosa pensi?"
     },
     {
       "id": "60",
@@ -4046,21 +4619,25 @@
           "points": {
             "Bold": 4,
             "Quiet": 4
-          }
+          },
+          "text_it": "Sì."
         },
         {
           "text": "No.",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "No."
         },
         {
           "text": "I don't know.",
           "points": {
             "Docile": 4
-          }
+          },
+          "text_it": "Non lo so."
         }
-      ]
+      ],
+      "text_it": "Pensi che sia importante farsi aspettare un po'?"
     },
     {
       "id": "61",
@@ -4071,21 +4648,25 @@
           "points": {
             "Naive": 4,
             "Jolly": 2
-          }
+          },
+          "text_it": "Evviva!"
         },
         {
           "text": "I can't believe it...",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non ci posso credere..."
         },
         {
           "text": "This is my little secret.",
           "points": {
             "Quiet": 4
-          }
+          },
+          "text_it": "È il mio piccolo segreto."
         }
-      ]
+      ],
+      "text_it": "Hai vinto alla lotteria! Cosa dici?"
     },
     {
       "id": "62",
@@ -4096,15 +4677,18 @@
           "points": {
             "Quiet": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Certamente!"
         },
         {
           "text": "No way!",
           "points": {
             "Brave": 4
-          }
+          },
+          "text_it": "No!"
         }
-      ]
+      ],
+      "text_it": "Pensi che a volte sia necessario dare la colpa a qualcun altro per qualcosa che hai fatto tu?"
     },
     {
       "id": "63",
@@ -4114,21 +4698,25 @@
           "text": "Maybe they're sick.",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Forse non sta bene."
         },
         {
           "text": "They're lost in thought.",
           "points": {
             "Quiet": 4
-          }
+          },
+          "text_it": "Ha altre cose per la testa."
         },
         {
           "text": "What?! Why?!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Ma come? Perché?!"
         }
-      ]
+      ],
+      "text_it": "Improvvisamente un tuo amico non ti vuole più sentire. Eppure fino a ieri andava tutto bene. Cosa è successo?"
     },
     {
       "id": "64",
@@ -4138,22 +4726,26 @@
           "text": "Try and hide.",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Cerco di nascondermi."
         },
         {
           "text": "Think of an excuse.",
           "points": {
             "Naive": 4,
             "Sassy": 2
-          }
+          },
+          "text_it": "Invento una scusa."
         },
         {
           "text": "Drop down and play dead!",
           "points": {
             "Rash": 4
-          }
+          },
+          "text_it": "Mi nascondo!"
         }
-      ]
+      ],
+      "text_it": "Hai fallito miseramente! Lo sanno tutti e sono delusi da te... Cosa fai?"
     },
     {
       "id": "65",
@@ -4164,14 +4756,16 @@
           "points": {
             "Jolly": 4,
             "Quiet": 2
-          }
+          },
+          "text_it": "Lo dimostro giocando insieme."
         },
         {
           "text": "Make it obvious by... playing a prank!",
           "points": {
             "Lonely": 4,
             "Naive": 2
-          }
+          },
+          "text_it": "Lo faccio capire... facendogli uno scherzo!"
         },
         {
           "text": "State it clearly for all to hear!",
@@ -4179,15 +4773,18 @@
             "Brave": 2,
             "Impish": 2,
             "Bold": 2
-          }
+          },
+          "text_it": "Lo urlo a tutto il mondo!"
         },
         {
           "text": "Keep it to myself! It's too risky!",
           "points": {
             "Timid": 2
-          }
+          },
+          "text_it": "Non dico niente! E' troppo rischioso!"
         }
-      ]
+      ],
+      "text_it": "Vuoi far sapere a qualcuno che ti piace un sacco! Cosa fai?"
     },
     {
       "id": "66",
@@ -4197,23 +4794,27 @@
           "text": "Stay on the sidelines.",
           "points": {
             "Calm": 2
-          }
+          },
+          "text_it": "Faccio finta di nulla."
         },
         {
           "text": "Sing along!",
           "points": {
             "Jolly": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "Mi unisco al coro!"
         },
         {
           "text": "Walk away.",
           "points": {
             "Sassy": 4,
             "Lonely": 2
-          }
+          },
+          "text_it": "Me ne vado via."
         }
-      ]
+      ],
+      "text_it": "Al tavolo vicino stanno cantando \"Tanti auguri\". Cosa fai?"
     },
     {
       "id": "67",
@@ -4223,23 +4824,27 @@
           "text": "Run away! How embarrassing!",
           "points": {
             "Timid": 4
-          }
+          },
+          "text_it": "Scappo! Che imbarazzo!"
         },
         {
           "text": "Answer questions properly.",
           "points": {
             "Brave": 4,
             "Sassy": 4
-          }
+          },
+          "text_it": "Rispondo alle domande."
         },
         {
           "text": "Yuck it up! Woo-hoo! I'm on TV!",
           "points": {
             "Naive": 4,
             "Bold": 2
-          }
+          },
+          "text_it": "Wow! Sono in TV!"
         }
-      ]
+      ],
+      "text_it": "Stai passeggiando quando una troupe TV ti salta addosso per un'intervista! Cosa fai?"
     },
     {
       "id": "68",
@@ -4250,21 +4855,25 @@
           "points": {
             "Hasty": 2,
             "Sassy": 2
-          }
+          },
+          "text_it": "Ci salto sopra!"
         },
         {
           "text": "Belly flop!",
           "points": {
             "Impish": 4
-          }
+          },
+          "text_it": "Mi distendo!"
         },
         {
           "text": "Curl up.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Mi raggomitolo."
         }
-      ]
+      ],
+      "text_it": "Vedi un grosso letto che ha tutta l'aria di essere comodo. La tua prima reazione è..."
     },
     {
       "id": "69",
@@ -4274,13 +4883,15 @@
           "text": "Get mad.",
           "points": {
             "Hasty": 4
-          }
+          },
+          "text_it": "Mi arrabbio!"
         },
         {
           "text": "Get sad.",
           "points": {
             "Lonely": 4
-          }
+          },
+          "text_it": "Divento triste."
         },
         {
           "text": "Woo-hoo! Water fight!",
@@ -4288,9 +4899,11 @@
             "Impish": 4,
             "Jolly": 4,
             "Naive": 4
-          }
+          },
+          "text_it": "Evvai! Gavettoni!"
         }
-      ]
+      ],
+      "text_it": "Stai sognando a occhi aperti... quando un tuo amico ti spruzza addosso dell'acqua! Cosa fai?"
     },
     {
       "id": "70",
@@ -4300,27 +4913,32 @@
           "text": "Wait until I get home to open it.",
           "points": {
             "Docile": 2
-          }
+          },
+          "text_it": "Aspetto di essere a casa per aprirla."
         },
         {
           "text": "Shake it!",
           "points": {
             "Naive": 2
-          }
+          },
+          "text_it": "La scuoto!"
         },
         {
           "text": "Open it!",
           "points": {
             "Rash": 2
-          }
+          },
+          "text_it": "Lo apro!"
         },
         {
           "text": "It's smaller than everyone else's...",
           "points": {
             "Lonely": 2
-          }
+          },
+          "text_it": "È più piccola di quella degli altri..."
         }
-      ]
+      ],
+      "text_it": "Ti hanno dato una busta grossa come souvenir. Cosa fai?"
     }
   ]
 }

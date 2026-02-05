@@ -2,9 +2,12 @@ import { useState, useEffect, useMemo } from 'react';
 import { loadData, GAME_VERSIONS, getTargetNature, solveQuiz } from './utils/data';
 import PokemonSelector from './components/PokemonSelector';
 import QuestionCard from './components/QuestionCard';
+import LanguageSelector from './components/LanguageSelector';
+import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 import './App.css';
 
-function App() {
+function InnerApp() {
+  const { language, t, translateNature, translateGame } = useLanguage();
   const [data, setData] = useState({ starters: null, questions: null });
   const [game, setGame] = useState(GAME_VERSIONS[0].id);
   const [pokemon, setPokemon] = useState(null);
@@ -53,25 +56,42 @@ function App() {
   const filteredQuestions = useMemo(() => {
     if (!searchQuery) return solvedQuestions;
     const lowerQuery = searchQuery.toLowerCase();
-    return solvedQuestions.filter(q =>
-      q.text.toLowerCase().includes(lowerQuery) ||
-      q.answers.some(a => a.text.toLowerCase().includes(lowerQuery))
-    );
-  }, [solvedQuestions, searchQuery]);
+
+    return solvedQuestions.filter(q => {
+      if (language === 'it') {
+        return (
+          (q.text_it && q.text_it.toLowerCase().includes(lowerQuery)) ||
+          q.answers.some(a => a.text_it && a.text_it.toLowerCase().includes(lowerQuery))
+        );
+      }
+      // Default to English
+      return (
+        q.text.toLowerCase().includes(lowerQuery) ||
+        q.answers.some(a => a.text.toLowerCase().includes(lowerQuery))
+      );
+    });
+  }, [solvedQuestions, searchQuery, language]);
 
   if (!isLoaded) {
-    return <div className="min-h-screen bg-dungeon-dark flex items-center justify-center text-dungeon-accent animate-pulse">Loading Grimoire...</div>;
+    return <div className="min-h-screen bg-dungeon-dark flex items-center justify-center text-dungeon-accent animate-pulse">{t('loading')}</div>;
   }
 
   return (
     <div className="min-h-screen bg-dungeon-dark text-dungeon-text p-2 pb-10">
 
       {/* Header */}
-      <header className="max-w-4xl mx-auto mb-8 text-center pt-2">
-        <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-dungeon-accent to-yellow-200 bg-clip-text text-transparent mb-1">
-          PMD REVERSE QUIZ
-        </h1>
-        <p className="text-gray-400 text-sm">Get your favorite Pokémon in Mystery Dungeon!</p>
+      <header className="max-w-4xl mx-auto mb-8 relative flex flex-col md:block">
+        {/* Language Toggle */}
+        <div className="self-end mb-2 md:absolute md:top-4 md:right-0 md:mb-0 z-10">
+          <LanguageSelector />
+        </div>
+
+        <div className="text-center pt-2">
+          <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-dungeon-accent to-yellow-200 bg-clip-text text-transparent mb-1">
+            {t('title')}
+          </h1>
+          <p className="text-gray-400 text-sm">{t('subtitle')}</p>
+        </div>
       </header>
 
       <main className="max-w-4xl mx-auto space-y-4">
@@ -83,7 +103,7 @@ function App() {
 
               {/* Game Version */}
               <div className="w-full">
-                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Game Version</label>
+                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">{t('gameVersion')}</label>
                 <div className="relative">
                   <select
                     value={game}
@@ -91,7 +111,7 @@ function App() {
                     className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
                   >
                     {GAME_VERSIONS.map(v => (
-                      <option key={v.id} value={v.id}>{v.label}</option>
+                      <option key={v.id} value={v.id}>{translateGame(v.id)}</option>
                     ))}
                   </select>
                   <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-dungeon-accent">
@@ -102,7 +122,7 @@ function App() {
 
               {/* Gender Selection */}
               <div className="w-full">
-                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">Gender</label>
+                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">{t('gender')}</label>
                 <div className="flex bg-black/30 p-1 rounded-lg w-full">
                   {['Male', 'Female'].map(g => {
                     const isSelected = gender === g;
@@ -123,7 +143,7 @@ function App() {
                           flex-1 h-9 md:h-11 rounded-md flex items-center justify-center text-lg md:text-xl font-bold transition-all
                           ${isSelected ? activeStyle : inactiveStyle}
                         `}
-                        title={g}
+                        title={isMale ? t('male') : t('female')}
                       >
                         {isMale ? '♂' : '♀'}
                       </button>
@@ -137,7 +157,7 @@ function App() {
 
           {/* Step 2: Pokemon Selection */}
           <section className="w-full md:w-[65%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl flex flex-col">
-            <label className="block text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">Choose Target Pokémon</label>
+            <label className="block text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">{t('targetPokemon')}</label>
             <div className="flex-1 flex flex-col">
               <PokemonSelector
                 pokemonList={availablePokemon}
@@ -157,14 +177,14 @@ function App() {
               <div className="flex items-center gap-4">
 
                 <div>
-                  <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Target Nature</h2>
+                  <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">{t('targetNature')}</h2>
                   {targetNature ? (
                     <div className="text-3xl font-black text-dungeon-accent drop-shadow-[0_0_8px_rgba(255,203,5,0.6)]">
-                      {targetNature}
+                      {translateNature(targetNature)}
                     </div>
                   ) : (
                     <div className="text-xl font-bold text-red-400">
-                      Not Available
+                      {t('notAvailable')}
                     </div>
                   )}
                 </div>
@@ -174,7 +194,7 @@ function App() {
               <div className="relative w-full md:w-64">
                 <input
                   type="text"
-                  placeholder="Search questions..."
+                  placeholder={t('searchQuestions')}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full bg-black/40 border border-white/10 rounded-full py-2 px-4 pl-10 text-sm text-white focus:outline-none focus:border-dungeon-accent/50 focus:ring-1 focus:ring-dungeon-accent/50 transition-all placeholder-gray-600"
@@ -191,7 +211,7 @@ function App() {
                   <QuestionCard key={q.id} question={q} targetNature={targetNature} />
                 ))
               ) : (
-                <div className="text-center py-8 text-gray-500 italic">No matching questions found.</div>
+                <div className="text-center py-8 text-gray-500 italic">{t('noQuestions')}</div>
               )}
             </div>
           </section>
@@ -206,12 +226,20 @@ function App() {
           rel="noopener noreferrer"
           className="hover:text-dungeon-accent transition-colors duration-300"
         >
-          &copy; {new Date().getFullYear()} Maurizio Falconi - falker47
+          &copy; {new Date().getFullYear()} {t('footerText')}
         </a>
       </footer>
 
     </div>
-  )
+  );
 }
 
-export default App
+function App() {
+  return (
+    <LanguageProvider>
+      <InnerApp />
+    </LanguageProvider>
+  );
+}
+
+export default App;

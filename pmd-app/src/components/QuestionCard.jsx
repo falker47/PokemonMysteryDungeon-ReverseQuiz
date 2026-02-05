@@ -1,11 +1,13 @@
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
+import { translate } from '../utils/translation';
 
 export default function QuestionCard({ question, targetNature }) {
-
+    const { language, translateNature } = useLanguage();
 
     return (
         <div className="bg-dungeon-panel border border-white/10 rounded-lg p-3 mb-2 shadow-sm break-inside-avoid">
-            <h3 className="text-sm font-semibold text-white mb-2">{question.text}</h3>
+            <h3 className="text-sm font-semibold text-white mb-2">{translate(question, language)}</h3>
             <div className="space-y-1">
                 {question.answers.map((answer, idx) => (
                     <div
@@ -18,7 +20,7 @@ export default function QuestionCard({ question, targetNature }) {
                             }
             `}
                     >
-                        <span>{answer.text}</span>
+                        <span>{translate(answer, language)}</span>
                         <div className="flex gap-1 flex-wrap justify-end max-w-[70%]">
                             {Object.entries(answer.points || {})
                                 .filter(([, score]) => score > 0)
@@ -37,7 +39,7 @@ export default function QuestionCard({ question, targetNature }) {
                                                 : 'bg-gray-700 text-gray-400'
                                                 }`}
                                         >
-                                            +{score} {nature}
+                                            +{score} {translateNature(nature)}
                                         </span>
                                     );
                                 })}
