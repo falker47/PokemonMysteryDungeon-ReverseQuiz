@@ -1,0 +1,661 @@
+Questions
+The game always starts off with:
+
+"Did you play Explorers of Time or Explorers of Darkness?"
+This does not give any personality points by itself, but if "Yes" is answered, certain Natures will have points added to them after the player has chosen their gender. These correspond to the new choices of Pokémon available in Explorers of Sky - Phanpy, Shinx, and Riolu if male; Vulpix and Eevee if female.
+
+Additionally, the following Pokémon's base recruit rate will be doubled as long as the player has not recruited them already. Most of these can be found in dungeons found at various points of the main story; Pokémon marked with a dagger (†) can be recruited only after the credits roll, while Feraligatr (§) has special conditions. Furthermore, Porygon2, Rampardos, Bastiodon and Bronzong internally use these doubled rates, but cannot be found in any dungeons that allow for recruitment.
+
+Afterwards, 8 of the following questions will be asked at random. After these questions, the player will be asked for their gender.
+
+Have you ever blurted something out without thinking about the consequences first?
+
+Yes.
++4 Lonely, +4 Rash
+
+No.
++2 Hardy
+
+Do you want to be taller someday?
+
+Totally!
++4 Sassy
+
+Of course not.
++2 Calm
+
+Once you've decided something, do you see it through to the end?
+
+Yes.
++4 Hardy
+
+No.
++2 Hasty, +4 Quirky.
+
+Have you ever said "Nice to meet you" to someone you met previously?
+
+Yes.
++4 Quirky, +4 Rash
+
+No.
++2 Calm
+
+You're at a movie theater. What are you there to see?
+
+An action movie.
++4 Impish, +2 Sassy
+
+A drama.
++4 Hardy
+
+A romantic movie.
++4 Quirky
+
+Have you ever looked at your reflection in their mirror and thought, "What a cool person!"?
+
+Certainly!
++4 Sassy, +2 Jolly, +2 Naive
+
+Well, not really...
++2 Hardy
+
+Have you ever thought that if you dug into your backyard, you would find a buried treasure?
+
+Yes.
++4 Naive
+
+No.
++2 Quiet
+
+Do you prefer to play outside rather than inside?
+
+Yes.
++4 Impish, +4 Rash
+
+No.
++2 Calm
+
+You discover a beat-up looking treasure chest in some ruins. What do you do?
+
+Open it!
++4 Brave, +4 Impish, +4 Hasty, +2 Rash
+
+Get help opening it.
++2 Timid
+
+Have you ever realized you were hogging the conversation?
+
+Yes.
++4 Hasty, +4 Rash.
+
+No.
++2 Docile, +2 Quiet
+
+When you see a switch, do you have an overwhelming urge to flip it?
+
+Yes.
++4 Hasty
+
+No.
++2 Calm
+
+Have you ever forgotten you bought something and bought another one?
+
+Yes.
++4 Quirky, +2 Hasty, +2 Rash
+
+No.
++2 Quiet
+
+Do you think it's important to always aim to be the best?
+
+Of course!
++4 Sassy, +2 Lonely
+
+No.
++4 Calm, +2 Quirky
+
+Do you want to be famous?
+
+Yes.
++4 Lonely, +4 Sassy
+
+No.
++2 Relaxed
+
+If you saw someone do something bad, could you scold them?
+
+Of course!
++4 Brave, +4 Sassy, +2 Bold
+
+Not really...
++2 Timid
+
+Have you ever told a joke that just completely fell flat?
+
+Yes.
++4 Naive, +2 Impish
+
+No.
++4 Calm
+
+Do you like lively parties?
+
+Yes.
++4 Jolly, +2 Lonely
+
+No.
++2 Quiet
+
+Are you truly sincere when you apologize?
+
+Of course!
++4 Docile, +2 Bold
+
+That's not easy to admit!
++4 Timid, +2 Lonely
+
+Do you like karaoke?
+
+Yes.
++4 Jolly, +4 Bold
+
+No.
++2 Docile, +2 Timid
+
+You're hiking up a mountain when you reach diverging paths. Which path do you take?
+
+Narrow.
++4 Impish, +2 Naive
+
+Wide.
++4 Quirky, +2 Timid
+
+Your friend takes a spectacular fall! What do you do?
+
+Help my friend up!
++4 Brave, +2 Lonely
+
+Laugh! It's too funny!
++4 Impish, +4 Naive, +2 Rash
+
+You have a really important test tomorrow! What do you do?
+
+Study all night long.
++4 Hardy
+
+Wing it! I'm sure I'll be fine!
++4 Relaxed
+
+Test?! I think I have a fever...
++4 Naive
+
+Have you ever accidentally called a teacher "Mom" or "Dad"?
+
+Yes.
++4 Rash, +2 Bold
+
+No.
++2 Quiet
+
+There's a rumor there's a ghost haunting the school bathrooms! What do you do?
+
+Scary... bathrooms!
++4 Docile, +2 Timid
+
+Go in there anyway.
++4 Jolly, +2 Relaxed, +2 Bold
+
+You're in class when you realize you really have to go to the restroom! What do you do?
+
+Ask for permission.
++4 Brave, +4 Bold
+
+Sneak out.
++2 Hasty
+
+Hold on until class ends!
++2 Timid
+
+Do you think you have good study habits?
+
+Yes.
++4 Docile
+
+No.
++4 Naive, +2 Rash
+
+Well, I never lose at sports!
++4 Impish
+
+What's your studying style?
+
+Working hard, every day.
++4 Hardy
+
+If I remember to...
++4 Quirky, +2 Hasty
+
+I just cover what I need to do.
++2 Quiet
+
+I can't really do it alone...
++4 Lonely
+
+You're packing your classroom's snacks when you get hungry! What do you do?
+
+Eat just a tiny bit.
++4 Hasty
+
+Hold myself back and pack it all up.
++4 Hardy
+
+What snacks? They're in my belly!
++4 Rash
+
+You see a cake that's past its expiration date, but only by 1 day. What do you do?
+
+Not a problem! Chow time!
++4 Brave, +2 Relaxed
+
+Think about it briefly, then decide.
++2 Timid
+
+Get someone to try it first.
++4 Bold
+
+You've stuffed yourself with a good meal when a great dessert arrives. What do you do?
+
+Eat it. Who cares if I'm stuffed?
++4 Hasty, +2 Rash
+
+Turn it down. It's too fattening!
++2 Hardy
+
+Yum! I love dessert the most!
++4 Bold, +4 Jolly, +2 Relaxed
+
+Your friend made a meal that tastes terrible. They ask, "How is it?". You say...?
+
+"Terrible!"
++2 Brave, +2 Quiet
+
+Just smile.
++4 Calm, +2 Lonely
+
+"Um... it's good..."
++2 Rash, +2 Timid
+
+You're eating at a very fancy restaurant known for its food. Which course do you select?
+
+Seared steak.
++4 Impish, +4 Naive
+
+Healthy fish.
++2 Hardy
+
+Anything! It's all good!
++4 Bold
+
+Everyone's sharing a dessert, and there's an extra piece. What do you do?
+
+Don't tell anyone.
++4 Bold, +2 Timid
+
+Let everyone know.
++4 Rash, +4 Docile
+
+First come, first served!
++4 Impish
+
+Your friend offers to treat you to dinner. What do you do?
+
+I'm there!
++4 Bold
+
+Allow me.
++4 Jolly
+
+Thanks...
++4 Quirky
+
+Everyone around you is laughing at something you think is pretty boring. What do you do?
+
+Nothing, really.
++4 Brave, +2 Bold
+
+Laugh along.
++4 Lonely, +2 Timid
+
+It depends on the situation.
++2 Quiet, +2 Quirky
+
+Do you prefer being busy or having a lot of free time?
+
+Being busy.
++4 Lonely, +2 Sassy
+
+Free time!
++4 Calm
+
+In between.
++4 Quirky
+
+You're about to buy a popular game when someone else gets the last copy! How do you feel?
+
+Whatever.
++4 Calm
+
+Annoyed. I was here first!
++4 Jolly, +4 Relaxed
+
+I shed a few tears.
++4 Lonely
+
+You run into a new person that you haven't talked to very much before. What do you do?
+
+Make small talk.
++2 Calm
+
+Say nothing!
++2 Quirky
+
+Make an excuse to get away!
++4 Timid
+
+Good news and bad news... which one do you want to hear first?
+
+The good news.
++4 Relaxed
+
+The bad news.
++4 Naive, +2 Bold
+
+I don't want either.
++4 Timid
+
+Hey, what's that? There's someone behind you! So... did you look just now?
+
+Don't do that! You scared me!
++4 Timid
+
+OK, I admit it. You tricked me.
++4 Docile
+
+No way. I didn't fall for it.
++4 Lonely, +4 Sassy
+
+Huh?! What?
++4 Relaxed
+
+How are your mornings?
+
+Always in a rush!
++4 Brave, +4 Impish
+
+Always perfect.
++2 Quiet
+
+They are OK.
++4 Timid, +2 Docile
+
+You've been invited to a wonderful party. It's time for the party to start, but there's nobody there! You think...?
+
+Did something happen?
++4 Lonely, +4 Docile
+
+Maybe I have the day wrong?
++4 Jolly, +4 Relaxed
+
+Let's get this party started!
++4 Bold
+
+You take off your shoes to realize your socks are different colors! What do you do?
+
+Get embarrassed!
++4 Docile
+
+Again?!
++4 Rash
+
+I meant to do that!
++4 Jolly
+
+Did you make any New Year's Resolutions?
+
+Of course!
++4 Hardy
+
+Nope.
++4 Quirky, +2 Rash
+
+What are those?
++4 Relaxed
+
+You're in a completely silent assembly when you suddenly hear someone pass gas! How do you react?
+
+Roll on the floor laughing!
++4 Jolly, +4 Naive
+
+Just let it go by...
++2 Impish, +2 Docile
+
+Who was that?!
++4 Brave
+
+You're running a marathon, and at the start you fall flat on your face! What will you do?
+
+I'm not giving up yet!
++4 Hardy, +2 Brave
+
+Just give up.
++4 Quirky
+
+Shout, "START OVER!"
++4 Bold, +2 Rash
+
+You find something at a great bargain price! What do you do?
+
+Buy it right away!
++4 Hasty
+
+Think about whether I need it.
++2 Quiet
+
+Demand an even bigger discount!
++4 Bold
+
+You've been asked to do a difficult task. What will you do?
+
+Do it myself.
++4 Hardy, +2 Brave
+
+Ask someone to help.
++2 Docile
+
+Make someone else do it!
++4 Bold, +2 Sassy
+
+You notice a toy you bought for full price yesterday is marked as half the price today! How do you feel?
+
+Heartbroken...
++4 Hardy
+
+Aaargh!!
++4 Docile
+
+Bad timing, I guess...
++4 Bold, +4 Calm
+
+Your friend is running a little late to meet you. Is that OK?
+
+Yes.
++4 Bold, +2 Relaxed
+
+Not at all!
++4 Lonely, +2 Hasty
+
+Do you think that, no matter what happens, life goes on?
+
+All the time!
++4 Relaxed, +2 Jolly
+
+Never.
++2 Quiet
+
+The phone's ringing! What do you do?
+
+Answer right away!
++4 Hasty, +4 Lonely
+
+Wait a bit before answering.
++2 Quiet
+
+Ignore it and let it ring.
++2 Timid
+
+Your friend seems to be making plans to hang out, just out of earshot. You think...
+
+I want to go too!
++4 Naive
+
+No big deal.
++4 Lonely
+
+Will they invite me?
++2 Timid
+
+Do you think it's important to be fashionably late?
+
+Yes.
++4 Bold, +4 Quiet
+
+No.
++4 Brave
+
+I don't know.
++4 Docile
+
+You've won a big raffle ticket! You say...
+
+Woo-hoo!
++4 Naive, +2 Jolly
+
+I can't believe it...
++2 Timid
+
+This is my little secret.
++4 Quiet
+
+Do you think blaming someone else on something you did is sometimes necessary?
+
+Of course!
++4 Quiet, +4 Sassy
+
+No way!
++4 Brave
+
+Your friend suddenly won't listen to you, when everything was fine yesterday. What do you think?
+
+Maybe they're sick.
++4 Hasty
+
+They're lost in thought.
++4 Quiet
+
+What?! Why?!
++2 Timid
+
+You fail miserably! Everyone found out, and they're disappointed in you... what do you do?
+
+Try and hide.
++2 Timid
+
+Think of an excuse.
++4 Naive, +2 Sassy
+
+Drop down and play dead!
++4 Rash
+
+You want to reveal you like someone a whole bunch! What do you do?
+
+Show it by playing together.
++4 Jolly, +2 Quiet
+
+Make it obvious by... playing a prank!
++4 Lonely, +2 Naive
+
+State it clearly for all to hear!
++2 Brave, +2 Impish, +2 Bold
+
+Keep it to myself! It's too risky!
++2 Timid
+
+The people at the next table are singing for someone's birthday. What do you do?
+
+Stay on the sidelines.
++2 Calm
+
+Sing along!
++4 Jolly, +4 Naive
+
+Walk away.
++4 Sassy, +2 Lonely
+
+You're on a stroll when a TV crew pounces you for an interview! What do you do?
+
+Run away! How embarrassing!
++4 Timid
+
+Answer questions properly.
++4 Brave, +4 Sassy
+
+Yuck it up! Woo-hoo! I'm on TV!
++4 Naive, +2 Bold
+
+You see a big and comfortable bed. Your first reaction is to...
+
+Jump on it!
++2 Hasty, +2 Sassy
+
+Belly flop!
++4 Impish
+
+Curl up.
++4 Lonely
+
+You're daydreaming... when your friend sprays you with water! What do you do?
+
+Get mad.
++4 Hasty
+
+Get sad.
++4 Lonely
+
+Woo-hoo! Water fight!
++4 Impish, +4 Jolly, +4 Naive
+
+You've been handed a large bag as a souvenir. What do you do?
+
+Wait until I get home to open it.
++2 Docile
+
+Shake it!
++2 Naive
+
+Open it!
++2 Rash
+
+It's smaller than everyone else's...
++2 Lonely
+
+Are you a male or a female?
+
+Male.
++4 Relaxed, +4 Hasty, +4 Sassy[Note 1]
+
+Female.
++4 Relaxed, +4 Jolly[Note 1]
+
+ (Only if "Yes" was answered for "Did you play Explorers of Time or Explorers of Darkness?")
+After answering the questions and choosing their gender, the player is asked to place their finger on the Touch Screen to determine the color of their aura; this is used to determine the color of Bow that is included in the Pokémon Exploration Team Kit. In reality, the aura color is decided upon based on either the player's favorite color in the DS system settings (75%) or the DS system's MAC address (25%). Afterwards, the player's Nature and Pokémon are revealed.

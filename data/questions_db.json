@@ -1,0 +1,4326 @@
+{
+  "Red/Blue Rescue Team": [
+    {
+      "id": "1",
+      "text": "Questions",
+      "category": null,
+      "answers": []
+    },
+    {
+      "id": "2",
+      "text": "A test is coming up. How do you study for it?",
+      "category": "Hardy",
+      "answers": [
+        {
+          "text": "Study hard.",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "At the last second.",
+          "points": {
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Ignore it and play.",
+          "points": {
+            "Impish": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "text": "Can you focus on something you like?",
+      "category": "Hardy",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hardy": 2,
+            "Docile": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "When the going gets tough, do you get going?",
+      "category": "Hardy",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hardy": 2,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 2,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "There is a bucket. If you put water in it, how high will you fill it?",
+      "category": "Hardy",
+      "answers": [
+        {
+          "text": "Full.",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Half.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "A little.",
+          "points": {
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "You are offered a choice of two gifts. Which one will you take?",
+      "category": "Docile",
+      "answers": [
+        {
+          "text": "Big box.",
+          "points": {
+            "Docile": 2,
+            "Naive": 1
+          }
+        },
+        {
+          "text": "Small box.",
+          "points": {
+            "Timid": 2,
+            "Calm": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "You broke a rotten egg in your room! What will you do?",
+      "category": "Docile",
+      "answers": [
+        {
+          "text": "Open a window right away.",
+          "points": {
+            "Docile": 2,
+            "Hasty": 1
+          }
+        },
+        {
+          "text": "Take a sniff first.",
+          "points": {
+            "Naive": 2,
+            "Relaxed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "A friend brought over something you'd forgotten. How do you thank your friend?",
+      "category": "Docile",
+      "answers": [
+        {
+          "text": "Say thank you regularly.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Say thanks with a joke.",
+          "points": {
+            "Naive": 1,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "Say thanks, but be cool.",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "There is a wallet at the side of a road.",
+      "category": "Docile",
+      "answers": [
+        {
+          "text": "Turn it in to the police!",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Yay! Yay!",
+          "points": {
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Is anyone watching...?",
+          "points": {
+            "Impish": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "You're going bungee jumping for the first time. Since it's scary, you decide to test the jump with a doll... And the bungee cord snaps! Will you still try to make a jump anyway?",
+      "category": "Brave",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Brave": 3,
+            "Impish": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Docile": 2,
+            "Timid": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "There is an alien invasion! What will you do?",
+      "category": "Brave",
+      "answers": [
+        {
+          "text": "Fight.",
+          "points": {},
+          "next_question": "Do Question #2b"
+        },
+        {
+          "text": "Run.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Ignore it.",
+          "points": {
+            "Relaxed": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "You valiantly fight the aliens... But, you are defeated... An alien says to you... \"YOU HAVE IMPRESSED US. IT WAS A PLEASURE TO SEE. JOIN US, AND TOGETHER WE SHALL RULE THE WORLD.\" What will you do?",
+      "category": "Brave",
+      "answers": [
+        {
+          "text": "Rule with the aliens.",
+          "points": {
+            "Sassy": 1,
+            "Relaxed": 1
+          }
+        },
+        {
+          "text": "Refuse.",
+          "points": {
+            "Brave": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "There is a scream from behind a door! How will you react?",
+      "category": "Brave",
+      "answers": [
+        {
+          "text": "Yank open the door.",
+          "points": {
+            "Hardy": 1,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Scream in unison.",
+          "points": {
+            "Naive": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "A delinquent is hassling a girl on a busy city street! What will you do?",
+      "category": "Brave",
+      "answers": [
+        {
+          "text": "Help without hesitation.",
+          "points": {
+            "Brave": 3
+          }
+        },
+        {
+          "text": "Help, even if scared.",
+          "points": {
+            "Hardy": 2,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Call the police.",
+          "points": {
+            "Docile": 1,
+            "Timid": 1,
+            "Relaxed": 1
+          }
+        },
+        {
+          "text": "Do nothing out of fear.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Are you a cheerful personality?",
+      "category": "Jolly",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Jolly": 2,
+            "Naive": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 1,
+            "Quirky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Do you like to noisily enjoy yourself with others?",
+      "category": "Jolly",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Jolly": 2,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Timid": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "It's the summer holidays! Where would you like to go?",
+      "category": "Jolly",
+      "answers": [
+        {
+          "text": "The beach!",
+          "points": {
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Spas.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Anywhere.",
+          "points": {
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "A foreign person has started up a conversation with you. To be honest, you don't have a clue what this fellow is saying. How do you reply?",
+      "category": "Jolly",
+      "answers": [
+        {
+          "text": "Haha! Yes. Very funny!",
+          "points": {
+            "Jolly": 3
+          }
+        },
+        {
+          "text": "Um... Could you say that again?",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Right... Well, I gotta go.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "Have you ever made a pitfall trap?",
+      "category": "Impish",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Impish": 2,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "Do you like pranks?",
+      "category": "Impish",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Impish": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Docile": 1,
+            "Relaxed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "Are there many things that you would like to do?",
+      "category": "Impish",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hardy": 1,
+            "Impish": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 1,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Your friend is being bullied! What do you do?",
+      "category": "Impish",
+      "answers": [
+        {
+          "text": "Face up to the bully.",
+          "points": {
+            "Brave": 3
+          }
+        },
+        {
+          "text": "Caution the bully from afar.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Heckle the bully from behind.",
+          "points": {
+            "Impish": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "Do you like groan-inducing puns?",
+      "category": "Naive",
+      "answers": [
+        {
+          "text": "Love them!",
+          "points": {
+            "Impish": 1,
+            "Naive": 3
+          }
+        },
+        {
+          "text": "A little.",
+          "points": {
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Spare me.",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Do you tend to laugh a lot?",
+      "category": "Naive",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Docile": 1,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "Do others often call you childish?",
+      "category": "Naive",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Jolly": 1,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "Do you like to imagine things for your amusement?",
+      "category": "Naive",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Naive": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "A human hand extends out of a toilet! What would you do?",
+      "category": "Timid",
+      "answers": [
+        {
+          "text": "Scream and run.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Close the lid without a word.",
+          "points": {
+            "Hardy": 1,
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Shake hands with it.",
+          "points": {
+            "Brave": 2,
+            "Impish": 1,
+            "Naive": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "Grab any digit on your left hand with your right hand. Which digit did you grab?",
+      "category": "Timid",
+      "answers": [
+        {
+          "text": "Thumb.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Index finger.",
+          "points": {
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Middle finger.",
+          "points": {
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Ring finger.",
+          "points": {
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Little finger.",
+          "points": {
+            "Lonely": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "You are suddenly locked inside a pitch-black room! What do you do?",
+      "category": "Timid",
+      "answers": [
+        {
+          "text": "Kick the door.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Cry.",
+          "points": {
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "Clean it.",
+          "points": {
+            "Impish": 2,
+            "Quirky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "Can you go into a haunted house?",
+      "category": "Timid",
+      "answers": [
+        {
+          "text": "No problem!",
+          "points": {
+            "Brave": 3
+          }
+        },
+        {
+          "text": "Uh... N-no...",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "With someone I like.",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "You receive a gift! But you don't know what's in it. You're curious, so what do you do?",
+      "category": "Hasty",
+      "answers": [
+        {
+          "text": "Open it now.",
+          "points": {
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Open it later.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Get someone to open it.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "You win a lottery! What do you do with the money?",
+      "category": "Hasty",
+      "answers": [
+        {
+          "text": "Spend it now.",
+          "points": {
+            "Jolly": 2,
+            "Hasty": 1
+          }
+        },
+        {
+          "text": "Save it.",
+          "points": {
+            "Hardy": 1,
+            "Calm": 1
+          }
+        },
+        {
+          "text": "Give it away.",
+          "points": {
+            "Brave": 2,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "You come across a treasure chest! What do you do?",
+      "category": "Hasty",
+      "answers": [
+        {
+          "text": "Open it right away!",
+          "points": {
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "No... Could be a trap...",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "It's going to be empty...",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Your friend fails to show up for a meeting at the promised time. What do you do?",
+      "category": "Hasty",
+      "answers": [
+        {
+          "text": "Become irritated.",
+          "points": {
+            "Docile": 1,
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Wait patiently.",
+          "points": {
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Get angry and bail.",
+          "points": {
+            "Hasty": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Your country's leader is in front of you. How do you speak to him or her?",
+      "category": "Sassy",
+      "answers": [
+        {
+          "text": "Speak calmly.",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Speak nervously.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "WHATEVER!!",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "Do others tell you to watch what you say?",
+      "category": "Sassy",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Impish": 1,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "Do you think you are cool? Be honest.",
+      "category": "Sassy",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Docile": 2,
+            "Calm": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 2,
+            "Quirky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "Do you occasionally consider yourself dull and overly cautious?",
+      "category": "Calm",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Calm": 2,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Do you dream of lounging around idly without much excitement?",
+      "category": "Calm",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Impish": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Do you like to fight?",
+      "category": "Calm",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Impish": 1,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2,
+            "Lonely": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "Do you often yawn?",
+      "category": "Calm",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Calm": 2,
+            "Relaxed": 1
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 1,
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "Are you often late for school or meetings?",
+      "category": "Relaxed",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Sassy": 1,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2,
+            "Hasty": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Do you get the feeling that you've slowed down lately?",
+      "category": "Relaxed",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Impish": 1,
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "It is a pleasant day at the beach. How do you feel?",
+      "category": "Relaxed",
+      "answers": [
+        {
+          "text": "This feels great!",
+          "points": {
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Snore...",
+          "points": {
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "I want to go home soon!",
+          "points": {
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Do you fall asleep without noticing?",
+      "category": "Relaxed",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Calm": 1,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Do you feel lonesome when you are alone?",
+      "category": "Lonely",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Timid": 1,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "Do you hate to be the last person to leave class at the end of a school day?",
+      "category": "Lonely",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Timid": 1,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Brave": 3,
+            "Relaxed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "What do you do with your room's light when you're going to bed at night?",
+      "category": "Lonely",
+      "answers": [
+        {
+          "text": "Leave it on.",
+          "points": {
+            "Timid": 1,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "Turn it off.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "It's a weekend, but no one will play with you... What do you do?",
+      "category": "Lonely",
+      "answers": [
+        {
+          "text": "Go on a trip.",
+          "points": {
+            "Jolly": 1,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "Hang around vacantly.",
+          "points": {
+            "Calm": 1,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Huddle in a corner.",
+          "points": {
+            "Timid": 1,
+            "Lonely": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "Do you sometimes run out of things to do all of a sudden?",
+      "category": "Quirky",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quirky": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "How quickly do you respond to an e-mail?",
+      "category": "Quirky",
+      "answers": [
+        {
+          "text": "Reply right away.",
+          "points": {
+            "Hardy": 1,
+            "Hasty": 1
+          }
+        },
+        {
+          "text": "May reply, may not.",
+          "points": {
+            "Quirky": 2
+          }
+        },
+        {
+          "text": "Too much trouble.",
+          "points": {
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "There is a person you like... But there's no opportunity to get close. What do you do?",
+      "category": "Quirky",
+      "answers": [
+        {
+          "text": "Bravely declare my love.",
+          "points": {
+            "Hardy": 1,
+            "Brave": 3
+          }
+        },
+        {
+          "text": "Might say hello...",
+          "points": {
+            "Quirky": 2
+          }
+        },
+        {
+          "text": "Pull a prank to get attention.",
+          "points": {
+            "Impish": 2
+          }
+        },
+        {
+          "text": "Look from afar.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "The road forks to the right and left. You are told there is a treasure on the right side. What do you do?",
+      "category": "Quirky",
+      "answers": [
+        {
+          "text": "Instantly go right.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "It's a trap! Go left.",
+          "points": {
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Choose either side.",
+          "points": {
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "On vacation outings, you want to...",
+      "category": "Miscellaneous",
+      "answers": [
+        {
+          "text": "Go alone.",
+          "points": {
+            "Hasty": 1,
+            "Quirky": 1
+          }
+        },
+        {
+          "text": "Go with others.",
+          "points": {
+            "Jolly": 1,
+            "Lonely": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "It's the summer festival! Do you like carnivals?",
+      "category": "Miscellaneous",
+      "answers": [
+        {
+          "text": "Love them!",
+          "points": {
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Don't care.",
+          "points": {
+            "Sassy": 1,
+            "Quirky": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Somebody calls you \"weird but funny.\" How does that make you feel?",
+      "category": "Miscellaneous",
+      "answers": [
+        {
+          "text": "Happy!",
+          "points": {
+            "Naive": 1,
+            "Lonely": 1
+          }
+        },
+        {
+          "text": "Not happy.",
+          "points": {
+            "Hasty": 1,
+            "Sassy": 1
+          }
+        },
+        {
+          "text": "Boy.",
+          "points": {
+            "gender": "Male"
+          }
+        },
+        {
+          "text": "Girl.",
+          "points": {
+            "gender": "Female"
+          }
+        }
+      ]
+    }
+  ],
+  "Explorers of Time/Darkness": [
+    {
+      "id": "1",
+      "text": "Questions",
+      "answers": []
+    },
+    {
+      "id": "2",
+      "text": "8 of the following questions are chosen at random. After these questions, the player will be asked for their gender.",
+      "answers": []
+    },
+    {
+      "id": "3",
+      "text": "Have you ever accidentally revealed a personal secret that someone shared with you?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Rash": 4,
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "text": "What do you do with your allowance?",
+      "answers": [
+        {
+          "text": "Save it!",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "Spend it!",
+          "points": {
+            "Quirky": 4,
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Spend half, save half.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "I don't get an allowance!",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "text": "Would you even consider sticking to a plan to do ten sit-ups a day?",
+      "answers": [
+        {
+          "text": "Yes! That's easy!",
+          "points": {
+            "Impish": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Yes. Hard work, though.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "No! Who'd want to do that?!",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "text": "If you don't know something, do you come clean and admit it?",
+      "answers": [
+        {
+          "text": "Of course.",
+          "points": {
+            "Docile": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "That's not easy to admit!",
+          "points": {
+            "Timid": 4,
+            "Lonely": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "text": "A fortune-teller says that you have a bad future ahead of you. How do you react?",
+      "answers": [
+        {
+          "text": "Worry about it!",
+          "points": {
+            "Docile": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Forget about it.",
+          "points": {
+            "Jolly": 4,
+            "Relaxed": 2,
+            "Bold": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "You hear a rumor that might make you rich! What do you do?",
+      "answers": [
+        {
+          "text": "Keep it all to myself.",
+          "points": {
+            "Bold": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Share it with friends.",
+          "points": {
+            "Docile": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "Spread a different rumor!",
+          "points": {
+            "Impish": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "How do you blow up a balloon?",
+      "answers": [
+        {
+          "text": "As close to breaking as possible!",
+          "points": {
+            "Brave": 4,
+            "Impish": 4
+          }
+        },
+        {
+          "text": "Big...but not too big!",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "I don't...it could pop!",
+          "points": {
+            "Timid": 4,
+            "Docile": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "Do you state your opinion even when it's not what everyone else thinks?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Brave": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Lonely": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "It depends on the situation.",
+          "points": {
+            "Calm": 2,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "You want to reveal that you like someone a whole bunch! What do you do?",
+      "answers": [
+        {
+          "text": "Show it a little by playing together.",
+          "points": {
+            "Jolly": 4,
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Make it obvious...by playing a prank!",
+          "points": {
+            "Lonely": 4,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "State it clearly for all to hear!",
+          "points": {
+            "Brave": 4,
+            "Impish": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "Keep it to myself! It's too risky!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "You're on a stroll when a TV crew pounces on you for an interview. What do you do?",
+      "answers": [
+        {
+          "text": "Run away! How embarrassing!",
+          "points": {
+            "Timid": 4
+          }
+        },
+        {
+          "text": "Answer questions properly.",
+          "points": {
+            "Brave": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "Yuck it up! Woo-hoo! I'm on TV!",
+          "points": {
+            "Naive": 4,
+            "Bold": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "You feel a burst of happiness! How about expressing it with a little dance?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Jolly": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "You see a parade coming down the street. What do you do?",
+      "answers": [
+        {
+          "text": "Stay on the sidelines.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Join the parade!",
+          "points": {
+            "Jolly": 4,
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Walk away.",
+          "points": {
+            "Sassy": 4,
+            "Lonely": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "Your friend tells a joke that's horribly corny! How do you react?",
+      "answers": [
+        {
+          "text": "Roll around the floor laughing!",
+          "points": {
+            "Jolly": 4,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Just let it go by...",
+          "points": {
+            "Impish": 2,
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Slap my forehead and groan.",
+          "points": {
+            "Brave": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Can you strike up conversations with new people easily?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Jolly": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Bold": 4,
+            "Timid": 2,
+            "Docile": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "Do you get injured a lot?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Impish": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "You see a ball on the ground. What do you do?",
+      "answers": [
+        {
+          "text": "Kick it!",
+          "points": {
+            "Hasty": 2,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Throw it!",
+          "points": {
+            "Impish": 4
+          }
+        },
+        {
+          "text": "Spiff it up, shiny and new!",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "What do you think of jungle exploration?",
+      "answers": [
+        {
+          "text": "Sounds fun!",
+          "points": {
+            "Impish": 4,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Not interested.",
+          "points": {
+            "Quirky": 4,
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "You discover a secret passage in a basement. What do you do?",
+      "answers": [
+        {
+          "text": "Go through it!",
+          "points": {
+            "Impish": 4,
+            "Brave": 4,
+            "Rash": 2,
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Stay away from it.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "Your friend takes a spectacular fall! What do you do?",
+      "answers": [
+        {
+          "text": "Help my friend up!",
+          "points": {
+            "Brave": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "Laugh! It's too funny!",
+          "points": {
+            "Naive": 4,
+            "Impish": 4,
+            "Rash": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Have you ever wanted to communicate with aliens from another planet?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Naive": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "Have you ever upset a friend when you were just kidding around?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Naive": 4,
+            "Impish": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Hey, what's that? There's someone behind you! So...did you look just now?",
+      "answers": [
+        {
+          "text": "Don't do that! It scared me!",
+          "points": {
+            "Timid": 4
+          }
+        },
+        {
+          "text": "OK, I admit it. You tricked me.",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "No way, I didn't fall for it.",
+          "points": {
+            "Sassy": 4,
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Huh? What?",
+          "points": {
+            "Relaxed": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "Someone who works at a store suggests an item that isn't quite what you're looking for. But you like this person. What do you do?",
+      "answers": [
+        {
+          "text": "Say you don't want it.",
+          "points": {
+            "Brave": 2,
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Say thanks...but say no.",
+          "points": {
+            "Calm": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "Cave in and buy it.",
+          "points": {
+            "Rash": 2,
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "You run into a new person that you haven't talked to very much before. What do you do?",
+      "answers": [
+        {
+          "text": "Make small talk.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Say nothing!",
+          "points": {
+            "Quirky": 2
+          }
+        },
+        {
+          "text": "Make an excuse to get away!",
+          "points": {
+            "Timid": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "You think you hear someone call your name. But no one's around...so what was it?",
+      "answers": [
+        {
+          "text": "Just my imagination.",
+          "points": {
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "Someone fooling around.",
+          "points": {
+            "Naive": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "A ghost!",
+          "points": {
+            "Timid": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "Do you find yourself jumping to the wrong conclusion a lot of the time?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hasty": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Docile": 2,
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "Do you change the channels often while watching TV?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "You find something at a great bargain! What do you do?",
+      "answers": [
+        {
+          "text": "Buy it right away!",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Think about whether you need it.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Demand an even bigger discount!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "You're packing your classroom's snacks for a picnic when you get hungry. What do you do?",
+      "answers": [
+        {
+          "text": "Eat just a tiny bit.",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Hold myself back and pack it all up.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "What snacks? They're in my belly!",
+          "points": {
+            "Rash": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "Are you a rebel at heart?",
+      "answers": [
+        {
+          "text": "Totally!",
+          "points": {
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "Of course not.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "When walking in a group, do you tend to be the one at the front?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Sassy": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 4,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "Do you think that you might be a genius?",
+      "answers": [
+        {
+          "text": "Certainly!",
+          "points": {
+            "Sassy": 4,
+            "Naive": 2,
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Well, not really...",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "Would you feel comfortable stating your opinion to a very important person?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Sassy": 4,
+            "Brave": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "Not really.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "Are you a city person or a country person?",
+      "answers": [
+        {
+          "text": "I like the city!",
+          "points": {
+            "Lonely": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "I like the country!",
+          "points": {
+            "Calm": 4
+          }
+        },
+        {
+          "text": "I like them both!",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "You're about to take the last cookie when your friend wolfs it down! What do you do?",
+      "answers": [
+        {
+          "text": "Whatever. It's just a cookie.",
+          "points": {
+            "Calm": 4
+          }
+        },
+        {
+          "text": "I unleash my cookie fury!",
+          "points": {
+            "Relaxed": 4,
+            "Jolly": 4
+          }
+        },
+        {
+          "text": "I weep for my lost cookie.",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "You've spent forever stacking dominoes...One more and you're done...OH, NO! You've knocked them over! What do you do?",
+      "answers": [
+        {
+          "text": "I'm too crushed to start again.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "I unleash my full fury!",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "I set up the dominoes again...",
+          "points": {
+            "Calm": 4,
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Do you get bothered by noise and ruckus around you?",
+      "answers": [
+        {
+          "text": "Yes!",
+          "points": {
+            "Bold": 4,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Not at all.",
+          "points": {
+            "Lonely": 4,
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "You've just stuffed yourself with a good meal when a great dessert arrives. What do you do?",
+      "answers": [
+        {
+          "text": "Eat it. Who cares if I'm stuffed?",
+          "points": {
+            "Hasty": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Turn it down. It's too fattening!",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Yummy! I love dessert the most!",
+          "points": {
+            "Bold": 4,
+            "Jolly": 4,
+            "Relaxed": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "You have a really important test tomorrow! What do you do?",
+      "answers": [
+        {
+          "text": "Study all night long.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "Wing it! I'm sure it will be fine!",
+          "points": {
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "Test?! I think I have a fever...",
+          "points": {
+            "Naive": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "You're eating at a restaurant when you abruptly realize that everyone's gone! What do you do?",
+      "answers": [
+        {
+          "text": "Alone?! I look for an employee!",
+          "points": {
+            "Lonely": 4,
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Who's worried? I keep eating.",
+          "points": {
+            "Jolly": 4,
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "I swipe food from other tables!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "Do you find yourself humming or singing often?",
+      "answers": [
+        {
+          "text": "All the time!",
+          "points": {
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "Never.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "The phone's ringing! What do you do?",
+      "answers": [
+        {
+          "text": "Answer right away!",
+          "points": {
+            "Hasty": 4,
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Wait a bit before answering.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Ignore it and let it ring.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Your friend seems to be having a fun chat out of earshot. What do you do?",
+      "answers": [
+        {
+          "text": "Join them and chat along!",
+          "points": {
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Nothing...I'm not interested.",
+          "points": {
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Eavesdrop from a distance!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Do you like being the center of attention?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Lonely": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Relaxed": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "You're told to wait in a big, empty room. What do you do?",
+      "answers": [
+        {
+          "text": "Wait quietly.",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Search for something to do.",
+          "points": {
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Wander outside.",
+          "points": {
+            "Rash": 4
+          }
+        },
+        {
+          "text": "Cradle my knees and sit in the corner!",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "Do you have lots of stuff you bought, thinking it was all cool, but don't use anymore?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quirky": 4,
+            "Rash": 2,
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "Have you had any hobbies for a long time?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quirky": 4,
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "Do you cancel plans to meet others at the last second?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quirky": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "Do you like to do things according to plan?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "I'm not good at planning.",
+          "points": {
+            "Quirky": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Plans? Who needs plans?",
+          "points": {
+            "Relaxed": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "Do you think that lies are sometimes necessary?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quiet": 4,
+            "Bold": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Brave": 4
+          }
+        },
+        {
+          "text": "I don't know.",
+          "points": {
+            "Docile": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "You spot a deserted ship on the high seas! What do you think the ship holds?",
+      "answers": [
+        {
+          "text": "Precious loots!",
+          "points": {
+            "Naive": 4,
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Ghosts!",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Nothing! The ship is merely a mirage!",
+          "points": {
+            "Quiet": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "Do you think that anything goes when it comes to winning?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Quiet": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "No way!",
+          "points": {
+            "Brave": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "Your friend is crying right in front of you! What made that happen?",
+      "answers": [
+        {
+          "text": "Someone bullied my friend!",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "My friend fell down, no doubt!",
+          "points": {
+            "Quiet": 4
+          }
+        },
+        {
+          "text": "I wonder if it's my fault?",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Do you often forget to lock the door when you go out?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Rash": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "You attend a fine dinner at a friend's house. How do you behave?",
+      "answers": [
+        {
+          "text": "Devour the food heartily!",
+          "points": {
+            "Impish": 4,
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Enjoy the meal in polite moderation.",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Ask to take the leftovers home!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "You have to move a heavy suitcase. What will you do?",
+      "answers": [
+        {
+          "text": "Carry it by myself.",
+          "points": {
+            "Hardy": 4,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Ask someone to help.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Make someone else do it!",
+          "points": {
+            "Bold": 4,
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "You muster your courage and go to a graveyard at night...and see a woman soaked to the skin just standing there! What do you do?",
+      "answers": [
+        {
+          "text": "Run away at full speed!",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "So what? It's just a lady.",
+          "points": {
+            "Naive": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Drop down and play dead!",
+          "points": {
+            "Rash": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "You see a cake that is past its expiration date, but only by one day. What do you do?",
+      "answers": [
+        {
+          "text": "Not a problem! Chow time!",
+          "points": {
+            "Brave": 4,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Think about it briefly, then decide.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Get someone to try it first.",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "Your friend says that your shirt is inside out. What do you do?",
+      "answers": [
+        {
+          "text": "Get embarrassed!",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Laugh out loud!",
+          "points": {
+            "Rash": 4
+          }
+        },
+        {
+          "text": "Say that it's the latest fashion!",
+          "points": {
+            "Jolly": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "You're daydreaming...when your friend sprays you with water! What do you do?",
+      "answers": [
+        {
+          "text": "Get mad!",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Get sad.",
+          "points": {
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Woo-hoo! Water fight!",
+          "points": {
+            "Jolly": 4,
+            "Naive": 4,
+            "Impish": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "You're in a play with friends. What kind of role do you prefer?",
+      "answers": [
+        {
+          "text": "Starring role!",
+          "points": {
+            "Bold": 4
+          }
+        },
+        {
+          "text": "Supporting role.",
+          "points": {
+            "Jolly": 4
+          }
+        },
+        {
+          "text": "Just a bit part.",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "You're in class when you realize that you really have to go to the restroom! What do you do?",
+      "answers": [
+        {
+          "text": "Ask for permission to leave.",
+          "points": {
+            "Brave": 4,
+            "Bold": 4
+          }
+        },
+        {
+          "text": "Sneak out.",
+          "points": {
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Hold on until class ends!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "text": "You're in the final mile of a marathon, but the last stretch is exhausting! What will you do?",
+      "answers": [
+        {
+          "text": "Hang in there and finish!",
+          "points": {
+            "Hardy": 4,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Stop Running.",
+          "points": {
+            "Quirky": 4
+          }
+        },
+        {
+          "text": "Find a shortcut.",
+          "points": {
+            "Bold": 4,
+            "Rash": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "You're on a walk when you smell something delicious. What do you do?",
+      "answers": [
+        {
+          "text": "Try to imagine what it is.",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Find out what it is!",
+          "points": {
+            "Naive": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Think about how hungry I am...",
+          "points": {
+            "Impish": 4
+          }
+        }
+      ]
+    }
+  ],
+  "Explorers of Sky": [
+    {
+      "id": "1",
+      "text": "Questions",
+      "answers": []
+    },
+    {
+      "id": "2",
+      "text": "The game always starts off with:",
+      "answers": []
+    },
+    {
+      "id": "3",
+      "text": "\"Did you play Explorers of Time or Explorers of Darkness?\"",
+      "answers": []
+    },
+    {
+      "id": "4",
+      "text": "This does not give any personality points by itself, but if \"Yes\" is answered, certain Natures will have points added to them after the player has chosen their gender. These correspond to the new choices of Pok\u00e9mon available in Explorers of Sky - Phanpy, Shinx, and Riolu if male; Vulpix and Eevee if female.",
+      "answers": []
+    },
+    {
+      "id": "5",
+      "text": "Additionally, the following Pok\u00e9mon's base recruit rate will be doubled as long as the player has not recruited them already. Most of these can be found in dungeons found at various points of the main story; Pok\u00e9mon marked with a dagger (\u2020) can be recruited only after the credits roll, while Feraligatr (\u00a7) has special conditions. Furthermore, Porygon2, Rampardos, Bastiodon and Bronzong internally use these doubled rates, but cannot be found in any dungeons that allow for recruitment.",
+      "answers": []
+    },
+    {
+      "id": "6",
+      "text": "Afterwards, 8 of the following questions will be asked at random. After these questions, the player will be asked for their gender.",
+      "answers": []
+    },
+    {
+      "id": "7",
+      "text": "Have you ever blurted something out without thinking about the consequences first?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Lonely": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "text": "Do you want to be taller someday?",
+      "answers": [
+        {
+          "text": "Totally!",
+          "points": {
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "Of course not.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "text": "Once you've decided something, do you see it through to the end?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Hasty": 2,
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "text": "Have you ever said \"Nice to meet you\" to someone you met previously?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quirky": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "text": "You're at a movie theater. What are you there to see?",
+      "answers": [
+        {
+          "text": "An action movie.",
+          "points": {
+            "Impish": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "A drama.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "A romantic movie.",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "text": "Have you ever looked at your reflection in their mirror and thought, \"What a cool person!\"?",
+      "answers": [
+        {
+          "text": "Certainly!",
+          "points": {
+            "Sassy": 4,
+            "Jolly": 2,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Well, not really...",
+          "points": {
+            "Hardy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "text": "Have you ever thought that if you dug into your backyard, you would find a buried treasure?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Naive": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "text": "Do you prefer to play outside rather than inside?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Impish": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "text": "You discover a beat-up looking treasure chest in some ruins. What do you do?",
+      "answers": [
+        {
+          "text": "Open it!",
+          "points": {
+            "Brave": 4,
+            "Impish": 4,
+            "Hasty": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Get help opening it.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "text": "Have you ever realized you were hogging the conversation?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hasty": 4,
+            "Rash": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Docile": 2,
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "text": "When you see a switch, do you have an overwhelming urge to flip it?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "text": "Have you ever forgotten you bought something and bought another one?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Quirky": 4,
+            "Hasty": 2,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "text": "Do you think it's important to always aim to be the best?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Sassy": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 4,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "text": "Do you want to be famous?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Lonely": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Relaxed": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "text": "If you saw someone do something bad, could you scold them?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Brave": 4,
+            "Sassy": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "Not really...",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "text": "Have you ever told a joke that just completely fell flat?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Naive": 4,
+            "Impish": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Calm": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "text": "Do you like lively parties?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Jolly": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "text": "Are you truly sincere when you apologize?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Docile": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "That's not easy to admit!",
+          "points": {
+            "Timid": 4,
+            "Lonely": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "text": "Do you like karaoke?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Jolly": 4,
+            "Bold": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Docile": 2,
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "text": "You're hiking up a mountain when you reach diverging paths. Which path do you take?",
+      "answers": [
+        {
+          "text": "Narrow.",
+          "points": {
+            "Impish": 4,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Wide.",
+          "points": {
+            "Quirky": 4,
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "text": "Your friend takes a spectacular fall! What do you do?",
+      "answers": [
+        {
+          "text": "Help my friend up!",
+          "points": {
+            "Brave": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "Laugh! It's too funny!",
+          "points": {
+            "Impish": 4,
+            "Naive": 4,
+            "Rash": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "text": "You have a really important test tomorrow! What do you do?",
+      "answers": [
+        {
+          "text": "Study all night long.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "Wing it! I'm sure I'll be fine!",
+          "points": {
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "Test?! I think I have a fever...",
+          "points": {
+            "Naive": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "text": "Have you ever accidentally called a teacher \"Mom\" or \"Dad\"?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Rash": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "text": "There's a rumor there's a ghost haunting the school bathrooms! What do you do?",
+      "answers": [
+        {
+          "text": "Scary... bathrooms!",
+          "points": {
+            "Docile": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Go in there anyway.",
+          "points": {
+            "Jolly": 4,
+            "Relaxed": 2,
+            "Bold": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "text": "You're in class when you realize you really have to go to the restroom! What do you do?",
+      "answers": [
+        {
+          "text": "Ask for permission.",
+          "points": {
+            "Brave": 4,
+            "Bold": 4
+          }
+        },
+        {
+          "text": "Sneak out.",
+          "points": {
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "Hold on until class ends!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "text": "Do you think you have good study habits?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Naive": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Well, I never lose at sports!",
+          "points": {
+            "Impish": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "text": "What's your studying style?",
+      "answers": [
+        {
+          "text": "Working hard, every day.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "If I remember to...",
+          "points": {
+            "Quirky": 4,
+            "Hasty": 2
+          }
+        },
+        {
+          "text": "I just cover what I need to do.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "I can't really do it alone...",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "text": "You're packing your classroom's snacks when you get hungry! What do you do?",
+      "answers": [
+        {
+          "text": "Eat just a tiny bit.",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Hold myself back and pack it all up.",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "What snacks? They're in my belly!",
+          "points": {
+            "Rash": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "text": "You see a cake that's past its expiration date, but only by 1 day. What do you do?",
+      "answers": [
+        {
+          "text": "Not a problem! Chow time!",
+          "points": {
+            "Brave": 4,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Think about it briefly, then decide.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Get someone to try it first.",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "text": "You've stuffed yourself with a good meal when a great dessert arrives. What do you do?",
+      "answers": [
+        {
+          "text": "Eat it. Who cares if I'm stuffed?",
+          "points": {
+            "Hasty": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "Turn it down. It's too fattening!",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Yum! I love dessert the most!",
+          "points": {
+            "Bold": 4,
+            "Jolly": 4,
+            "Relaxed": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "text": "Your friend made a meal that tastes terrible. They ask, \"How is it?\". You say...?",
+      "answers": [
+        {
+          "text": "\"Terrible!\"",
+          "points": {
+            "Brave": 2,
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Just smile.",
+          "points": {
+            "Calm": 4,
+            "Lonely": 2
+          }
+        },
+        {
+          "text": "\"Um... it's good...\"",
+          "points": {
+            "Rash": 2,
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "text": "You're eating at a very fancy restaurant known for its food. Which course do you select?",
+      "answers": [
+        {
+          "text": "Seared steak.",
+          "points": {
+            "Impish": 4,
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Healthy fish.",
+          "points": {
+            "Hardy": 2
+          }
+        },
+        {
+          "text": "Anything! It's all good!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "text": "Everyone's sharing a dessert, and there's an extra piece. What do you do?",
+      "answers": [
+        {
+          "text": "Don't tell anyone.",
+          "points": {
+            "Bold": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Let everyone know.",
+          "points": {
+            "Rash": 4,
+            "Docile": 4
+          }
+        },
+        {
+          "text": "First come, first served!",
+          "points": {
+            "Impish": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "text": "Your friend offers to treat you to dinner. What do you do?",
+      "answers": [
+        {
+          "text": "I'm there!",
+          "points": {
+            "Bold": 4
+          }
+        },
+        {
+          "text": "Allow me.",
+          "points": {
+            "Jolly": 4
+          }
+        },
+        {
+          "text": "Thanks...",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "text": "Everyone around you is laughing at something you think is pretty boring. What do you do?",
+      "answers": [
+        {
+          "text": "Nothing, really.",
+          "points": {
+            "Brave": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "Laugh along.",
+          "points": {
+            "Lonely": 4,
+            "Timid": 2
+          }
+        },
+        {
+          "text": "It depends on the situation.",
+          "points": {
+            "Quiet": 2,
+            "Quirky": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "text": "Do you prefer being busy or having a lot of free time?",
+      "answers": [
+        {
+          "text": "Being busy.",
+          "points": {
+            "Lonely": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Free time!",
+          "points": {
+            "Calm": 4
+          }
+        },
+        {
+          "text": "In between.",
+          "points": {
+            "Quirky": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "text": "You're about to buy a popular game when someone else gets the last copy! How do you feel?",
+      "answers": [
+        {
+          "text": "Whatever.",
+          "points": {
+            "Calm": 4
+          }
+        },
+        {
+          "text": "Annoyed. I was here first!",
+          "points": {
+            "Jolly": 4,
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "I shed a few tears.",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "text": "You run into a new person that you haven't talked to very much before. What do you do?",
+      "answers": [
+        {
+          "text": "Make small talk.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Say nothing!",
+          "points": {
+            "Quirky": 2
+          }
+        },
+        {
+          "text": "Make an excuse to get away!",
+          "points": {
+            "Timid": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "text": "Good news and bad news... which one do you want to hear first?",
+      "answers": [
+        {
+          "text": "The good news.",
+          "points": {
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "The bad news.",
+          "points": {
+            "Naive": 4,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "I don't want either.",
+          "points": {
+            "Timid": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "text": "Hey, what's that? There's someone behind you! So... did you look just now?",
+      "answers": [
+        {
+          "text": "Don't do that! You scared me!",
+          "points": {
+            "Timid": 4
+          }
+        },
+        {
+          "text": "OK, I admit it. You tricked me.",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "No way. I didn't fall for it.",
+          "points": {
+            "Lonely": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "Huh?! What?",
+          "points": {
+            "Relaxed": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "text": "How are your mornings?",
+      "answers": [
+        {
+          "text": "Always in a rush!",
+          "points": {
+            "Brave": 4,
+            "Impish": 4
+          }
+        },
+        {
+          "text": "Always perfect.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "They are OK.",
+          "points": {
+            "Timid": 4,
+            "Docile": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "text": "You've been invited to a wonderful party. It's time for the party to start, but there's nobody there! You think...?",
+      "answers": [
+        {
+          "text": "Did something happen?",
+          "points": {
+            "Lonely": 4,
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Maybe I have the day wrong?",
+          "points": {
+            "Jolly": 4,
+            "Relaxed": 4
+          }
+        },
+        {
+          "text": "Let's get this party started!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "text": "You take off your shoes to realize your socks are different colors! What do you do?",
+      "answers": [
+        {
+          "text": "Get embarrassed!",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Again?!",
+          "points": {
+            "Rash": 4
+          }
+        },
+        {
+          "text": "I meant to do that!",
+          "points": {
+            "Jolly": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "text": "Did you make any New Year's Resolutions?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "Nope.",
+          "points": {
+            "Quirky": 4,
+            "Rash": 2
+          }
+        },
+        {
+          "text": "What are those?",
+          "points": {
+            "Relaxed": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "text": "You're in a completely silent assembly when you suddenly hear someone pass gas! How do you react?",
+      "answers": [
+        {
+          "text": "Roll on the floor laughing!",
+          "points": {
+            "Jolly": 4,
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Just let it go by...",
+          "points": {
+            "Impish": 2,
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Who was that?!",
+          "points": {
+            "Brave": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "text": "You're running a marathon, and at the start you fall flat on your face! What will you do?",
+      "answers": [
+        {
+          "text": "I'm not giving up yet!",
+          "points": {
+            "Hardy": 4,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Just give up.",
+          "points": {
+            "Quirky": 4
+          }
+        },
+        {
+          "text": "Shout, \"START OVER!\"",
+          "points": {
+            "Bold": 4,
+            "Rash": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "text": "You find something at a great bargain price! What do you do?",
+      "answers": [
+        {
+          "text": "Buy it right away!",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Think about whether I need it.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Demand an even bigger discount!",
+          "points": {
+            "Bold": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "text": "You've been asked to do a difficult task. What will you do?",
+      "answers": [
+        {
+          "text": "Do it myself.",
+          "points": {
+            "Hardy": 4,
+            "Brave": 2
+          }
+        },
+        {
+          "text": "Ask someone to help.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Make someone else do it!",
+          "points": {
+            "Bold": 4,
+            "Sassy": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "text": "You notice a toy you bought for full price yesterday is marked as half the price today! How do you feel?",
+      "answers": [
+        {
+          "text": "Heartbroken...",
+          "points": {
+            "Hardy": 4
+          }
+        },
+        {
+          "text": "Aaargh!!",
+          "points": {
+            "Docile": 4
+          }
+        },
+        {
+          "text": "Bad timing, I guess...",
+          "points": {
+            "Bold": 4,
+            "Calm": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "text": "Your friend is running a little late to meet you. Is that OK?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Bold": 4,
+            "Relaxed": 2
+          }
+        },
+        {
+          "text": "Not at all!",
+          "points": {
+            "Lonely": 4,
+            "Hasty": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "text": "Do you think that, no matter what happens, life goes on?",
+      "answers": [
+        {
+          "text": "All the time!",
+          "points": {
+            "Relaxed": 4,
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "Never.",
+          "points": {
+            "Quiet": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "text": "The phone's ringing! What do you do?",
+      "answers": [
+        {
+          "text": "Answer right away!",
+          "points": {
+            "Hasty": 4,
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Wait a bit before answering.",
+          "points": {
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Ignore it and let it ring.",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "text": "Your friend seems to be making plans to hang out, just out of earshot. You think...",
+      "answers": [
+        {
+          "text": "I want to go too!",
+          "points": {
+            "Naive": 4
+          }
+        },
+        {
+          "text": "No big deal.",
+          "points": {
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Will they invite me?",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "text": "Do you think it's important to be fashionably late?",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Bold": 4,
+            "Quiet": 4
+          }
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Brave": 4
+          }
+        },
+        {
+          "text": "I don't know.",
+          "points": {
+            "Docile": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "text": "You've won a big raffle ticket! You say...",
+      "answers": [
+        {
+          "text": "Woo-hoo!",
+          "points": {
+            "Naive": 4,
+            "Jolly": 2
+          }
+        },
+        {
+          "text": "I can't believe it...",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "This is my little secret.",
+          "points": {
+            "Quiet": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "text": "Do you think blaming someone else on something you did is sometimes necessary?",
+      "answers": [
+        {
+          "text": "Of course!",
+          "points": {
+            "Quiet": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "No way!",
+          "points": {
+            "Brave": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "text": "Your friend suddenly won't listen to you, when everything was fine yesterday. What do you think?",
+      "answers": [
+        {
+          "text": "Maybe they're sick.",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "They're lost in thought.",
+          "points": {
+            "Quiet": 4
+          }
+        },
+        {
+          "text": "What?! Why?!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "text": "You fail miserably! Everyone found out, and they're disappointed in you... what do you do?",
+      "answers": [
+        {
+          "text": "Try and hide.",
+          "points": {
+            "Timid": 2
+          }
+        },
+        {
+          "text": "Think of an excuse.",
+          "points": {
+            "Naive": 4,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Drop down and play dead!",
+          "points": {
+            "Rash": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "text": "You want to reveal you like someone a whole bunch! What do you do?",
+      "answers": [
+        {
+          "text": "Show it by playing together.",
+          "points": {
+            "Jolly": 4,
+            "Quiet": 2
+          }
+        },
+        {
+          "text": "Make it obvious by... playing a prank!",
+          "points": {
+            "Lonely": 4,
+            "Naive": 2
+          }
+        },
+        {
+          "text": "State it clearly for all to hear!",
+          "points": {
+            "Brave": 2,
+            "Impish": 2,
+            "Bold": 2
+          }
+        },
+        {
+          "text": "Keep it to myself! It's too risky!",
+          "points": {
+            "Timid": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "text": "The people at the next table are singing for someone's birthday. What do you do?",
+      "answers": [
+        {
+          "text": "Stay on the sidelines.",
+          "points": {
+            "Calm": 2
+          }
+        },
+        {
+          "text": "Sing along!",
+          "points": {
+            "Jolly": 4,
+            "Naive": 4
+          }
+        },
+        {
+          "text": "Walk away.",
+          "points": {
+            "Sassy": 4,
+            "Lonely": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "text": "You're on a stroll when a TV crew pounces you for an interview! What do you do?",
+      "answers": [
+        {
+          "text": "Run away! How embarrassing!",
+          "points": {
+            "Timid": 4
+          }
+        },
+        {
+          "text": "Answer questions properly.",
+          "points": {
+            "Brave": 4,
+            "Sassy": 4
+          }
+        },
+        {
+          "text": "Yuck it up! Woo-hoo! I'm on TV!",
+          "points": {
+            "Naive": 4,
+            "Bold": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "text": "You see a big and comfortable bed. Your first reaction is to...",
+      "answers": [
+        {
+          "text": "Jump on it!",
+          "points": {
+            "Hasty": 2,
+            "Sassy": 2
+          }
+        },
+        {
+          "text": "Belly flop!",
+          "points": {
+            "Impish": 4
+          }
+        },
+        {
+          "text": "Curl up.",
+          "points": {
+            "Lonely": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "text": "You're daydreaming... when your friend sprays you with water! What do you do?",
+      "answers": [
+        {
+          "text": "Get mad.",
+          "points": {
+            "Hasty": 4
+          }
+        },
+        {
+          "text": "Get sad.",
+          "points": {
+            "Lonely": 4
+          }
+        },
+        {
+          "text": "Woo-hoo! Water fight!",
+          "points": {
+            "Impish": 4,
+            "Jolly": 4,
+            "Naive": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "text": "You've been handed a large bag as a souvenir. What do you do?",
+      "answers": [
+        {
+          "text": "Wait until I get home to open it.",
+          "points": {
+            "Docile": 2
+          }
+        },
+        {
+          "text": "Shake it!",
+          "points": {
+            "Naive": 2
+          }
+        },
+        {
+          "text": "Open it!",
+          "points": {
+            "Rash": 2
+          }
+        },
+        {
+          "text": "It's smaller than everyone else's...",
+          "points": {
+            "Lonely": 2
+          }
+        }
+      ]
+    }
+  ]
+}

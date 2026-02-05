@@ -1,0 +1,434 @@
+{
+  "Bulbasaur": {
+    "rescue_team": {
+      "Male": [
+        "Docile"
+      ],
+      "Female": [
+        "Calm"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Lonely"
+      ],
+      "Female": [
+        "Docile"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Lonely"
+      ],
+      "Female": [
+        "Docile"
+      ]
+    }
+  },
+  "Charmander": {
+    "rescue_team": {
+      "Male": [
+        "Hardy"
+      ],
+      "Female": [
+        "Brave"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Docile"
+      ],
+      "Female": [
+        "Brave"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Docile"
+      ],
+      "Female": [
+        "Brave"
+      ]
+    }
+  },
+  "Chikorita": {
+    "rescue_team": {
+      "Male": [],
+      "Female": [
+        "Docile"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Calm"
+      ],
+      "Female": [
+        "Quiet"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Calm"
+      ],
+      "Female": [
+        "Quiet"
+      ]
+    }
+  },
+  "Chimchar": {
+    "explorers_time_darkness": {
+      "Male": [
+        "Naive"
+      ],
+      "Female": [
+        "Impish"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Naive"
+      ],
+      "Female": [
+        "Impish"
+      ]
+    }
+  },
+  "Cubone": {
+    "rescue_team": {
+      "Male": [
+        "Lonely"
+      ],
+      "Female": [
+        "Impish"
+      ]
+    }
+  },
+  "Cyndaquil": {
+    "rescue_team": {
+      "Male": [
+        "Timid"
+      ],
+      "Female": []
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Timid"
+      ],
+      "Female": [
+        "Calm"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Timid"
+      ],
+      "Female": [
+        "Calm"
+      ]
+    }
+  },
+  "Eevee": {
+    "rescue_team": {
+      "Male": [],
+      "Female": [
+        "Naive"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [],
+      "Female": [
+        "Jolly"
+      ]
+    }
+  },
+  "Machop": {
+    "rescue_team": {
+      "Male": [
+        "Brave"
+      ],
+      "Female": []
+    }
+  },
+  "Meowth": {
+    "rescue_team": {
+      "Male": [
+        "Quirky"
+      ],
+      "Female": []
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Sassy"
+      ],
+      "Female": [
+        "Relaxed"
+      ]
+    }
+  },
+  "Mudkip": {
+    "rescue_team": {
+      "Male": [
+        "Calm"
+      ],
+      "Female": [
+        "Timid"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Rash"
+      ],
+      "Female": [
+        "Lonely"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Rash"
+      ],
+      "Female": [
+        "Lonely"
+      ]
+    }
+  },
+  "Munchlax": {
+    "explorers_time_darkness": {
+      "Male": [
+        "Relaxed"
+      ],
+      "Female": [
+        "Jolly"
+      ]
+    }
+  },
+  "Phanpy": {
+    "explorers_sky": {
+      "Male": [
+        "Relaxed"
+      ],
+      "Female": []
+    }
+  },
+  "Pikachu": {
+    "rescue_team": {
+      "Male": [
+        "Impish"
+      ],
+      "Female": [
+        "Hardy"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Brave"
+      ],
+      "Female": [
+        "Hasty"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Brave"
+      ],
+      "Female": [
+        "Hasty"
+      ]
+    }
+  },
+  "Piplup": {
+    "explorers_time_darkness": {
+      "Male": [
+        "Impish"
+      ],
+      "Female": [
+        "Quirky"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Impish"
+      ],
+      "Female": [
+        "Quirky"
+      ]
+    }
+  },
+  "Psyduck": {
+    "rescue_team": {
+      "Male": [
+        "Relaxed"
+      ],
+      "Female": [
+        "Lonely"
+      ]
+    }
+  },
+  "Riolu": {
+    "explorers_sky": {
+      "Male": [
+        "Sassy"
+      ],
+      "Female": []
+    }
+  },
+  "Shinx": {
+    "explorers_sky": {
+      "Male": [
+        "Hasty"
+      ],
+      "Female": []
+    }
+  },
+  "Skitty": {
+    "rescue_team": {
+      "Male": [],
+      "Female": [
+        "Hasty"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Hasty"
+      ],
+      "Female": [
+        "Naive"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [],
+      "Female": [
+        "Naive"
+      ]
+    }
+  },
+  "Squirtle": {
+    "rescue_team": {
+      "Male": [
+        "Jolly"
+      ],
+      "Female": [
+        "Relaxed"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Quirky"
+      ],
+      "Female": [
+        "Bold"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Quirky"
+      ],
+      "Female": [
+        "Bold"
+      ]
+    }
+  },
+  "Torchic": {
+    "rescue_team": {
+      "Male": [
+        "Hasty"
+      ],
+      "Female": [
+        "Sassy"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Hardy"
+      ],
+      "Female": [
+        "Rash"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Hardy"
+      ],
+      "Female": [
+        "Rash"
+      ]
+    }
+  },
+  "Totodile": {
+    "rescue_team": {
+      "Male": [
+        "Naive"
+      ],
+      "Female": [
+        "Jolly"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Jolly"
+      ],
+      "Female": [
+        "Sassy"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Jolly"
+      ],
+      "Female": [
+        "Sassy"
+      ]
+    }
+  },
+  "Treecko": {
+    "rescue_team": {
+      "Male": [
+        "Sassy"
+      ],
+      "Female": [
+        "Quirky"
+      ]
+    },
+    "explorers_time_darkness": {
+      "Male": [
+        "Quiet"
+      ],
+      "Female": [
+        "Hardy"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Quiet"
+      ],
+      "Female": [
+        "Hardy"
+      ]
+    }
+  },
+  "Turtwig": {
+    "explorers_time_darkness": {
+      "Male": [
+        "Bold"
+      ],
+      "Female": [
+        "Timid"
+      ]
+    },
+    "explorers_sky": {
+      "Male": [
+        "Bold"
+      ],
+      "Female": [
+        "Timid"
+      ]
+    }
+  },
+  "Vulpix": {
+    "explorers_sky": {
+      "Male": [],
+      "Female": [
+        "Relaxed"
+      ]
+    }
+  }
+}
