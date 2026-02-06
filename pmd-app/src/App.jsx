@@ -105,17 +105,17 @@ function InnerApp() {
 
         <div className="flex flex-col md:flex-row gap-4">
           {/* Step 1: Game Version & Gender Selection */}
-          <section className="w-full md:w-[33%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl backdrop-blur-sm flex flex-col justify-center">
-            <div className="grid grid-cols-[70fr_30fr] md:grid-cols-1 gap-4">
+          <section className="w-full md:w-[33%] bg-dungeon-panel border border-white/10 rounded-2xl p-3 shadow-xl backdrop-blur-sm flex flex-col justify-center">
+            <div className="grid grid-cols-[70fr_30fr] md:grid-cols-1 gap-2">
 
               {/* Game Version */}
               <div className="w-full">
-                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">{t('gameVersion')}</label>
+                <label className="block text-sm font-semibold text-gray-400 mb-1 uppercase tracking-wider">{t('gameVersion')}</label>
                 <div className="relative">
                   <select
                     value={game}
                     onChange={(e) => setGame(e.target.value)}
-                    className="w-full bg-black/30 border border-white/20 rounded-lg p-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
+                    className="w-full bg-black/30 border border-white/20 rounded-lg py-2 px-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
                   >
                     {GAME_VERSIONS.map(v => (
                       <option key={v.id} value={v.id}>{translateGame(v.id)}</option>
@@ -129,7 +129,7 @@ function InnerApp() {
 
               {/* Gender Selection */}
               <div className="w-full">
-                <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">{t('gender')}</label>
+                <label className="block text-sm font-semibold text-gray-400 mb-1 uppercase tracking-wider">{t('gender')}</label>
                 <div className="flex bg-black/30 p-1 rounded-lg w-full">
                   {['Male', 'Female'].map(g => {
                     const isSelected = gender === g;
@@ -147,7 +147,7 @@ function InnerApp() {
                         key={g}
                         onClick={() => setGender(g)}
                         className={`
-                          flex-1 h-9 md:h-11 rounded-md flex items-center justify-center text-lg md:text-xl font-bold transition-all
+                          flex-1 h-9 md:h-10 rounded-md flex items-center justify-center text-lg md:text-xl font-bold transition-all
                           ${isSelected ? activeStyle : inactiveStyle}
                         `}
                         title={isMale ? t('male') : t('female')}
@@ -163,8 +163,8 @@ function InnerApp() {
           </section>
 
           {/* Step 2: Pokemon Selection */}
-          <section className="w-full md:w-[65%] bg-dungeon-panel border border-white/10 rounded-2xl p-4 shadow-xl flex flex-col">
-            <label className="block text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">{t('targetPokemon')}</label>
+          <section className="w-full md:w-[65%] bg-dungeon-panel border border-white/10 rounded-2xl p-3 shadow-xl flex flex-col">
+            <label className="block text-sm font-semibold text-gray-400 mb-2 uppercase tracking-wider">{t('targetPokemon')}</label>
             <div className="flex-1 flex flex-col">
               <PokemonSelector
                 pokemonList={availablePokemon}
