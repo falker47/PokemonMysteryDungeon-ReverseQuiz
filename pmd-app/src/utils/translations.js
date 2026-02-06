@@ -24,7 +24,7 @@ export const translations = {
         female: "Femmina",
         targetPokemon: "Scegli il Pokémon Desiderato",
         searchPokemon: "Cerca Pokémon...",
-        targetNature: "Natura Desiderata",
+        targetNature: "Natura Richiesta",
         notAvailable: "Non Disponibile",
         searchQuestions: "Cerca domande...",
         noQuestions: "Nessuna domanda trovata.",
