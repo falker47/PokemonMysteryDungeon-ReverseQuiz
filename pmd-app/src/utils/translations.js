@@ -19,7 +19,7 @@ export const translations = {
         subtitle: "Ottieni il tuo Pokémon preferito in Mystery Dungeon!",
         title: "PMD REVERSE QUIZ",
         gameVersion: "Versione del Gioco",
-        gender: "Genere",
+        gender: "Sesso",
         male: "Maschio",
         female: "Femmina",
         targetPokemon: "Scegli il Pokémon Desiderato",

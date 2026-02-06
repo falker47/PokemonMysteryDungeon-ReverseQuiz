@@ -115,7 +115,7 @@ function InnerApp() {
                   <select
                     value={game}
                     onChange={(e) => setGame(e.target.value)}
-                    className="w-full bg-black/30 border border-white/20 rounded-lg py-2 px-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
+                    className="w-full h-11 md:h-12 bg-black/30 border border-white/20 rounded-lg px-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
                   >
                     {GAME_VERSIONS.map(v => (
                       <option key={v.id} value={v.id}>{translateGame(v.id)}</option>
