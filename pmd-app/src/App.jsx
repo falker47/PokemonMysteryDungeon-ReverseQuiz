@@ -47,7 +47,7 @@ function InnerApp() {
   }, [data.starters, game, pokemon, gender]);
 
   const solvedQuestions = useMemo(() => {
-    if (!data.questions || !targetNature) return [];
+    if (!data.questions) return [];
     const gameVer = GAME_VERSIONS.find(v => v.id === game);
     if (!gameVer) return [];
     return solveQuiz(data.questions, gameVer.dbKey, targetNature);
@@ -77,7 +77,7 @@ function InnerApp() {
   }
 
   return (
-    <div className="min-h-screen relative text-dungeon-text p-2 pb-10 overflow-x-hidden">
+    <div className="min-h-screen relative text-dungeon-text p-2 pb-0 overflow-x-hidden">
       {/* Background Image */}
       <div
         className="fixed inset-0 z-[-1] bg-cover bg-center blur-sm scale-105"
@@ -176,53 +176,51 @@ function InnerApp() {
         </div>
 
         {/* Step 3: Result Display & Questions */}
-        {pokemon && (
-          <section className="animate-fade-in-up delay-100 pt-2">
-            <div className="flex flex-col md:flex-row items-center justify-between mb-4 gap-3">
+        <section className="animate-fade-in-up delay-100 pt-2">
+          <div className="flex flex-col md:flex-row items-center justify-between mb-4 gap-3">
 
-              {/* Target Nature Display (Replaces "Interview Strategy") */}
-              <div className="flex items-center gap-4">
+            {/* Target Nature Display (Replaces "Interview Strategy") */}
+            <div className="flex items-center gap-4">
 
-                <div>
-                  <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">{t('targetNature')}</h2>
-                  {targetNature ? (
-                    <div className="text-3xl font-black text-dungeon-accent drop-shadow-[0_0_8px_rgba(255,203,5,0.6)]">
-                      {translateNature(targetNature)}
-                    </div>
-                  ) : (
-                    <div className="text-xl font-bold text-red-400">
-                      {t('notAvailable')}
-                    </div>
-                  )}
-                </div>
-              </div>
-
-              {/* Search Bar */}
-              <div className="relative w-full md:w-[27.2rem]">
-                <input
-                  type="text"
-                  placeholder={t('searchQuestions')}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full h-[54px] bg-black/40 border border-white/10 rounded-full px-4 pl-10 text-xl text-white focus:outline-none focus:border-dungeon-accent/50 focus:ring-1 focus:ring-dungeon-accent/50 transition-all placeholder-gray-600"
-                />
-                <svg className="w-4 h-4 text-gray-500 absolute left-3.5 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
+              <div>
+                <h2 className="text-sm font-semibold text-gray-400 uppercase tracking-wider">{t('targetNature')}</h2>
+                {targetNature ? (
+                  <div className="text-3xl font-black text-dungeon-accent drop-shadow-[0_0_8px_rgba(255,203,5,0.6)]">
+                    {translateNature(targetNature)}
+                  </div>
+                ) : (
+                  <div className="text-xl font-bold text-gray-500/50">
+                    ---
+                  </div>
+                )}
               </div>
             </div>
 
-            <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2">
-              {filteredQuestions.length > 0 ? (
-                filteredQuestions.map(q => (
-                  <QuestionCard key={q.id} question={q} targetNature={targetNature} />
-                ))
-              ) : (
-                <div className="text-center py-8 text-gray-500 italic">{t('noQuestions')}</div>
-              )}
+            {/* Search Bar */}
+            <div className="relative w-full md:w-[27.2rem]">
+              <input
+                type="text"
+                placeholder={t('searchQuestions')}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full h-[54px] bg-black/40 border border-white/10 rounded-full px-4 pl-10 text-xl text-white focus:outline-none focus:border-dungeon-accent/50 focus:ring-1 focus:ring-dungeon-accent/50 transition-all placeholder-gray-600"
+              />
+              <svg className="w-4 h-4 text-gray-500 absolute left-3.5 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
             </div>
-          </section>
-        )}
+          </div>
+
+          <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2 border border-white/20 rounded-xl p-4 bg-black/10 shadow-inner">
+            {filteredQuestions.length > 0 ? (
+              filteredQuestions.map(q => (
+                <QuestionCard key={q.id} question={q} targetNature={targetNature} />
+              ))
+            ) : (
+              <div className="text-center py-8 text-gray-500 italic">{t('noQuestions')}</div>
+            )}
+          </div>
+        </section>
 
       </main>
 
