@@ -80,11 +80,11 @@ function InnerApp() {
     <div className="min-h-screen relative text-dungeon-text p-2 pb-0 overflow-x-hidden">
       {/* Background Image */}
       <div
-        className="fixed inset-0 z-[-1] bg-cover bg-center blur-sm scale-105"
+        className="fixed top-0 left-0 w-full h-[100lvh] z-[-1] bg-cover bg-center blur-sm scale-105"
         style={{ backgroundImage: "url('/hero-preview16-9.jpg')" }}
       />
       {/* Dark Overlay for Readability */}
-      <div className="fixed inset-0 z-[-1] bg-dungeon-dark/85" />
+      <div className="fixed top-0 left-0 w-full h-[100lvh] z-[-1] bg-dungeon-dark/85" />
 
       {/* Header */}
       <header className="max-w-4xl mx-auto mb-8 relative flex flex-col md:block">
