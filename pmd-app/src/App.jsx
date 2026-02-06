@@ -77,7 +77,14 @@ function InnerApp() {
   }
 
   return (
-    <div className="min-h-screen bg-dungeon-dark text-dungeon-text p-2 pb-10">
+    <div className="min-h-screen relative text-dungeon-text p-2 pb-10 overflow-x-hidden">
+      {/* Background Image */}
+      <div
+        className="fixed inset-0 z-[-1] bg-cover bg-center blur-sm scale-105"
+        style={{ backgroundImage: "url('/hero-preview16-9.jpg')" }}
+      />
+      {/* Dark Overlay for Readability */}
+      <div className="fixed inset-0 z-[-1] bg-dungeon-dark/85" />
 
       {/* Header */}
       <header className="max-w-4xl mx-auto mb-8 relative flex flex-col md:block">
@@ -191,13 +198,13 @@ function InnerApp() {
               </div>
 
               {/* Search Bar */}
-              <div className="relative w-full md:w-64">
+              <div className="relative w-full md:w-[27.2rem]">
                 <input
                   type="text"
                   placeholder={t('searchQuestions')}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full bg-black/40 border border-white/10 rounded-full py-2 px-4 pl-10 text-sm text-white focus:outline-none focus:border-dungeon-accent/50 focus:ring-1 focus:ring-dungeon-accent/50 transition-all placeholder-gray-600"
+                  className="w-full h-[54px] bg-black/40 border border-white/10 rounded-full px-4 pl-10 text-xl text-white focus:outline-none focus:border-dungeon-accent/50 focus:ring-1 focus:ring-dungeon-accent/50 transition-all placeholder-gray-600"
                 />
                 <svg className="w-4 h-4 text-gray-500 absolute left-3.5 top-1/2 -translate-y-1/2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
