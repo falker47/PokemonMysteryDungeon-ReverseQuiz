@@ -33,19 +33,17 @@ const LanguageSelector = () => {
         <div className="relative" ref={dropdownRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="w-[110px] md:w-auto scale-[1.3] md:scale-100 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50 origin-right"
+                className="w-auto scale-[1.3] md:scale-100 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50 origin-right"
             >
                 <img
                     src={`https://flagcdn.com/w40/${currentLang.flag}.png`}
                     srcSet={`https://flagcdn.com/w80/${currentLang.flag}.png 2x`}
-                    width="20"
-                    height="15"
+                    className="w-4 h-3 md:w-5 md:h-[15px] rounded-sm object-cover"
                     alt={currentLang.label}
-                    className="rounded-sm object-cover"
                 />
-                <span className="text-white text-sm font-medium hidden md:block">{currentLang.label}</span>
+                <span className="text-white text-[10px] md:text-sm font-medium">{currentLang.label}</span>
                 <svg
-                    className={`w-4 h-4 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                    className={`w-3 h-3 md:w-4 md:h-4 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

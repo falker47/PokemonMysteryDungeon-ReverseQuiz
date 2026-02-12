@@ -99,7 +99,7 @@ function InnerApp() {
               className="w-[110px] md:w-auto scale-[1.3] md:scale-100 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 md:px-4 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50 group origin-left"
               title="PMD Save Editor"
             >
-              <span className="text-white text-xs md:text-sm font-medium whitespace-nowrap">Save Editor</span>
+              <span className="text-white text-[10px] md:text-sm font-medium whitespace-nowrap">Save Editor</span>
               <svg className="w-3.5 h-3.5 md:w-4 md:h-4 text-gray-400 group-hover:text-dungeon-accent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
