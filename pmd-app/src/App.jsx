@@ -87,10 +87,29 @@ function InnerApp() {
       <div className="fixed top-0 left-0 w-full h-[100lvh] z-[-1] bg-dungeon-dark/85" />
 
       {/* Header */}
-      <header className="max-w-4xl mx-auto mb-8 relative flex flex-col md:block">
-        {/* Language Toggle */}
-        <div className="self-end mb-2 md:absolute md:top-4 md:right-0 md:mb-0 z-10">
-          <LanguageSelector />
+      <header className="max-w-4xl mx-auto mb-8 relative">
+        {/* Mobile: Row of Buttons | Desktop: Mirrored Positioned Buttons */}
+        <div className="flex items-center justify-between md:block mb-4 md:mb-0">
+          {/* Save Editor Link (Left) */}
+          <div className="md:absolute md:top-4 md:left-0 z-10 flex">
+            <a
+              href="https://pokemonmysterydungeon-saveditor.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-[110px] md:w-auto scale-[1.3] md:scale-100 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 md:px-4 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50 group origin-left"
+              title="PMD Save Editor"
+            >
+              <span className="text-white text-xs md:text-sm font-medium whitespace-nowrap">Save Editor</span>
+              <svg className="w-3.5 h-3.5 md:w-4 md:h-4 text-gray-400 group-hover:text-dungeon-accent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+
+          {/* Language Toggle (Right) */}
+          <div className="md:absolute md:top-4 md:right-0 z-10 flex">
+            <LanguageSelector />
+          </div>
         </div>
 
         <div className="text-center pt-2">

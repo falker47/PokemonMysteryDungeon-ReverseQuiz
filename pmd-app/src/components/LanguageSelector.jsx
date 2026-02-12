@@ -33,7 +33,7 @@ const LanguageSelector = () => {
         <div className="relative" ref={dropdownRef}>
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50"
+                className="w-[110px] md:w-auto scale-[1.3] md:scale-100 flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-1.5 transition-all outline-none focus:ring-2 focus:ring-dungeon-accent/50 origin-right"
             >
                 <img
                     src={`https://flagcdn.com/w40/${currentLang.flag}.png`}
