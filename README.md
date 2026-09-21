@@ -2,59 +2,90 @@
 
 ![PMD Reverse Quiz Hero](pmd-app/public/hero-preview.webp)
 
-> **Optimize your adventure.** Ensure you get the starter Pokémon you want with our precision Reverse Quiz tool.
+A bilingual answer guide for the personality quizzes in classic **Pokémon Mystery Dungeon** games. Select a game, target Pokémon, and gender to see the required nature and which answers award the most points to it.
 
-PMD Reverse Quiz is a web application designed to help players of **Pokémon Mystery Dungeon** games determine the necessary answers to the nature quiz to obtain their desired starter Pokémon.
+**Live demo:** https://pokemonmysterydungeon-reversequiz.netlify.app/
 
-## Features
+> The quizzes are randomized. This tool helps steer the score toward a target nature; it cannot guarantee a specific final result on every run.
 
-- **Reverse Lookup**: Select a Game Version, Pokémon, and Gender to see the required nature.
-- **Answer Guide**: Determine which answers to specific questions lead to the target nature.
-- **Search Functionality**: Quickly find questions and their impact on your nature score.
-- **Interactive UI**: Navigate easily with a clean, themed interface.
+## Supported games
 
-## Project Structure
-
-- **`pmd-app/`**: The main frontend application built with React and Vite.
-- **`data/`**: Contains data files used by the application or for processing.
-- **`pokemon-pics/`**: Images of Pokémon used in the application.
-- **`questions-*.txt`**: Raw text files containing quiz questions for different game versions.
-
-## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (version 18+ recommended)
-- [npm](https://www.npmjs.com/)
-
-### Installation & Running
-
-1. Navigate to the application directory:
-   ```bash
-   cd pmd-app
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to the local URL provided (usually `http://localhost:5173`).
-
-## Supported Games
-
-- Pokémon Mystery Dungeon: Red/Blue Rescue Team
-- Pokémon Mystery Dungeon: Explorers of Time/Darkness
+- Pokémon Mystery Dungeon: Red Rescue Team / Blue Rescue Team
+- Pokémon Mystery Dungeon: Explorers of Time / Darkness
 - Pokémon Mystery Dungeon: Explorers of Sky
 
-## Technologies Used
+## What the tool does
 
-- **React**: UI library
-- **Vite**: Build tool and development server
-- **Tailwind CSS**: Styling
-- **JavaScript**: Core logic
+- **Reverse lookup:** maps Pokémon + gender to the nature required by the selected game.
+- **Answer guide:** highlights the answer(s) that give the most points to that nature for each possible question.
+- **Full score visibility:** shows points awarded to competing natures as well.
+- **Sky opening-question advice:** recommends Yes/No for the fixed Time/Darkness question. In Explorers of Sky, answering **Yes** adds +4 to the new-starter natures for the selected gender.
+- **Search + bilingual UI:** English and Italian question search and interface.
+
+## Accuracy and limitations
+
+The starter/nature mappings were cross-checked against the current Bulbapedia personality-quiz tables. The Rescue Team dataset was also corrected during the 2026-09 audit: the missing fourth **Sassy** question was restored and an extraction error that had attached the gender answers to the final Miscellaneous question was removed.
+
+The game itself does not present every question:
+
+- **Red/Blue Rescue Team:** 8 questions are selected from different categories; the alien-invasion answer can trigger a follow-up question.
+- **Explorers of Time/Darkness:** 8 questions are selected from 16 categories.
+- **Explorers of Sky:** 8 questions are selected from 16 categories, plus the fixed opening Time/Darkness question. A **Yes** answer adds +4 to the new-starter natures for the chosen gender.
+
+Because the final nature is determined by cumulative scores, random question selection, and possible ties, a locally optimal answer guide improves the odds but is not an exact solver for every possible quiz run.
+
+### Reference data
+
+- Bulbapedia — Personality Quiz (Mystery Dungeon): https://bulbapedia.bulbagarden.net/wiki/Personality_Quiz_(Mystery_Dungeon)
+- StrategyWiki — Explorers of Sky personality test: https://strategywiki.org/wiki/Pok%C3%A9mon_Mystery_Dungeon:_Explorers_of_Sky/Personality_test
+
+## Project structure
+
+```
+├── README.md
+└── pmd-app/
+    ├── public/
+    │   ├── data/
+    │   │   ├── questions_db.json
+    │   │   ├── questions_db_it.json
+    │   │   └── starters_map.json
+    │   ├── pokemon-pics/
+    │   └── hero-preview.webp
+    ├── src/
+    │   ├── components/
+    │   ├── contexts/
+    │   ├── utils/
+    │   └── App.jsx
+    └── package.json
+```
+
+## Local development
+
+```bash
+cd pmd-app
+npm install
+npm run dev
+```
+
+Production build:
+
+```bash
+npm run build
+```
+
+Lint:
+
+```bash
+npm run lint
+```
+
+## Stack
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+## Disclaimer
+
+This is an unofficial fan-made utility. Pokémon and related names/assets belong to their respective rights holders.
