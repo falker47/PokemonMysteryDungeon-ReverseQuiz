@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { loadData, GAME_VERSIONS, getTargetNature, solveQuiz } from './utils/data';
+import { loadData, GAME_VERSIONS, getTargetNature, getSkyOpeningRecommendation, solveQuiz } from './utils/data';
 import PokemonSelector from './components/PokemonSelector';
 import QuestionCard from './components/QuestionCard';
 import LanguageSelector from './components/LanguageSelector';
@@ -45,6 +45,11 @@ function InnerApp() {
     if (!data.starters || !pokemon) return null;
     return getTargetNature(data.starters, game, pokemon, gender);
   }, [data.starters, game, pokemon, gender]);
+
+  const skyOpeningRecommendation = useMemo(
+    () => getSkyOpeningRecommendation(game, targetNature, gender),
+    [game, targetNature, gender]
+  );
 
   const solvedQuestions = useMemo(() => {
     if (!data.questions) return [];
@@ -229,6 +234,19 @@ function InnerApp() {
               </svg>
             </div>
           </div>
+
+          {targetNature && (
+            <div className="mb-3 rounded-xl border border-dungeon-accent/25 bg-dungeon-accent/10 px-4 py-3 text-xs md:text-sm text-gray-200 space-y-2">
+              <p>{t('quizRandomNote')}</p>
+              {skyOpeningRecommendation && (
+                <p>
+                  <span className="font-semibold text-dungeon-accent">{t('skyOpeningQuestion')}:</span>{' '}
+                  <strong>{skyOpeningRecommendation.answer}</strong>.{' '}
+                  {t(skyOpeningRecommendation.answer === 'Yes' ? 'skyOpeningYes' : 'skyOpeningNo')}
+                </p>
+              )}
+            </div>
+          )}
 
           <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2 border border-white/20 rounded-xl p-4 bg-black/10 shadow-inner">
             {filteredQuestions.length > 0 ? (
