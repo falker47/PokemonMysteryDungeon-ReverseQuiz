@@ -24,6 +24,27 @@ export const GAME_VERSIONS = [
     { id: 'explorers_sky', label: 'Explorers of Sky', dbKey: 'Explorers of Sky' }
 ];
 
+const SKY_OPENING_BONUS_NATURES = {
+    Male: ['Relaxed', 'Hasty', 'Sassy'],
+    Female: ['Relaxed', 'Jolly']
+};
+
+/**
+ * In Explorers of Sky, answering "Yes" to the opening Time/Darkness question
+ * adds +4 to the new-starter natures for the selected gender.
+ * Returns the safer answer for steering the quiz toward the selected target.
+ */
+export function getSkyOpeningRecommendation(gameId, targetNature, gender) {
+    if (gameId !== 'explorers_sky' || !targetNature) return null;
+
+    const boostedNatures = SKY_OPENING_BONUS_NATURES[gender] || [];
+    return {
+        answer: boostedNatures.includes(targetNature) ? 'Yes' : 'No',
+        points: 4,
+        boostedNatures
+    };
+}
+
 /**
  * Gets the target nature for a specific combination.
  * @returns {string | null} The target nature or null if not found.
