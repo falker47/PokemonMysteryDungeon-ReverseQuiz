@@ -3,7 +3,8 @@ import { loadData, GAME_VERSIONS, getTargetNature, getSkyOpeningRecommendation, 
 import PokemonSelector from './components/PokemonSelector';
 import QuestionCard from './components/QuestionCard';
 import LanguageSelector from './components/LanguageSelector';
-import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
+import { LanguageProvider } from './contexts/LanguageContext';
+import { useLanguage } from './contexts/language-context';
 import './App.css';
 
 function InnerApp() {
@@ -33,13 +34,6 @@ function InnerApp() {
       return hasMale || hasFemale;
     }).sort();
   }, [data.starters, game]);
-
-  // Reset pokemon if not available in new game selection
-  useEffect(() => {
-    if (pokemon && !availablePokemon.includes(pokemon)) {
-      setPokemon(null);
-    }
-  }, [game, availablePokemon, pokemon]);
 
   const targetNature = useMemo(() => {
     if (!data.starters || !pokemon) return null;
@@ -138,7 +132,10 @@ function InnerApp() {
                 <div className="relative">
                   <select
                     value={game}
-                    onChange={(e) => setGame(e.target.value)}
+                    onChange={(e) => {
+                      setGame(e.target.value);
+                      setPokemon(null);
+                    }}
                     className="w-full h-11 md:h-12 bg-black/30 border border-white/20 rounded-lg px-3 text-xs md:text-base text-white appearance-none focus:ring-2 focus:ring-dungeon-accent focus:border-transparent outline-none transition-all cursor-pointer hover:bg-black/40"
                   >
                     {GAME_VERSIONS.map(v => (
