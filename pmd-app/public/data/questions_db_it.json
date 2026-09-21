@@ -982,6 +982,30 @@
     },
     {
       "id": "38",
+      "text": "Can you sincerely thank someone when you feel grateful?",
+      "category": "Sassy",
+      "answers": [
+        {
+          "text": "Yes.",
+          "points": {
+            "Docile": 2,
+            "Calm": 1
+          },
+          "text_it": "Sì."
+        },
+        {
+          "text": "No.",
+          "points": {
+            "Sassy": 2,
+            "Quirky": 1
+          },
+          "text_it": "No."
+        }
+      ],
+      "text_it": "Riesci a ringraziare sinceramente qualcuno quando provi gratitudine?"
+    },
+    {
+      "id": "39",
       "text": "Do you occasionally consider yourself dull and overly cautious?",
       "category": "Calm",
       "answers": [
@@ -1004,7 +1028,7 @@
       "text_it": "A volte pensi di essere un tipo noioso o troppo prudente?"
     },
     {
-      "id": "39",
+      "id": "40",
       "text": "Do you dream of lounging around idly without much excitement?",
       "category": "Calm",
       "answers": [
@@ -1026,7 +1050,7 @@
       "text_it": "A volte sogni passare il tempo oziando senza far nulla di particolare?"
     },
     {
-      "id": "40",
+      "id": "41",
       "text": "Do you like to fight?",
       "category": "Calm",
       "answers": [
@@ -1050,7 +1074,7 @@
       "text_it": "Ti piace lottare?"
     },
     {
-      "id": "41",
+      "id": "42",
       "text": "Do you often yawn?",
       "category": "Calm",
       "answers": [
@@ -1074,7 +1098,7 @@
       "text_it": "Sbadigli spesso?"
     },
     {
-      "id": "42",
+      "id": "43",
       "text": "Are you often late for school or meetings?",
       "category": "Relaxed",
       "answers": [
@@ -1098,7 +1122,7 @@
       "text_it": "Arrivi spesso tardi a scuola o agli appuntamenti?"
     },
     {
-      "id": "43",
+      "id": "44",
       "text": "Do you get the feeling that you've slowed down lately?",
       "category": "Relaxed",
       "answers": [
@@ -1121,7 +1145,7 @@
       "text_it": "Ti sembra di fare le cose più lentamente negli ultimi tempi?"
     },
     {
-      "id": "44",
+      "id": "45",
       "text": "It is a pleasant day at the beach. How do you feel?",
       "category": "Relaxed",
       "answers": [
@@ -1150,7 +1174,7 @@
       "text_it": "È una bellissima giornata e sei in spiaggia. Come ti senti?"
     },
     {
-      "id": "45",
+      "id": "46",
       "text": "Do you fall asleep without noticing?",
       "category": "Relaxed",
       "answers": [
@@ -1173,7 +1197,7 @@
       "text_it": "Ti succede di addormentarti senza neppure accorgertene?"
     },
     {
-      "id": "46",
+      "id": "47",
       "text": "Do you feel lonesome when you are alone?",
       "category": "Lonely",
       "answers": [
@@ -1196,7 +1220,7 @@
       "text_it": "Ti senti triste quando non hai compagnia?"
     },
     {
-      "id": "47",
+      "id": "48",
       "text": "Do you hate to be the last person to leave class at the end of a school day?",
       "category": "Lonely",
       "answers": [
@@ -1220,7 +1244,7 @@
       "text_it": "Ti dà fastidio essere l'ultima persona a uscire dalla classe quando suona la campanella?"
     },
     {
-      "id": "48",
+      "id": "49",
       "text": "What do you do with your room's light when you're going to bed at night?",
       "category": "Lonely",
       "answers": [
@@ -1243,7 +1267,7 @@
       "text_it": "Quando vai a letto di sera, come lasci la luce della tua stanza?"
     },
     {
-      "id": "49",
+      "id": "50",
       "text": "It's a weekend, but no one will play with you... What do you do?",
       "category": "Lonely",
       "answers": [
@@ -1275,7 +1299,7 @@
       "text_it": "È il fine settimana, ma non c'è nessuno che giochi con te. Cosa fai?"
     },
     {
-      "id": "50",
+      "id": "51",
       "text": "Do you sometimes run out of things to do all of a sudden?",
       "category": "Quirky",
       "answers": [
@@ -1297,7 +1321,7 @@
       "text_it": "Ti capita di non avere più nulla da fare all'improvviso?"
     },
     {
-      "id": "51",
+      "id": "52",
       "text": "How quickly do you respond to an e-mail?",
       "category": "Quirky",
       "answers": [
@@ -1327,7 +1351,7 @@
       "text_it": "Quanto impieghi per rispondere a un'e-mail?"
     },
     {
-      "id": "52",
+      "id": "53",
       "text": "There is a person you like... But there's no opportunity to get close. What do you do?",
       "category": "Quirky",
       "answers": [
@@ -1364,7 +1388,7 @@
       "text_it": "C'è una persona che ti piace, ma non hai la possibilità di avvicinarti. Cosa fai?"
     },
     {
-      "id": "53",
+      "id": "54",
       "text": "The road forks to the right and left. You are told there is a treasure on the right side. What do you do?",
       "category": "Quirky",
       "answers": [
@@ -1393,7 +1417,7 @@
       "text_it": "Ti trovi a un bivio. Ti dicono che prendendo la via di destra troverai un tesoro. Dove vai?"
     },
     {
-      "id": "54",
+      "id": "55",
       "text": "On vacation outings, you want to...",
       "category": "Miscellaneous",
       "answers": [
@@ -1417,7 +1441,7 @@
       "text_it": "In vacanza ti piace andare..."
     },
     {
-      "id": "55",
+      "id": "56",
       "text": "It's the summer festival! Do you like carnivals?",
       "category": "Miscellaneous",
       "answers": [
@@ -1440,7 +1464,7 @@
       "text_it": "Ti piace andare al Luna Park d'estate?"
     },
     {
-      "id": "56",
+      "id": "57",
       "text": "Somebody calls you \"weird but funny.\" How does that make you feel?",
       "category": "Miscellaneous",
       "answers": [
@@ -1459,20 +1483,6 @@
             "Sassy": 1
           },
           "text_it": "Triste."
-        },
-        {
-          "text": "Boy.",
-          "points": {
-            "gender": "Male"
-          },
-          "text_it": "Maschio."
-        },
-        {
-          "text": "Girl.",
-          "points": {
-            "gender": "Female"
-          },
-          "text_it": "Femmina."
         }
       ],
       "text_it": "Se qualcuno ti dice che sei un tipo \"strano ma divertente\", come ti senti?"
