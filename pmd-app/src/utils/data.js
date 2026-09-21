@@ -70,29 +70,22 @@ export function solveQuiz(questionsDb, gameDbKey, targetNature) {
     const gameQuestions = questionsDb[gameDbKey] || [];
 
     return gameQuestions.map(q => {
-        // Find answers that give points to targetNature
+        // Score each answer only against the selected target nature.
         const answersWithImpact = q.answers.map(a => {
             const points = a.points[targetNature] || 0;
             return { ...a, score: points };
         });
 
-        // Find max positive score
         const maxScore = Math.max(...answersWithImpact.map(a => a.score));
 
         return {
             ...q,
             answers: answersWithImpact.map(a => ({
                 ...a,
-                isBest: maxScore > 0 && a.score === maxScore, // ONLY highlight if it actually gives points
-                isFallback: maxScore <= 0 && a.score === 0 // If no points available, prefer neutral
+                // Highlight locally optimal answers without implying a guaranteed final quiz result.
+                isBest: maxScore > 0 && a.score === maxScore,
+                isFallback: maxScore <= 0 && a.score === 0
             }))
         };
-    }).filter(q => {
-        // Filter out questions that have NO impact (all answers 0) unless we want to show all?
-        // User said "show EXACTLY which answers to choose".
-        // If a question has NO 'Hardy' points in ANY answer, it's irrelevant? 
-        // OR we should pick the formatted logic.
-        // Let's keep all valid questions but maybe flag 'irrelevant' ones if maxScore is 0.
-        return true;
     });
 }
