@@ -1,6 +1,6 @@
 export const translations = {
     en: {
-        subtitle: "Get your favorite Pokémon in Mystery Dungeon!",
+        subtitle: "Guide the personality quiz toward your target Pokémon.",
         title: "PMD REVERSE QUIZ",
         gameVersion: "Game Version",
         gender: "Gender",
@@ -13,10 +13,18 @@ export const translations = {
         searchQuestions: "Search questions...",
         noQuestions: "No matching questions found.",
         loading: "Loading Grimoire...",
+        quizRandomNote: "The game asks only 8 random questions. Highlighted answers give the most points to the selected nature, so they improve your chances but cannot guarantee the final result.",
+        skyOpeningQuestion: "Sky opening question",
+        skyOpeningYes: "Answer Yes: for this gender it adds +4 to your target nature.",
+        skyOpeningNo: "Answer No: Yes would add +4 to other new-starter natures, not your target.",
+        quizRandomNote: "Il gioco propone solo 8 domande casuali. Le risposte evidenziate assegnano il maggior numero di punti alla natura scelta: aumentano le probabilità, ma non possono garantire il risultato finale.",
+        skyOpeningQuestion: "Domanda iniziale di Cielo",
+        skyOpeningYes: "Rispondi Sì: con questo sesso aggiunge +4 alla natura che stai cercando.",
+        skyOpeningNo: "Rispondi No: Sì aggiungerebbe +4 ad altre nature dei nuovi starter, non alla tua.",
         footerText: "Maurizio Falconi - falker47"
     },
     it: {
-        subtitle: "Ottieni il tuo Pokémon preferito in Mystery Dungeon!",
+        subtitle: "Guida il quiz della personalità verso il Pokémon desiderato.",
         title: "PMD REVERSE QUIZ",
         gameVersion: "Versione del Gioco",
         gender: "Sesso",
