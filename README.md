@@ -73,11 +73,13 @@ Production build:
 npm run build
 ```
 
-Lint:
+Full verification:
 
 ```bash
-npm run lint
+npm run check
 ```
+
+This runs ESLint, structural dataset validation, and a production build.
 
 ## Stack
 
