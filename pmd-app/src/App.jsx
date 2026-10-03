@@ -260,7 +260,7 @@ function InnerApp() {
 
       <footer className="max-w-4xl mx-auto mt-12 text-center text-sm text-gray-500 pb-8">
         <a
-          href="https://falker47.github.io/Nexus-portfolio/"
+          href="https://falker47.github.io/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-dungeon-accent transition-colors duration-300"
